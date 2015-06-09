@@ -12,4 +12,18 @@ Here is the experimental set-up….
 Pendulums are fixed to DC motors (we are using these as pick-up device as rotational motion sensors are very costly). The emf generated is amplified amplifier in ExpEYES and is fed to channels A1 and A2. Using voltage capture functions plots are obtained.
 
 ![Image of cp1](http://www.gnovi.in/files/2014/07/cp1-17jiaqb.jpg)
+The waveforms generated using DC motors after amplification…
+
+Figure 1 shows waveform for the first pendulum and Figure 2  shows waveform for the second pendulum. In figure 3 both waveforms are plotted together.
+
+![Image of coupled-pendula1](http://www.gnovi.in/files/2014/07/coupled-pendula1-y3ige5.png)
+![Image of coupled-pendula2](http://www.gnovi.in/files/2014/07/coupled-pendula2-1e33ttg.png)
+
+ 
+
+Using subplot function of matplotlib the following figure is obtained. Here one can easily compare the waveforms of two pendulums.
+
+![Image of coupled-pendula3](http://www.gnovi.in/files/2014/07/coupled-pendula3-1dads31.png)
+
+The waveforms show beats as theoretically expected….
 
