@@ -1,5 +1,16 @@
 
+'''
+expEYES program
+Developed as a part of GSoC- project  
+License : GNU GPL version 3
 
+Program to plot acceleration data using ADXL335 sensor in real-time
+
+'''
+import gettext
+gettext.bindtextdomain("expeyes")
+gettext.textdomain('expeyes')
+_ = gettext.gettext
 
 import time, math, sys
 if sys.version_info.major==3:
