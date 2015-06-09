@@ -26,4 +26,25 @@ Using subplot function of matplotlib the following figure is obtained. Here one 
 ![Image of coupled-pendula3](http://www.gnovi.in/files/2014/07/coupled-pendula3-1dads31.png)
 
 The waveforms show beats as theoretically expected….
+This experiment can be performed by oscillating pendulums in different ways…
+
+    Both oscillating in phase
+    Both oscillating out of phase
+    One at rest and other oscillating
+
+When both the pendulums oscillate in phase
+
+![Image of coupled-pendula4](http://www.gnovi.in/files/2014/07/coupledinphase-132mfdp.png)
+
+When  pendulums oscillate out of phase
+
+![Image of coupled-pendula5](http://www.gnovi.in/files/2014/07/coupledoutofphase-1s7ol9d.png)
+
+
+When one pendulum is at rest while the other is given oscillations
+
+![Image of coupled-pendula6](http://www.gnovi.in/files/2014/07/coupled-pendula3-1dads31.png)
+
+
+
 
