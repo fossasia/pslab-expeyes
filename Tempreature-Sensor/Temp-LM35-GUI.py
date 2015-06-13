@@ -2,6 +2,10 @@
 expEYES program for measuring temperature using LM35 sensor
 License : GNU GPL version 3
 '''
+import gettext
+gettext.bindtextdomain("expeyes")
+gettext.textdomain('expeyes')
+_ = gettext.gettext
 
 from Tkinter import *
 import time, math, sys
