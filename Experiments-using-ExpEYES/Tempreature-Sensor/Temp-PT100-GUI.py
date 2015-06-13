@@ -1,3 +1,11 @@
+import time, math, sys
+if sys.version_info.major==3:
+        from tkinter import *
+else:
+        from Tkinter import *
+
+sys.path=[".."] + sys.path
+
 import expeyes.eyesj as eyes
 import expeyes.eyeplot as eyeplot
 import expeyes.eyemath as eyemath
@@ -6,15 +14,19 @@ WIDTH  = 600   # width of drawing canvas
 HEIGHT = 400   # height    
 
 class PT100:
-	tv = [ [], [] ]		
-	TIMER = 500				
-	MINY = 0				
+	tv = [ [], [] ]			# Lists for Readings
+	TIMER = 500				# Time interval between reads
+	MINY = 0				# Temperature range
 	MAXY = 100
 	running = False
-	current = 1.0		    
+	current = 1.0		    # 1mA nominal
 	gain = 1.0				
-	
+	calibrated = False
+	bpdone = False
+	fpdone = False
 
+	
+	
 	def v2t(self, v):			# Convert Voltage to Temperature for PT100
 		r = v / self.gain / (self.current * 1.0e-3)  # mA to Ampere
 		r0 = 100.0
@@ -186,6 +198,8 @@ filename = StringVar()
 e1 =Entry(cf, width=15, bg = 'white', textvariable = filename)
 filename.set('pt100.dat')
 
+cf = Frame(root, width = WIDTH, height = 10)
+cf.pack(side=TOP,  fill = BOTH, expand = 1)
 
 e1.pack(side = LEFT)
 b5 = Button(cf, text = _('QUIT'), command = pt.quit)
