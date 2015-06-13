@@ -1,4 +1,5 @@
-
+''' ExpEYES program to get echo from SRF-05/SRF-04 ultrasonic senso, measure echo time and calculate distance
+'''
 import gettext
 gettext.bindtextdomain("expeyes")
 gettext.textdomain('expeyes')
