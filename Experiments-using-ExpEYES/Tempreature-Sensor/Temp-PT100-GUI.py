@@ -1,3 +1,20 @@
+'''
+expEYES program for measuring temperature using PT100 sensor
+License : GNU GPL version 3
+'''
+import gettext
+gettext.bindtextdomain("expeyes")
+gettext.textdomain('expeyes')
+_ = gettext.gettext
+
+import time, math, sys
+if sys.version_info.major==3:
+        from tkinter import *
+else:
+        from Tkinter import *
+
+sys.path=[".."] + sys.path
+
 import time, math, sys
 if sys.version_info.major==3:
         from tkinter import *
@@ -21,11 +38,6 @@ class PT100:
 	running = False
 	current = 1.0		    # 1mA nominal
 	gain = 1.0				
-	calibrated = False
-	bpdone = False
-	fpdone = False
-
-	
 	
 	def v2t(self, v):			# Convert Voltage to Temperature for PT100
 		r = v / self.gain / (self.current * 1.0e-3)  # mA to Ampere
@@ -35,8 +47,6 @@ class PT100:
 		c = 1 - r/r0
 		b4ac = math.sqrt( A*A - 4 * B * c)
 		t = (-A + b4ac) / (2.0 * B)
-		#print self.current, self.gain, v, r, t
-		#print r,t
 		return t
 
 	def xmgrace(self):
@@ -84,7 +94,6 @@ class PT100:
 			temp = self.m * v + self.c		# Use the calibration 
 		else:
 			temp = self.v2t(v)
-		#print v,temp
 		self.tv[1].append(temp)
 		if len(self.tv[0]) >= 2:
 			g.delete_lines()
@@ -100,7 +109,6 @@ class PT100:
 	def calc_gain(self):
 		vs = p.set_voltage(.1)
 		va = p.get_voltage(1)
-		#print va, vs, va/vs
 		if va < -1:
 			self.gain = va/vs
 		else:
@@ -134,8 +142,8 @@ p = eyes.open()
 p.disable_actions()
 p.set_state(11,1)
 root = Tk()
-Canvas(root, width = WIDTH, height = 5).pack(side=TOP)  # Some space at the top
-g = eyeplot.graph(root, width=WIDTH, height=HEIGHT, bip=False)	# make plot objects using draw.disp
+Canvas(root, width = WIDTH, height = 5).pack(side=TOP)  
+g = eyeplot.graph(root, width=WIDTH, height=HEIGHT, bip=False)
 pt = PT100()
 
 cf = Frame(root, width = WIDTH, height = 10)
@@ -196,7 +204,7 @@ b3 = Button(cf, text = _('SAVE to'), command = pt.save)
 b3.pack(side = LEFT, anchor = N)
 filename = StringVar()
 e1 =Entry(cf, width=15, bg = 'white', textvariable = filename)
-filename.set('pt100.dat')
+filename.set('temperature.dat')
 
 cf = Frame(root, width = WIDTH, height = 10)
 cf.pack(side=TOP,  fill = BOTH, expand = 1)
