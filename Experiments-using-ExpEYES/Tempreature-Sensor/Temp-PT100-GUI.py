@@ -1,25 +1,22 @@
-
-
-from Tkinter import *
 import expeyes.eyesj as eyes
 import expeyes.eyeplot as eyeplot
 import expeyes.eyemath as eyemath
 
-WIDTH  = 600   
-HEIGHT = 400       
+WIDTH  = 600   # width of drawing canvas
+HEIGHT = 400   # height    
 
 class PT100:
 	tv = [ [], [] ]		
 	TIMER = 500				
-	MINY = 0			
+	MINY = 0				
 	MAXY = 100
 	running = False
 	current = 1.0		    
-					
+	gain = 1.0				
 	
 
 	def v2t(self, v):			# Convert Voltage to Temperature for PT100
-		r = v / (self.current * 1.0e-3)  # mA to Ampere
+		r = v / self.gain / (self.current * 1.0e-3)  # mA to Ampere
 		r0 = 100.0
 		A = 3.9083e-3
 		B = -5.7750e-7
@@ -43,6 +40,7 @@ class PT100:
 			self.MAXTIME = int(DURATION.get())
 			self.MINY = int(TMIN.get())
 			self.MAXY = int(TMAX.get())
+			self.gain = float(Gval.get())
 			self.current = float(CCval.get())
 			#print self.gain, self.current
 			g.setWorld(0, self.MINY, self.MAXTIME, self.MAXY,_('Time'),_('Volt'))
@@ -86,6 +84,17 @@ class PT100:
 			self.msg(_('Completed the Measurements'))
 			return 
 		root.after(self.TIMER, self.update)
+
+	def calc_gain(self):
+		vs = p.set_voltage(.1)
+		va = p.get_voltage(1)
+		#print va, vs, va/vs
+		if va < -1:
+			self.gain = va/vs
+		else:
+			self.gain = 1
+			self.msg(_('Wrong connections or value of Rg'),'red')
+		Gval.set('%5.1f'%(self.gain))
 
 	def save(self):
 		try:
@@ -175,13 +184,17 @@ b3 = Button(cf, text = _('SAVE to'), command = pt.save)
 b3.pack(side = LEFT, anchor = N)
 filename = StringVar()
 e1 =Entry(cf, width=15, bg = 'white', textvariable = filename)
-filename.set('temperature.dat')
+filename.set('pt100.dat')
 
+
+e1.pack(side = LEFT)
+b5 = Button(cf, text = _('QUIT'), command = pt.quit)
+b5.pack(side = RIGHT, anchor = N)
 
 mf = Frame(root, width = WIDTH, height = 10)
 mf.pack(side=TOP)
 msgwin = Label(mf,text=_('Message'), fg = 'blue')
 msgwin.pack(side=LEFT, anchor = S, fill=BOTH, expand=1)
 
-root.title(_('Temperature measuements using PT100'))
+root.title(_('Temperature Measuements using PT100'))
 root.mainloop()
