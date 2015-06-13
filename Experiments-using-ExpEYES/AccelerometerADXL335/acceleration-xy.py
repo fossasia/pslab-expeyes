@@ -30,7 +30,7 @@ WIDTH  = 600   # width of drawing canvas
 HEIGHT = 400   # height    
 
 class Accl:
-	tv = [ [], [], [], [] ]		# Three Lists for Readings time, v1 and v2
+	tv = [ [], [], [], [] ]		# Three Lists for Readings time, v1, v2, v3
 	TIMER = 5			# Time interval between reads
 	MINY = -5			# Voltage range
 	MAXY = 5
