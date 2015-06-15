@@ -1,10 +1,33 @@
+'''
+expEYES lissajous program
+Developed as a part of GSoC Project
+License : GNU GPL version 3
+
+connect AATINY85 module to IN1 and IN2 
+black wire to GND
+Green is SQR input (pin 2)
+Red is output (pin 3)
+Module can be powered using USB or external USB adapter.
+the second module can be powered fron first from (P2VUSB pin)
+pin P1 can be touched to groung to RESET
+'''
 import gettext
 gettext.bindtextdomain("expeyes")
 gettext.textdomain('expeyes')
 _ = gettext.gettext
-
+import time, math, sys
+if sys.version_info.major==3:
+from tkinter import * #support for python 3
+else:
 from Tkinter import *
-import expeyes.eyesj as eyes, expeyes.eyeplot as eyeplot, expeyes.eyemath as eyemath, time, math
+sys.path=[".."] + sys.path
+import expeyes.eyesj as eyes
+import expeyes.eyeplot as eyeplot
+import expeyes.eyemath as eyemath
+
+
+#from Tkinter import*
+#import expeyes.eyesj as eyes, expeyes.eyeplot as eyeplot, expeyes.eyemath as eyemath, time, math
 
 TIMER = 100
 WIDTH  = 800        # width of drawing canvas
