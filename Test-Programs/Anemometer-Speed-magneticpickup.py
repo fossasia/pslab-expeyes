@@ -2,6 +2,11 @@
 Connect pickup coil to A1 and Fit the sine wave for getting frequency.
 From frequency of rotation of anemometer wind speed can be calculated
 '''
+import gettext
+gettext.bindtextdomain("expeyes")
+gettext.textdomain('expeyes')
+_ = gettext.gettext
+
 
 import expeyes.eyemath as em
 p = expeyes.eyesj.open()
