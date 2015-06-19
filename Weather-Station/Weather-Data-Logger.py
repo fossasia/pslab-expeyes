@@ -1,3 +1,10 @@
+
+import gettext
+gettext.bindtextdomain("expeyes")
+gettext.textdomain('expeyes')
+_ = gettext.gettext
+
+
 import time, math, sys
 if sys.version_info.major==3:
         from tkinter import *
