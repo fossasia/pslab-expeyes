@@ -1,3 +1,7 @@
+'''
+ExpEYES Program written as a part og GSoC Project with FOSSASIA
+This programme is for logging weather data like temperature, humidity and wind speed.
+'''
 
 import gettext
 gettext.bindtextdomain("expeyes")
