@@ -1,20 +1,14 @@
 
-import time, math, sys
-from Tkinter import *
-import expeyes.eyesj as eyes
-import expeyes.eyeplot as eyeplot
-import expeyes.eyemath as eyemath
-
 NCHAN  = 5
-WIDTH  = 600   
-HEIGHT = 400      
+WIDTH  = 600   # width of drawing canvas
+HEIGHT = 400   # height    
 
-class weather:
+class Weather:
 	chan = [3,4,5]
-	tv = [ [], [] ]						
-	MAXTIME = 10  	    
+	tv = [ [], [] ]						# Lists for Time & Voltage
+	MAXTIME = 10  	    # Maximum time, user can set
 	TIMER = 500
-	MINY = -5			
+	MINY = -5			# could be 0
 	MAXY = 5.0
 	start_time = None
 	running = False
@@ -22,12 +16,12 @@ class weather:
 	def __init__(self):
 		self.chinfo = []
 		for ch in range(NCHAN):
-			self.chinfo.append([False, [[],[]], 0])  
+			self.chinfo.append([False, [[],[]], 0])  # Active, Data, Start Time
 
 	def start(self):
-		self.running = False					
+		self.running = False					# Assume no channel is selected
 		for ch in range(NCHAN):
-			self.chinfo[ch][1] = [ [], [] ]		
+			self.chinfo[ch][1] = [ [], [] ]		# Clear old data
 			if CH[ch].get() == 1:
 				self.chinfo[ch][0] = True
 				self.running = True
@@ -85,7 +79,7 @@ class weather:
 		try:
 			fn = filename.get()
 		except:
-			fn = 'weather.dat'
+			fn = 'logger.dat'
 		f = open(fn, 'w')
 		for ch in range(NCHAN):
 			if self.chinfo[ch][0] == True:
@@ -111,8 +105,8 @@ p = eyes.open()
 p.disable_actions()
 root = Tk()
 Canvas(root, width = WIDTH, height = 5).pack(side=TOP)  
-g = eyeplot.graph(root, width=WIDTH, height=HEIGHT, bip=False)	
-log = weather()
+g = eyeplot.graph(root, width=WIDTH, height=HEIGHT, bip=False)	# make plot objects using draw.disp
+log = Weather()
 
 cf = Frame(root, width = WIDTH, height = 10)
 cf.pack(side=TOP,  fill = BOTH, expand = 1)
