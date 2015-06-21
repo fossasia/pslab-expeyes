@@ -16,5 +16,4 @@ print par[1] # second parameter is frequency
 print(t,v)
 plot(t, vfit)
 show()
-plot(ta,da)
-show()
+
