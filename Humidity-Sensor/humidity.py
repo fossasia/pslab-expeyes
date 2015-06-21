@@ -2,6 +2,11 @@
 expEYES program for measuring relative humidity using sensor HS1101
 License : GNU GPL version 3
 '''
+import gettext
+gettext.bindtextdomain("expeyes")
+gettext.textdomain('expeyes')
+_ = gettext.gettext
+
 
 from Tkinter import *
 import time, math, sys
