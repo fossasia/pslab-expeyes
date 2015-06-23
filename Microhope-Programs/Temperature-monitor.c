@@ -1,4 +1,5 @@
 /*
+MicroHope program to monitor temperature using LM35
 LM35 output connected to PA0. Reads ADC channel 0 in a loop and diplays the result on the LCD in Celcius.   ADC uses internal 2.56 volt reference.
 */
 
