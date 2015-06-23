@@ -1,4 +1,4 @@
-Temperature Monitor & Control
+#Temperature Monitor & Control
 
 The temperature sensor IC LM35 is used for measuring temperature. The voltage output is 0 at 0 degree Celcius and increases 10 millivolts per degree Celcius.  The output of LM35 is connected to ADC channel 0.
 
