@@ -1,6 +1,8 @@
 '''
 A simple code to test pressure sensor SPD015AAsil by SMARTEC
 '''
+#Absolute Pressure Sensor  SPD015AAsil by SMARTEC is used  
+
 import pylab
 import expeyes.eyesj
 p=expeyes.eyesj.open()
