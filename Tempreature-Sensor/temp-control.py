@@ -1,4 +1,8 @@
 '''
+Temperature control using LM35
+'''
+
+
 from Tkinter import *
 import expeyes.eyes as eyes, expeyes.eyeplot as eyeplot, expeyes.eyemath as eyemath, time, sys, math
 
