@@ -1,4 +1,6 @@
-
+'''
+A simple code to test pressure sensor SPD015AAsil by SMARTEC
+'''
 import pylab
 import expeyes.eyesj
 p=expeyes.eyesj.open()
