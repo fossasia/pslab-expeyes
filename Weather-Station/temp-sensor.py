@@ -1,3 +1,7 @@
+'''ExpEYES program for fetching data from temperature sensor to be used in weather station program
+'''
+
+
 from Tkinter import *
 import time, math, sys
 import expeyes.eyesj as eyes
