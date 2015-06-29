@@ -1,3 +1,9 @@
+'''
+expEYES program
+Developed as a part of GSoC- project
+License : GNU GPL version 3
+Program to plot hall voltage usinh Hall Effect sensor in real-time
+'''
 
 Fromtkinter import *
 import expeyes.eyesj as eyes
