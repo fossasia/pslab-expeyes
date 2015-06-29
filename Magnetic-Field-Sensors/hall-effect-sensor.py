@@ -5,7 +5,7 @@ License : GNU GPL version 3
 Program to plot hall voltage usinh Hall Effect sensor in real-time
 '''
 
-Fromtkinter import *
+
 import expeyes.eyesj as eyes
 import expeyes.eyeplot as eyeplot
 import expeyes.eyemath as eyemath
