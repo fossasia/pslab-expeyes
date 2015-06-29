@@ -4,7 +4,16 @@ Developed as a part of GSoC- project
 License : GNU GPL version 3
 Program to plot hall voltage usinh Hall Effect sensor in real-time
 '''
-
+import gettext
+gettext.bindtextdomain("expeyes")
+gettext.textdomain('expeyes')
+_ = gettext.gettext
+import time, math, sys
+if sys.version_info.major==3:
+from tkinter import *
+else:
+from Tkinter import *
+sys.path=[".."] + sys.path
 
 import expeyes.eyesj as eyes
 import expeyes.eyeplot as eyeplot
