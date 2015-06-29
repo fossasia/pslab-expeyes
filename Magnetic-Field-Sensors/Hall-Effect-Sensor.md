@@ -17,3 +17,5 @@ This is a cost-effective and highly functional hall-effect sensor. Very easy to 
     Reverse polarity protection
     Lead Free Package: TO-92
 
+###Data sheet of 3144 hall effect sensor
+http://www.elecrow.com/download/A3141-2-3-4-Datasheet.pdf
