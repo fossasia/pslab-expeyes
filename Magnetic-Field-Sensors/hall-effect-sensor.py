@@ -25,7 +25,7 @@ WIDTH  = 600   # width of drawing canvas
 HEIGHT = 400   # height    
 
 class hall:
-	tv = [ [], [] ]		# Three Lists for Readings time, v1, v2, v3
+	tv = [ [], [] ]		#  Lists for Readings time, v,
 	TIMER = 5			# Time interval between reads
 	MINY = -5			# Voltage range
 	MAXY = 5
@@ -86,7 +86,7 @@ class hall:
 		try:
 			fn = filename.get()
 		except:
-			fn = 'acceleration.dat'
+			fn = 'halleffect.dat'
 		p.save([self.tv],fn)
 		self.msg(_('Data saved to %s')%fn)
 
@@ -119,7 +119,7 @@ DURATION.set('10')
 Dur.pack(side = LEFT, anchor = SW)
 b3 = Label(cf, text = _('Seconds.'))
 b3.pack(side = LEFT, anchor = SW)
-b3 = Label(cf, text = _('Black line -X axis, Red line -Yaxis, Blue line -Z axis'))
+b3 = Label(cf, text = _('........'))
 b3.pack(side = LEFT, anchor = SW)
 
 cf = Frame(root, width = WIDTH, height = 10)
@@ -136,7 +136,7 @@ b3 = Button(cf, text = _('SAVE to'), command = pen.save)
 b3.pack(side = LEFT, anchor = N)
 filename = StringVar()
 e1 =Entry(cf, width=15, bg = 'white', textvariable = filename)
-filename.set('acceleration.dat')
+filename.set('halleffect.dat')
 e1.pack(side = LEFT)
 b5 = Button(cf, text = _('QUIT'), command = sys.exit)
 b5.pack(side = RIGHT, anchor = N)
