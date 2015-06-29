@@ -1,6 +1,6 @@
 
 
-
+# Hall Effect Sensor 
 
 A Hall effect sensor is a transducer that varies its output voltage in response to a magnetic field. Hall effect sensors are used for proximity switching, positioning, speed detection, and current sensing applications.[1]
 
