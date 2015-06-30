@@ -146,3 +146,7 @@ mf.pack(side=TOP)
 msgwin = Label(mf,text=_('Message'), fg = 'blue')
 msgwin.pack(side=LEFT, anchor = S, fill=BOTH, expand=1)
 
+
+#eyeplot.pop_image('pics/imagename.png', _('write the name of expt setup image'))
+root.title(_('Magnetic field using Hall Sensor '))
+root.mainloop()
