@@ -3,6 +3,12 @@ ExpEYES Program written as a part og GSoC Project with FOSSASIA
 This programme is for logging weather data like temperature,barometric pressure, humidity and wind speed.
 '''
 
+import gettext
+gettext.bindtextdomain("expeyes")
+gettext.textdomain('expeyes')
+_ = gettext.gettext
+
+
 import time, math, sys
 if sys.version_info.major==3:
         from tkinter import *
@@ -17,13 +23,13 @@ import expeyes.eyemath as eyemath
 
 
 
-WIDTH  = 800   
-HEIGHT = 600      
+WIDTH  = 800   # width of drawing canvas
+HEIGHT = 600   # height of the drawing canvas   
 
 class Weather:
-	tv = [ [], [], [], [] ]		
-	TIMER = 5			
-	MINY = -5			
+	tv = [ [], [], [], [] ]		# Three Lists for Readings time, v1 , v2 and v3
+	TIMER = 5			# Time interval between reads
+	MINY = -5			# Voltage range
 	MAXY = 5
 	running = False
 	MAXTIME = 10
@@ -45,7 +51,6 @@ class Weather:
 			root.after(self.TIMER, self.update)
 		except:
 			self.msg(_('Failed to Start'))
-
 
 	def stop(self):
 		self.running = False
