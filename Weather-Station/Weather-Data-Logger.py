@@ -25,7 +25,7 @@ HEIGHT = 600   # height
 
 
 class WS:
-	tv = [ [], [], [] ]		# Three Lists for Readings time, v1 and v2
+	tv = [ [], [], [], [], [] ]		# Three Lists for Readings time, v  , v1 and v2
 	TIMER = 500			# Time interval between reads
 	MINY = 0			# Voltage range
 	MAXY = 5.0
@@ -37,7 +37,7 @@ class WS:
 	def start(self):
 		self.running = True
 		self.index = 0
-		self.tv = [ [], [], [] ]
+		self.tv = [ [], [], [], [], [] ]
 		try:
 			self.MAXTIME = int(DURATION.get())
 			g.setWorld(0, self.MINY, self.MAXTIME, self.MAXY,_('Time'),_('Data'))
@@ -60,8 +60,10 @@ class WS:
 	def update(self):
 		if self.running == False:
 			return
-		t,v = p.get_voltage_time(1)  # Read A1
-		v1 = p.get_voltage(2)
+		t,v = p.get_voltage_time(1) 		 	# Read A1
+		v1 = p.get_voltage(2) 				# Read A2
+		v2 = p.get_voltage(3)				# Read IN1
+		v2 = p.get_voltage(4)				# Read SEN
 		if len(self.tv[0]) == 0:
 			self.start_time = t
 			elapsed = 0
@@ -70,10 +72,14 @@ class WS:
 		self.tv[0].append(elapsed)
 		self.tv[1].append(v)
 		self.tv[2].append(v1)
-		if len(self.tv[0]) >= 2:
+		self.tv[3].append(v2)
+		self.tv[3].append(v3)
+		if len(self.tv[0]) >= 3:
 			g.delete_lines()
 			g.line(self.tv[0], self.tv[1])
 			g.line(self.tv[0], self.tv[2],1)
+			g.line(self.tv[0], self.tv[3],2)
+			g.line(self.tv[0], self.tv[4],3)
 		if elapsed > self.MAXTIME:
 			self.running = False
 			Total.config(state=NORMAL)
@@ -94,7 +100,7 @@ class WS:
 	def clear(self):
 		if self.running == True:
 			return
-		self.tv = [ [], [], []  ]
+		self.tv = [ [], [], [], [], [] ]
 		g.delete_lines()
 		self.msg(_('Cleared Data and Trace'))
 
