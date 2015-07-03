@@ -60,15 +60,15 @@ class WS:
 	def update(self):
 		if self.running == False:
 			return
-		t,v = p.get_voltage_time(1) 		 	# Read A1
-		v1 = p.get_voltage(2) 				# Read A2
-		v2 = p.get_voltage(3)				# Read IN1
-		v2 = p.get_voltage(4)				# Read SEN
+		t,v = p.get_voltage_time(1) 		 	# Read A1  for Time and Temperature
+		v1 = p.get_voltage(2) 				# Read A2  for Humidity in %
+		v2 = p.get_voltage(3)				# Read IN1 for Wind Speed
+		v2 = p.get_voltage(4)				# Read SEN for Barrometric Pressure
 		if len(self.tv[0]) == 0:
 			self.start_time = t
 			elapsed = 0
 		else:
-			elapsed = t - self.start_time
+			elapsed = t - self.start_time   # To be done : make changes to have system time
 		self.tv[0].append(elapsed)
 		self.tv[1].append(v)
 		self.tv[2].append(v1)
