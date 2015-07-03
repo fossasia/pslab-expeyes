@@ -64,6 +64,7 @@ class WS:
 		v1 = p.get_voltage(2) 				# Read A2  for Humidity in %
 		v2 = p.get_voltage(3)				# Read IN1 for Wind Speed
 		v2 = p.get_voltage(4)				# Read SEN for Barrometric Pressure
+		# calculations of various parameters from v, v1 v2 and v3 to be done.
 		if len(self.tv[0]) == 0:
 			self.start_time = t
 			elapsed = 0
