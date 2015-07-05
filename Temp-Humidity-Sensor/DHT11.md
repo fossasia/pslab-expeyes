@@ -25,10 +25,6 @@ Datasheet
  3 	 NC 	 Not connected
  4 	 GND 	 Ground
 
-Wiring:
 
-Connect the sensor to the Arduino as shown below
- DHT11 	 Arduino
- Pin 1 	 Vcc
- Pin 2 	 Analog0
- Pin 4 	 Gnd
+
+
