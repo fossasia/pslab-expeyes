@@ -65,6 +65,9 @@ class WS:
 		v2 = p.get_voltage(3)				# Read IN1 for Wind Speed
 		v2 = p.get_voltage(4)				# Read SEN for Barrometric Pressure
 		# calculations of various parameters from v, v1 v2 and v3 to be done.
+		# for temperature using LM35 
+		# t = v * 100
+		
 		if len(self.tv[0]) == 0:
 			self.start_time = t
 			elapsed = 0
