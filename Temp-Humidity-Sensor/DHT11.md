@@ -2,7 +2,7 @@
 ##DHT11 Temperature Humidity Sensor Module 
  
  
-This sensor module includes resistive humidity sensing component and NTC temperature testing. 
+This Digital sensor module includes resistive humidity sensing component and NTC temperature testing. 
  
 Specification:
 
