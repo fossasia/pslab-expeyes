@@ -4,7 +4,4 @@ The device achieves a throughput of 20 MIPS at 20 MHz and operates between 2.7-5
 
 By executing powerful instructions in a single clock cycle, the device achieves throughputs approaching 1 MIPS per MHz, balancing power consumption and processing speed.
 
-Ref: http://www.atmel.com/devices/attiny85.aspx
 
-
-We used this MCU to convert squarewave to sinwave. Two such sine wave generators can be used for demonstrating various phenomena like Lissajous figures. 
