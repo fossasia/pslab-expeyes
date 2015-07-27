@@ -121,7 +121,7 @@ p.set_state(11,1)
 root = Tk()
 Canvas(root, width = WIDTH, height = 5).pack(side=TOP)  
 g = eyeplot.graph(root, width=WIDTH, height=HEIGHT, bip=False)
-pt = humidity()
+Pen = humidity()
 
 cf = Frame(root, width = WIDTH, height = 10)
 cf.pack(side=TOP,  fill = BOTH, expand = 1)
