@@ -1,4 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <avr/io.h>
+#include <avr/interrupt.h>
+#include <util/delay.h>
 
+#include "dht/dht.h"
+
+#define UART_BAUD_RATE 2400
+#include "uart/uart.h"
 
 int main(void)
 {
