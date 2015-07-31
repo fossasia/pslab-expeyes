@@ -1,3 +1,6 @@
+'''
+ExpEYES program for voltammetric studies.
+'''
 
 import gettext
 gettext.bindtextdomain("expeyes")
