@@ -1,5 +1,7 @@
 '''
 ExpEYES program for voltammetric studies.
+Voltammetric studies to plot voltammograms are done using costly apparatus in research labs. 
+ExpEYES can be effectly used for this purpose.
 '''
 
 import gettext
