@@ -1,8 +1,22 @@
 
+import gettext
+gettext.bindtextdomain("expeyes")
+gettext.textdomain('expeyes')
+_ = gettext.gettext
+
+import time, math, sys
+if sys.version_info.major==3:
+        from tkinter import *
+else:
+        from Tkinter import *
+
+sys.path=[".."] + sys.path
 
 import expeyes.eyesj as eyes
 import expeyes.eyeplot as eyeplot
 import expeyes.eyemath as eyemath
+
+
 
 TIMER = 100
 WIDTH  = 500   # width of drawing canvas
