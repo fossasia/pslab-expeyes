@@ -154,3 +154,5 @@ mf.pack(side=TOP)
 msgwin = Label(mf,text=_('Message'), fg = 'blue')
 msgwin.pack(side=LEFT, anchor = S, fill=BOTH, expand=1)
 
+root.title(_('EYESJUN: Accelerometer'))
+root.mainloop()
