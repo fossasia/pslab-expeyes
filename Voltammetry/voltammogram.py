@@ -34,7 +34,9 @@ history = []		# Data store
 trial = 0			# trial number
 data = [ [], [] ]	# Current & Voltage
 
-'''
+
+# to find peaks of the curve...
+
 def find_peaks(ta,va):   # returns the index of the peaks found
 	vmin = 5.0
 	vmax = -5.0
@@ -54,7 +56,8 @@ def find_peaks(ta,va):   # returns the index of the peaks found
 		return p1,p2
 	else:
 		return p2,p1
-'''
+
+
 def base_scan():
 	global data, history, trial, NP, delay, noise
 	t, v = p.capture_hr(1,NP,delay)
