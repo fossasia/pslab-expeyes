@@ -16,6 +16,7 @@ else:
 
 sys.path=[".."] + sys.path
 
+
 import expeyes.eyesj as eyes
 import expeyes.eyeplot as eyeplot
 import expeyes.eyemath as eyemath
@@ -29,8 +30,7 @@ class LM35:
 	MINY = 0				# Temperature range
 	MAXY = 100
 	running = False
-	#current = 1.0		    
-	#gain = 1.0				
+				
 	
 	def v2t(self, v):			# Convert Voltage to Temperature for LM35
 		
@@ -46,12 +46,12 @@ class LM35:
 		self.running = True
 		self.index = 0
 		self.tv = [ [], [] ]
+		p.set_state (10,1)
 		try:
 			self.MAXTIME = int(DURATION.get())
 			self.MINY = int(TMIN.get())
 			self.MAXY = int(TMAX.get())
-			self.gain = float(Gval.get())
-			self.current = float(CCval.get())
+			
 			g.setWorld(0, self.MINY, self.MAXTIME, self.MAXY,_('Time'),_('Volt'))
 			self.TIMER = int(TGAP.get())
 			Total.config(state=DISABLED)
@@ -77,10 +77,8 @@ class LM35:
 		else:
 			elapsed = t - self.start_time
 		self.tv[0].append(elapsed)
-		if self.calibrated:
-			temp = self.m * v + self.c		# Use the calibration 
-		else:
-			temp = self.v2t(v)
+		
+		temp = self.v2t(v)
 		self.tv[1].append(temp)
 		if len(self.tv[0]) >= 2:
 			g.delete_lines()
