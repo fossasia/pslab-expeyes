@@ -60,7 +60,9 @@ class WS:
 	def update(self):
 		if self.running == False:
 			return
-		t,v = p.get_voltage_time(1) 		 	# Read A1  for Time and Temperature
+		t,v = p.get_voltage_time(1) 			# Read A1  for Time and Temperature
+		
+		temp = v * 100    # temperature from LM35 in degree celsius
 		v1 = p.get_voltage(2) 				# Read A2  for Humidity in %
 		v2 = p.get_voltage(3)				# Read IN1 for Wind Speed
 		v2 = p.get_voltage(4)				# Read SEN for Barrometric Pressure
@@ -74,7 +76,7 @@ class WS:
 		else:
 			elapsed = t - self.start_time   # To be done : make changes to have system time
 		self.tv[0].append(elapsed)
-		self.tv[1].append(v)
+		self.tv[1].append(temp)
 		self.tv[2].append(v1)
 		self.tv[3].append(v2)
 		self.tv[3].append(v3)
