@@ -1,5 +1,7 @@
 '''
 expEYES program for measuring temperature using LM35 sensor
+Developed as a part of GSoC Project 
+Mentor Organisation : FOSSASIA
 License : GNU GPL version 3
 '''
 import gettext
@@ -52,7 +54,7 @@ class LM35:
 			self.MINY = int(TMIN.get())
 			self.MAXY = int(TMAX.get())
 			
-			g.setWorld(0, self.MINY, self.MAXTIME, self.MAXY,_('Time in second'),_('Temp'))
+			g.setWorld(0, self.MINY, self.MAXTIME, self.MAXY,_('Time in second'),_('Temp in celcius'))
 			self.TIMER = int(TGAP.get())
 			Total.config(state=DISABLED)
 			Dur.config(state=DISABLED)
@@ -119,6 +121,7 @@ p.disable_actions()
 
 root = Tk()
 Canvas(root, width = WIDTH, height = 5).pack(side=TOP)  
+
 g = eyeplot.graph(root, width=WIDTH, height=HEIGHT, bip=False)
 pt = LM35()
 
@@ -151,37 +154,38 @@ Tmin.pack(side = LEFT, anchor = SW)
 b3 = Label(cf, text = _('to,'))
 b3.pack(side = LEFT, anchor = SW)
 TMAX = StringVar()
-TMAX.set('200')
+TMAX.set('100')
 Tmax =Entry(cf, width=5, bg = 'white', textvariable = TMAX)
 Tmax.pack(side = LEFT, anchor = SW)
 b3 = Label(cf, text = _('C. '))
-b3.pack(side = LEFT, anchor = SW)
-b1 = Button(cf, text = _('START'), command = pt.start)
-b1.pack(side = LEFT, anchor = N)
-b1 = Button(cf, text = _('STOP'), command = pt.stop)
-b1.pack(side = LEFT, anchor = N)
-b4 = Button(cf, text = _('CLEAR'), command = pt.clear)
-b4.pack(side = LEFT, anchor = N)
 
-cf = Frame(root, width = WIDTH, height = 10)
-cf.pack(side=TOP,  fill = BOTH, expand = 1)
-
-
-
-b1 = Button(cf, text = _('Xmgrace'), command = pt.xmgrace)
-b1.pack(side = LEFT, anchor = N)
 b3 = Button(cf, text = _('SAVE to'), command = pt.save)
-b3.pack(side = LEFT, anchor = N)
+b3.pack(side = LEFT, anchor = SW)
+b3.pack(side = LEFT, anchor = SW)
 filename = StringVar()
 e1 =Entry(cf, width=15, bg = 'white', textvariable = filename)
 filename.set('temperature.dat')
+e1.pack(side = LEFT, anchor = SW)
 
 cf = Frame(root, width = WIDTH, height = 10)
 cf.pack(side=TOP,  fill = BOTH, expand = 1)
 
+b1 = Button(cf, text = _('Xmgrace'), command = pt.xmgrace)
+b1.pack(side = LEFT, anchor = SW)
+
+
+cf = Frame(root, width = WIDTH, height = 10)
+cf.pack(side=TOP,  fill = BOTH, expand = 1)
 e1.pack(side = LEFT)
+
 b5 = Button(cf, text = _('QUIT'), command = pt.quit)
 b5.pack(side = RIGHT, anchor = N)
+b4 = Button(cf, text = _('CLEAR'), command = pt.clear)
+b4.pack(side = RIGHT, anchor = N)
+b1 = Button(cf, text = _('STOP'), command = pt.stop)
+b1.pack(side = RIGHT, anchor = N)
+b1 = Button(cf, text = _('START'), command = pt.start)
+b1.pack(side = RIGHT, anchor = N)
 
 mf = Frame(root, width = WIDTH, height = 10)
 mf.pack(side=TOP)
