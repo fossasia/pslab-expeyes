@@ -1,5 +1,7 @@
 '''
 expEYES program for measuring temperature using LM35 sensor
+Developed as a part of GSoC Project 
+Mentor Organisation : FOSSASIA
 License : GNU GPL version 3
 '''
 import gettext
@@ -16,6 +18,7 @@ else:
 
 sys.path=[".."] + sys.path
 
+
 import expeyes.eyesj as eyes
 import expeyes.eyeplot as eyeplot
 import expeyes.eyemath as eyemath
@@ -29,8 +32,7 @@ class LM35:
 	MINY = 0				# Temperature range
 	MAXY = 100
 	running = False
-	#current = 1.0		    
-	#gain = 1.0				
+				
 	
 	def v2t(self, v):			# Convert Voltage to Temperature for LM35
 		
@@ -46,13 +48,13 @@ class LM35:
 		self.running = True
 		self.index = 0
 		self.tv = [ [], [] ]
+		p.set_state (10,1)
 		try:
 			self.MAXTIME = int(DURATION.get())
 			self.MINY = int(TMIN.get())
 			self.MAXY = int(TMAX.get())
-			self.gain = float(Gval.get())
-			self.current = float(CCval.get())
-			g.setWorld(0, self.MINY, self.MAXTIME, self.MAXY,_('Time'),_('Volt'))
+			
+			g.setWorld(0, self.MINY, self.MAXTIME, self.MAXY,_('Time in second'),_('Temp in celcius'))
 			self.TIMER = int(TGAP.get())
 			Total.config(state=DISABLED)
 			Dur.config(state=DISABLED)
@@ -77,10 +79,8 @@ class LM35:
 		else:
 			elapsed = t - self.start_time
 		self.tv[0].append(elapsed)
-		if self.calibrated:
-			temp = self.m * v + self.c		# Use the calibration 
-		else:
-			temp = self.v2t(v)
+		
+		temp = self.v2t(v)
 		self.tv[1].append(temp)
 		if len(self.tv[0]) >= 2:
 			g.delete_lines()
@@ -118,9 +118,10 @@ class LM35:
 
 p = eyes.open()
 p.disable_actions()
-p.set_state(11,1)
+
 root = Tk()
 Canvas(root, width = WIDTH, height = 5).pack(side=TOP)  
+
 g = eyeplot.graph(root, width=WIDTH, height=HEIGHT, bip=False)
 pt = LM35()
 
@@ -153,43 +154,38 @@ Tmin.pack(side = LEFT, anchor = SW)
 b3 = Label(cf, text = _('to,'))
 b3.pack(side = LEFT, anchor = SW)
 TMAX = StringVar()
-TMAX.set('200')
+TMAX.set('100')
 Tmax =Entry(cf, width=5, bg = 'white', textvariable = TMAX)
 Tmax.pack(side = LEFT, anchor = SW)
 b3 = Label(cf, text = _('C. '))
-b3.pack(side = LEFT, anchor = SW)
-b1 = Button(cf, text = _('START'), command = pt.start)
-b1.pack(side = LEFT, anchor = N)
-b1 = Button(cf, text = _('STOP'), command = pt.stop)
-b1.pack(side = LEFT, anchor = N)
-b4 = Button(cf, text = _('CLEAR'), command = pt.clear)
-b4.pack(side = LEFT, anchor = N)
 
-cf = Frame(root, width = WIDTH, height = 10)
-cf.pack(side=TOP,  fill = BOTH, expand = 1)
-
-
-b3 = Label(cf, text = _('Current ='))
-b3.pack(side = LEFT, anchor = SW)
-CCval = StringVar()
-CCval.set('1.0')
-Ccs =Entry(cf, width=4, bg = 'white', textvariable = CCval)
-Ccs.pack(side = LEFT, anchor = SW)
-Label(cf, text = _('mA')).pack(side = LEFT, anchor = SW)
-b1 = Button(cf, text = _('Xmgrace'), command = pt.xmgrace)
-b1.pack(side = LEFT, anchor = N)
 b3 = Button(cf, text = _('SAVE to'), command = pt.save)
-b3.pack(side = LEFT, anchor = N)
+b3.pack(side = LEFT, anchor = SW)
+b3.pack(side = LEFT, anchor = SW)
 filename = StringVar()
 e1 =Entry(cf, width=15, bg = 'white', textvariable = filename)
 filename.set('temperature.dat')
+e1.pack(side = LEFT, anchor = SW)
 
 cf = Frame(root, width = WIDTH, height = 10)
 cf.pack(side=TOP,  fill = BOTH, expand = 1)
 
+b1 = Button(cf, text = _('Xmgrace'), command = pt.xmgrace)
+b1.pack(side = LEFT, anchor = SW)
+
+
+cf = Frame(root, width = WIDTH, height = 10)
+cf.pack(side=TOP,  fill = BOTH, expand = 1)
 e1.pack(side = LEFT)
+
 b5 = Button(cf, text = _('QUIT'), command = pt.quit)
 b5.pack(side = RIGHT, anchor = N)
+b4 = Button(cf, text = _('CLEAR'), command = pt.clear)
+b4.pack(side = RIGHT, anchor = N)
+b1 = Button(cf, text = _('STOP'), command = pt.stop)
+b1.pack(side = RIGHT, anchor = N)
+b1 = Button(cf, text = _('START'), command = pt.start)
+b1.pack(side = RIGHT, anchor = N)
 
 mf = Frame(root, width = WIDTH, height = 10)
 mf.pack(side=TOP)
