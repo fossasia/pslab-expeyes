@@ -52,7 +52,7 @@ class LM35:
 			self.MINY = int(TMIN.get())
 			self.MAXY = int(TMAX.get())
 			
-			g.setWorld(0, self.MINY, self.MAXTIME, self.MAXY,_('Time'),_('Volt'))
+			g.setWorld(0, self.MINY, self.MAXTIME, self.MAXY,_('Time in second'),_('Temp'))
 			self.TIMER = int(TGAP.get())
 			Total.config(state=DISABLED)
 			Dur.config(state=DISABLED)
@@ -116,7 +116,7 @@ class LM35:
 
 p = eyes.open()
 p.disable_actions()
-p.set_state(11,1)
+
 root = Tk()
 Canvas(root, width = WIDTH, height = 5).pack(side=TOP)  
 g = eyeplot.graph(root, width=WIDTH, height=HEIGHT, bip=False)
@@ -167,13 +167,7 @@ cf = Frame(root, width = WIDTH, height = 10)
 cf.pack(side=TOP,  fill = BOTH, expand = 1)
 
 
-b3 = Label(cf, text = _('Current ='))
-b3.pack(side = LEFT, anchor = SW)
-CCval = StringVar()
-CCval.set('1.0')
-Ccs =Entry(cf, width=4, bg = 'white', textvariable = CCval)
-Ccs.pack(side = LEFT, anchor = SW)
-Label(cf, text = _('mA')).pack(side = LEFT, anchor = SW)
+
 b1 = Button(cf, text = _('Xmgrace'), command = pt.xmgrace)
 b1.pack(side = LEFT, anchor = N)
 b3 = Button(cf, text = _('SAVE to'), command = pt.save)
