@@ -1,0 +1,2928 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-03 11:40+0200\n"
+"PO-Revision-Date: 2015-08-03 19:09+0200\n"
+"Last-Translator: Georges Khaznadar <georgesk@debian.org>\n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.3\n"
+
+#: ../AccelerometerADXL335/acceleration-xy.py:54
+#: ../Humidity-Sensor/humidity.py:54
+#: ../Magnetic-Field-Sensors/hall-effect-sensor.py:49
+#: ../Tempreature-Sensor/temp-control.py:62
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:68
+#: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:61
+#: ../Weather-Station/Weather-Data-Logger.py:47
+msgid "Time"
+msgstr "Temps"
+
+#: ../AccelerometerADXL335/acceleration-xy.py:54
+#: ../Magnetic-Field-Sensors/hall-effect-sensor.py:49
+msgid "m/s^2"
+msgstr "m/s^2"
+
+#: ../AccelerometerADXL335/acceleration-xy.py:56
+#: ../Humidity-Sensor/humidity.py:58
+#: ../Magnetic-Field-Sensors/hall-effect-sensor.py:51
+#: ../Tempreature-Sensor/Temp-LM35-GUI.py:61
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:72
+#: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:63
+#: ../Weather-Station/Weather-Data-Logger.py:51
+msgid "Starting the Measurements"
+msgstr "Démarrage de la mesure"
+
+#: ../AccelerometerADXL335/acceleration-xy.py:59
+#: ../Humidity-Sensor/humidity.py:61
+#: ../Magnetic-Field-Sensors/hall-effect-sensor.py:54
+#: ../Tempreature-Sensor/temp-control.py:71
+#: ../Tempreature-Sensor/Temp-LM35-GUI.py:64
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:75
+#: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:66
+#: ../Weather-Station/Weather-Data-Logger.py:54
+msgid "Failed to Start"
+msgstr "Échec du démarrage"
+
+#: ../AccelerometerADXL335/acceleration-xy.py:64
+#: ../Humidity-Sensor/humidity.py:67
+#: ../Magnetic-Field-Sensors/hall-effect-sensor.py:59
+#: ../Tempreature-Sensor/temp-control.py:80
+#: ../Tempreature-Sensor/Temp-LM35-GUI.py:70
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:81
+#: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:71
+#: ../Weather-Station/Weather-Data-Logger.py:61
+msgid "User Stopped the measurements"
+msgstr "L'utilisateur a arrêté la mesure"
+
+#: ../AccelerometerADXL335/acceleration-xy.py:89
+#: ../Humidity-Sensor/humidity.py:91
+#: ../Magnetic-Field-Sensors/hall-effect-sensor.py:81
+#: ../Tempreature-Sensor/temp-control.py:108
+#: ../Tempreature-Sensor/Temp-LM35-GUI.py:96
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:105
+#: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:94
+#: ../Weather-Station/Weather-Data-Logger.py:99
+msgid "Completed the Measurements"
+msgstr "Mesures terminées"
+
+#: ../AccelerometerADXL335/acceleration-xy.py:99
+#: ../Humidity-Sensor/humidity.py:102
+#: ../Magnetic-Field-Sensors/hall-effect-sensor.py:91
+#: ../Tempreature-Sensor/temp-control.py:120
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:125
+#: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:104
+#: ../Weather-Station/Weather-Data-Logger.py:110
+#, python-format
+msgid "Data saved to %s"
+msgstr "Données enregistrées dans %s"
+
+#: ../AccelerometerADXL335/acceleration-xy.py:106
+#: ../Humidity-Sensor/humidity.py:109
+#: ../Magnetic-Field-Sensors/hall-effect-sensor.py:98
+#: ../Tempreature-Sensor/temp-control.py:127
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:132
+#: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:111
+#: ../Weather-Station/Weather-Data-Logger.py:117
+msgid "Cleared Data and Trace"
+msgstr "Effacé les données et la trace"
+
+#: ../AccelerometerADXL335/acceleration-xy.py:122
+#: ../Magnetic-Field-Sensors/hall-effect-sensor.py:114
+#: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:128
+msgid "Digitize for"
+msgstr "Numériser pendant"
+
+#: ../AccelerometerADXL335/acceleration-xy.py:128
+#: ../Humidity-Sensor/humidity.py:143
+#: ../Magnetic-Field-Sensors/hall-effect-sensor.py:120
+#: ../Tempreature-Sensor/temp-control.py:175
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:166
+#: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:134
+msgid "Seconds."
+msgstr "s."
+
+#: ../AccelerometerADXL335/acceleration-xy.py:130
+msgid "Black line -X axis, Red line -Yaxis, Blue line -Z axis"
+msgstr "Ligne noire axe-X, ligne rouge axe-Y, ligne bleue axe-Z"
+
+#: ../AccelerometerADXL335/acceleration-xy.py:135
+#: ../Humidity-Sensor/humidity.py:160
+#: ../Magnetic-Field-Sensors/hall-effect-sensor.py:127
+#: ../Tempreature-Sensor/temp-control.py:190
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:183
+#: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:147
+#: ../Weather-Station/Weather-Data-Logger.py:158
+msgid "START"
+msgstr "DÉMARRAGE"
+
+#: ../AccelerometerADXL335/acceleration-xy.py:137
+#: ../Humidity-Sensor/humidity.py:162
+#: ../Magnetic-Field-Sensors/hall-effect-sensor.py:129
+#: ../Tempreature-Sensor/temp-control.py:192
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:185
+#: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:149
+#: ../Weather-Station/Weather-Data-Logger.py:160
+msgid "STOP"
+msgstr "STOP"
+
+#: ../AccelerometerADXL335/acceleration-xy.py:139
+#: ../Humidity-Sensor/humidity.py:164
+#: ../Magnetic-Field-Sensors/hall-effect-sensor.py:131
+#: ../Tempreature-Sensor/temp-control.py:194
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:187
+#: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:151
+#: ../Voltammetry/voltammogram.py:143
+#: ../Weather-Station/Weather-Data-Logger.py:162
+msgid "CLEAR"
+msgstr "EFFACER"
+
+#: ../AccelerometerADXL335/acceleration-xy.py:141
+#: ../Humidity-Sensor/humidity.py:178
+#: ../Magnetic-Field-Sensors/hall-effect-sensor.py:133
+#: ../Tempreature-Sensor/temp-control.py:196
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:201
+#: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:153
+msgid "Xmgrace"
+msgstr "XmGrace"
+
+#: ../AccelerometerADXL335/acceleration-xy.py:143
+#: ../Humidity-Sensor/humidity.py:180
+#: ../Magnetic-Field-Sensors/hall-effect-sensor.py:135
+#: ../Tempreature-Sensor/temp-control.py:198
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:203
+#: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:155
+#: ../Weather-Station/Weather-Data-Logger.py:165
+msgid "SAVE to"
+msgstr "ENREGISTRER sous"
+
+#: ../AccelerometerADXL335/acceleration-xy.py:149
+#: ../AccelerometerADXL335/lissajous-accelerometer.py:105
+#: ../ATTINY85-MCU/Lissajous.py:119 ../Humidity-Sensor/humidity.py:190
+#: ../Magnetic-Field-Sensors/hall-effect-sensor.py:141
+#: ../Tempreature-Sensor/temp-control.py:204
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:213
+#: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:161
+#: ../Voltammetry/voltammogram.py:139
+#: ../Weather-Station/Weather-Data-Logger.py:171
+msgid "QUIT"
+msgstr "QUITTER"
+
+#: ../AccelerometerADXL335/acceleration-xy.py:154
+#: ../Humidity-Sensor/humidity.py:195
+#: ../Magnetic-Field-Sensors/hall-effect-sensor.py:146
+#: ../Tempreature-Sensor/temp-control.py:210
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:218
+#: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:166
+#: ../Weather-Station/Weather-Data-Logger.py:176
+msgid "Message"
+msgstr "Message"
+
+#: ../AccelerometerADXL335/acceleration-xy.py:157
+msgid "EYESJUN: Accelerometer"
+msgstr "EYES Junior :accéléromètre"
+
+#: ../AccelerometerADXL335/lissajous-accelerometer.py:41
+#: ../ATTINY85-MCU/Lissajous.py:51
+msgid "Volts"
+msgstr "V"
+
+#: ../AccelerometerADXL335/lissajous-accelerometer.py:55
+#: ../ATTINY85-MCU/Lissajous.py:69 ../Voltammetry/voltammogram.py:113
+msgid "Data saved to file "
+msgstr "Les données sont enregistrées dans le fichier"
+
+#: ../AccelerometerADXL335/lissajous-accelerometer.py:66
+#: ../ATTINY85-MCU/Lissajous.py:80 ../Voltammetry/voltammogram.py:127
+msgid "mS"
+msgstr "ms"
+
+#: ../AccelerometerADXL335/lissajous-accelerometer.py:66
+#: ../ATTINY85-MCU/Lissajous.py:80 ../Voltammetry/voltammogram.py:127
+msgid "V"
+msgstr "V"
+
+#: ../AccelerometerADXL335/lissajous-accelerometer.py:69
+#: ../ATTINY85-MCU/Lissajous.py:83
+msgid "EYES Hardware Not Found. Check Connections and restart the program"
+msgstr ""
+"Le boîtier EYES n'a pas été trouvé. Vérifier les connexions et redémarrer le "
+"programme."
+
+#: ../AccelerometerADXL335/lissajous-accelerometer.py:96
+#: ../ATTINY85-MCU/Lissajous.py:110
+msgid "DRAW"
+msgstr "TRACER"
+
+#: ../AccelerometerADXL335/lissajous-accelerometer.py:100
+#: ../ATTINY85-MCU/Lissajous.py:114 ../Voltammetry/voltammogram.py:134
+msgid "Save to"
+msgstr "Enregistrer sous"
+
+#: ../AccelerometerADXL335/lissajous-accelerometer.py:111
+#: ../ATTINY85-MCU/Lissajous.py:125 ../Voltammetry/voltammogram.py:148
+msgid "Messages"
+msgstr "Messages"
+
+#: ../AccelerometerADXL335/lissajous-accelerometer.py:115
+#: ../ATTINY85-MCU/Lissajous.py:128
+msgid "Lissajous Figures"
+msgstr "Figures de Lissajous"
+
+#: ../AccelerometerADXL335/lissajous-accelerometer.py:116
+msgid "EYES: Lissajous Figuresusing accelerometer"
+msgstr "EYES : figures de Lissajous à l'aide d'un accéléromètre"
+
+#: ../ATTINY85-MCU/Lissajous.py:129
+msgid "EYES: Lissajous Figures"
+msgstr "EYES : figures de Lissajous"
+
+#: ../Humidity-Sensor/humidity.py:54 ../Tempreature-Sensor/temp-control.py:62
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:68
+msgid "Volt"
+msgstr "V"
+
+#: ../Humidity-Sensor/humidity.py:129
+#: ../Tempreature-Sensor/temp-control.py:161
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:152
+#: ../Weather-Station/Weather-Data-Logger.py:135
+msgid "Read Every"
+msgstr "Lire toutes les"
+
+#: ../Humidity-Sensor/humidity.py:135
+#: ../Tempreature-Sensor/temp-control.py:167
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:158
+#: ../Weather-Station/Weather-Data-Logger.py:141
+msgid "mS,"
+msgstr "ms,"
+
+#: ../Humidity-Sensor/humidity.py:137
+#: ../Tempreature-Sensor/temp-control.py:169
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:160
+#: ../Weather-Station/Weather-Data-Logger.py:145
+msgid "for total"
+msgstr "pour un total de"
+
+#: ../Humidity-Sensor/humidity.py:146
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:169
+msgid "Range"
+msgstr "Intervalle"
+
+#: ../Humidity-Sensor/humidity.py:152
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:175
+msgid "to,"
+msgstr "à,"
+
+#: ../Humidity-Sensor/humidity.py:158
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:181
+msgid "C. "
+msgstr "C. "
+
+#: ../Humidity-Sensor/humidity.py:171
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:194
+msgid "Current ="
+msgstr "Courant ="
+
+#: ../Humidity-Sensor/humidity.py:177
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:200
+msgid "mA"
+msgstr "mA"
+
+#: ../Humidity-Sensor/humidity.py:198
+msgid "Relative Humidity Measuements using HS1101"
+msgstr "Mesures d'humidité relative avec HS1101"
+
+#: ../Magnetic-Field-Sensors/hall-effect-sensor.py:122
+msgid "........"
+msgstr "........"
+
+#: ../Magnetic-Field-Sensors/hall-effect-sensor.py:151
+msgid "Magnetic field using Hall Sensor "
+msgstr "Champ magnétique à l'aide d'un capteur à effet Hall"
+
+#: ../Tempreature-Sensor/temp-control.py:52
+msgid "temperature setpoint out of range"
+msgstr "réglage de température hors intervalle"
+
+#: ../Tempreature-Sensor/temp-control.py:60
+msgid "UPV setpoint out of range"
+msgstr "réglage UPV hors intervalle"
+
+#: ../Tempreature-Sensor/temp-control.py:66
+msgid "Starting the Controller"
+msgstr "Démarrage du contrôleur"
+
+#: ../Tempreature-Sensor/temp-control.py:143
+msgid "Rg="
+msgstr "Rg ="
+
+#: ../Tempreature-Sensor/temp-control.py:149
+msgid "Ohm. "
+msgstr "Ohm."
+
+#: ../Tempreature-Sensor/temp-control.py:152
+msgid "UPV="
+msgstr "UPV ="
+
+#: ../Tempreature-Sensor/temp-control.py:158
+msgid "V. "
+msgstr "V."
+
+#: ../Tempreature-Sensor/temp-control.py:181
+msgid "Set at"
+msgstr "Réglage à"
+
+#: ../Tempreature-Sensor/temp-control.py:187
+msgid "deg C"
+msgstr "°C"
+
+#: ../Tempreature-Sensor/temp-control.py:213
+msgid "Temperature Controller (LM35)"
+msgstr "Contôleur de température (LM35)"
+
+#: ../Tempreature-Sensor/temp-control.py:214
+msgid "Temperature controller using LM35"
+msgstr "Contôleur de température à l'aide d'un LM35"
+
+#: ../Tempreature-Sensor/Temp-LM35-GUI.py:57
+msgid "Time in second"
+msgstr "Temps en seconde"
+
+#: ../Tempreature-Sensor/Temp-LM35-GUI.py:57
+msgid "Temp in celsius"
+msgstr "Température en °C"
+
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:116
+msgid "Wrong connections or value of Rg"
+msgstr "Connexions ou valeur de Rg incorrectes"
+
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:221
+msgid "Temperature Measuements using PT100"
+msgstr "Mesures de température avec la sonde PT100"
+
+#: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:61
+#: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:142
+msgid "cm"
+msgstr "cm"
+
+#: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:136
+msgid "Max Dist="
+msgstr "Dist max ="
+
+#: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:171
+msgid "Motion Graph using Position Sensor SRF-05"
+msgstr "Graphique de déplacement à l'aide du capteur de position SRF-05"
+
+#: ../Voltammetry/voltammogram.py:70
+#, python-format
+msgid "Voltage Scan on Coil Done. Noise Voltage = %5.3f V"
+msgstr "Scan de tension réalisé sur la bobine. Tension de bruit = %5.3f V"
+
+#: ../Voltammetry/voltammogram.py:93
+#, python-format
+msgid "Peak voltages %5.2f and %5.3f separated by %5.3f msec"
+msgstr "Tensions crêtes %5.2f et %5.2f séparées par %5.3f ms"
+
+#: ../Voltammetry/voltammogram.py:131
+msgid "Start Scanning"
+msgstr "Début du scan"
+
+#: ../Voltammetry/voltammogram.py:141
+msgid "VIEW"
+msgstr "VOIR"
+
+#: ../Voltammetry/voltammogram.py:152
+msgid "EYESJUN: Voltamogram"
+msgstr "EYES Junior : voltamogramme"
+
+#: ../Weather-Station/Weather-Data-Logger.py:47
+msgid "Data"
+msgstr "Données"
+
+#: ../Weather-Station/Weather-Data-Logger.py:151
+msgid "Seconds"
+msgstr "s"
+
+#: ../Weather-Station/Weather-Data-Logger.py:180
+msgid "---"
+msgstr "---"
+
+#: ../Weather-Station/Weather-Data-Logger.py:181
+msgid "Weather Station Data Logger"
+msgstr "Enregistreur de station météo"
+
+#~ msgid "mSec"
+#~ msgstr "ms"
+
+#~ msgid "%3.2f %s/div"
+#~ msgstr "%3.2f %s/div"
+
+#~ msgid "EYES plot"
+#~ msgstr "Graphique EYES"
+
+#~ msgid "Schematic"
+#~ msgstr "Schéma"
+
+#~ msgid "Could not find EYES Junior hardware"
+#~ msgstr "Le boîtier EYES Junior n'a pas été trouvé"
+
+#~ msgid "Check the connections."
+#~ msgstr "Vérifier les connexions"
+
+#~ msgid "Port %s is existing "
+#~ msgstr "Le port %s existe"
+
+#~ msgid "but could not open"
+#~ msgstr "mais ne peut pas être ouvert"
+
+#~ msgid "and opened. "
+#~ msgstr "et est ouvert"
+
+#~ msgid "No EYES Junior hardware detected"
+#~ msgstr "Le boîtier EYES Junior n'a pas été trouvé"
+
+#~ msgid "GETVERSION ERROR"
+#~ msgstr "ERREUR GETVERSION"
+
+#~ msgid "WREEPROM ERROR "
+#~ msgstr "ERREUR WREEPROM"
+
+#~ msgid "WREEPROM ERROR"
+#~ msgstr "ERREUR WREEPROM"
+
+#~ msgid "RDEEPROM ERROR "
+#~ msgstr "ERREUR RDEEPROM"
+
+#~ msgid "Invalid Calibration factors for A1,A2"
+#~ msgstr "Facteurs de calibration non valides pour A1, A2"
+
+#~ msgid "Could not load A1 & A2 Calibration"
+#~ msgstr "Impossible de charger la calibration de A1 & A2"
+
+#~ msgid "Invalid Calibration factors for IN1"
+#~ msgstr "Facteur de calibration non valide pour IN1"
+
+#~ msgid "Could not load IN1 Capacitor Calibration"
+#~ msgstr "Impossible de charger la calibration de capacité pour IN1"
+
+#~ msgid "Invalid Pullup resistor value"
+#~ msgstr "Valeur de la résistance de tirage non valide"
+
+#~ msgid "Could not load SEN Pullup calibration"
+#~ msgstr ""
+#~ "Impossible de charger la calibration de la résistance de tirage deSEN"
+
+#~ msgid "IRSEND1 ERROR "
+#~ msgstr "ERREUR IRSEND1"
+
+#~ msgid "IRSEND4 ERROR "
+#~ msgstr "ERREUR IRSEND4"
+
+#~ msgid "Current to be set only on IN1(3) or IN2(4)"
+#~ msgstr "Courant à régler seulement pour IN1(3) ou IN2(4)"
+
+#~ msgid "Current to be set only on IN1 or IN2"
+#~ msgstr "Le courant ne doit être réglé que pour IN1 ou IN2"
+
+#~ msgid "MEASURECV ERROR "
+#~ msgstr "ERREUR MEASURECV"
+
+#~ msgid "Error measuring capacitance %5.3f"
+#~ msgstr "Erreur de mesure de capacité %5.3f"
+
+#~ msgid "Error measuring capacitance"
+#~ msgstr "Erreur de mesure de capacité"
+
+#~ msgid "Resistance NOT in 100 Ohm to 100 kOhm range"
+#~ msgstr "La résistance n'est pas dans l'intervalle de 100 Ohm à 100 kOhm"
+
+#~ msgid "SETCURRENT ERROR"
+#~ msgstr "ERREUR SETCURRENT"
+
+#~ msgid "READTEMP error "
+#~ msgstr "ERREUR READTEMP"
+
+#~ msgid "READTEMP error"
+#~ msgstr "ERREUR READTEMP"
+
+#~ msgid "Pin should be digital input capable: 0,3,4,5,6 or 7"
+#~ msgstr "La borne doit être capable de mesure numérique : 0, 3, 4, 5, 6 ou 7"
+
+#~ msgid "skip exceeded 249 edges"
+#~ msgstr "on saute plus de 249 fronts"
+
+#~ msgid "Both pins should be digital input capable: 0,3,4,5,6 or 7"
+#~ msgstr ""
+#~ "Les deux bornes doivent être capables de mesure numérique : 0, 3, 4, 5, 6 "
+#~ "ou 7"
+
+#~ msgid "Starting pin should be digital output capable: 8,9,10 or 11"
+#~ msgstr ""
+#~ "La borne de départ doit être capable de sortie numérique : 8, 9, 10 ou 11"
+
+#~ msgid "Destination pin should be digital input capable: 0,3,4,5,6 or 7"
+#~ msgstr ""
+#~ "La borne de destination doit être capable de mesure numérique : 0, 3, 4, "
+#~ "5, 6 ou 7"
+
+#~ msgid "Time measurement command error"
+#~ msgstr "Erreur de commande de mesure de temps"
+
+#~ msgid "Time measurement command %d error "
+#~ msgstr "Erreur de commande de mesure de temps %d"
+
+#~ msgid "SETSTATE error "
+#~ msgstr "ERREUR SETSTATE"
+
+#~ msgid "GETSTATE error "
+#~ msgstr "ERREUR GETSTATE"
+
+#~ msgid "GETPORTB error "
+#~ msgstr "ERREUR GETPORTB"
+
+#~ msgid "SETPWM error "
+#~ msgstr "ERREUR SETPWM"
+
+#~ msgid "Invalid channel number"
+#~ msgstr "Numéro de canal non valide"
+
+#~ msgid "Invalid Channel"
+#~ msgstr "Canal non valide"
+
+#~ msgid "Invalid Freqency"
+#~ msgstr "Fréquence non valide"
+
+#~ msgid "SETSQR error "
+#~ msgstr "ERREUR SETSQR"
+
+#~ msgid "Invalid phase difference"
+#~ msgstr "Déphasage non valide"
+
+#~ msgid "SETSQRS error "
+#~ msgstr "ERREUR SETSQRS"
+
+#~ msgid "SETDAC error "
+#~ msgstr "ERREUR SETDAC"
+
+#~ msgid "Argument error"
+#~ msgstr "Erreur d'argument"
+
+#~ msgid "READADC error "
+#~ msgstr "ERREUR READADC"
+
+#~ msgid "invalid voltage"
+#~ msgstr "Tension non valide"
+
+#~ msgid "SETADCREF error "
+#~ msgstr "ERREUR SETADCREF"
+
+#~ msgid "READADC: Argument error"
+#~ msgstr "READADC : erreur d'argument"
+
+#~ msgid "READADC error"
+#~ msgstr "ERREUR READADC"
+
+#~ msgid "get_voltage: Argument error"
+#~ msgstr "get_voltage : erreur d'argument"
+
+#~ msgid "get_voltageNS: Argument error"
+#~ msgstr "get_voltageNS : erreur d'argument"
+
+#~ msgid "get_voltage_time: Argument error"
+#~ msgstr "get_voltage_time : erreur d'argument"
+
+#~ msgid "Error "
+#~ msgstr "ERREUR"
+
+#~ msgid "Minimum Timegap is 4 us"
+#~ msgstr "Intervalle de temps minimum 4 µs"
+
+#~ msgid "CAPTURE error"
+#~ msgstr "ERREUR CAPTURE"
+
+#~ msgid "CAPTURE error "
+#~ msgstr "ERREUR CAPTURE"
+
+#~ msgid "CAPTURE: size mismatch %d %d"
+#~ msgstr "CAPTURE : tailles inappropriées %d %d"
+
+#~ msgid "CAPTURE: size mismatch "
+#~ msgstr "CAPTURE : tailles inappropriées"
+
+#~ msgid "Minimum Timegap is (4*number of channels)usec"
+#~ msgstr "L'intervalle de temps minimum est (4 x nombre de canaux) µs"
+
+#~ msgid "CAPTURE2 error "
+#~ msgstr "ERREUR CAPTURE2"
+
+#~ msgid "CAPTURE2: size mismatch"
+#~ msgstr "CAPTURE2 : tailles inappropriées"
+
+#~ msgid "CAPTURE2_HR error "
+#~ msgstr "ERREUR CAPTURE2_HR "
+
+#~ msgid "CAPTURE2_HR: size mismatch"
+#~ msgstr "CAPTURE2_HR : tailles inappropriées"
+
+#~ msgid "CAPTURE3 error "
+#~ msgstr "ERREUR CAPTURE3"
+
+#~ msgid "CAPTURE3: size mismatch "
+#~ msgstr "CAPTURE3 : tailles inappropriées"
+
+#~ msgid "CAPTURE4 error ="
+#~ msgstr "ERREUR CAPTURE4 "
+
+#~ msgid "CAPTURE4: size mismatch "
+#~ msgstr "CAPTURE4 : tailles inappropriées"
+
+#~ msgid "SETTRIGVAL error "
+#~ msgstr "ERREUR SETTRIGVAL"
+
+#~ msgid "ERROR: SETACTION"
+#~ msgstr "ERREUR : SETACTION"
+
+#~ msgid "SETACTION ERR"
+#~ msgstr "ERR SETACTION"
+
+#~ msgid "SETACTION ERR: action = %d ch = %d"
+#~ msgstr "ERR SETACTION : action = %d canal = %d"
+
+#~ msgid "Invalid pulse width"
+#~ msgstr "Largeur d'impulsion non valide"
+
+#~ msgid "ERROR: SETPULWIDTH"
+#~ msgstr "ERREUR :SETPULSEWIDTH"
+
+#~ msgid "Could not find Phoenix-EYES hardware"
+#~ msgstr "Le boîtier Phoenix-EYES n'a pas été trouvé"
+
+#~ msgid "Found EYES version "
+#~ msgstr "Version EYES trouvée"
+
+#~ msgid "No EYES hardware detected"
+#~ msgstr "Le boîtier EYES n'a pas été trouvé"
+
+#~ msgid "eeprom write byte error = "
+#~ msgstr "Erreur d'écriture d'octet eeprom = "
+
+#~ msgid "eeprom read block error = "
+#~ msgstr "Erreur de lecture de bloc eeprom = "
+
+#~ msgid "SC: ch = %d m=%10.6f  c=%10.6f"
+#~ msgstr "SC: ch = %d m=%10.6f  c=%10.6f"
+
+#~ msgid "BAD Calibration data. EEPROM does not have any data "
+#~ msgstr ""
+#~ "Mauvaises données de calibration. L'EEPROM ne contient pas de données "
+
+#~ msgid "LC: ch = %d m=%10.6f  c=%10.6f"
+#~ msgstr "LC: ch = %d m=%10.6f  c=%10.6f"
+
+#~ msgid "ERR:Current must be from 0.02 to 2.0 mA"
+#~ msgstr "ERR : le courant doit être entre 0,02 et 2,0 mA"
+
+#~ msgid "WRITEDAC error "
+#~ msgstr "ERREUR WRITEDAC"
+
+#~ msgid "Sampling time MUST NOT exceed 250 microseconds"
+#~ msgstr "La durée d'échantillonnage NE DOIT PAS dépasser 250 µs"
+
+#~ msgid "SETSAMTIME ERROR "
+#~ msgstr "ERREUR SETSAMTIME"
+
+#~ msgid "ADC datasize MUST be 1 or 2 bytes"
+#~ msgstr "La taille desdonnées ADC DOIT être de 1 ou 2 octets"
+
+#~ msgid "SETADCSIZE ERROR "
+#~ msgstr "ERREUR SETADCSIZE"
+
+#~ msgid "QCAPTURE Error "
+#~ msgstr "ERREUR QCAPTURE "
+
+#~ msgid "CAPTURE01 error "
+#~ msgstr "ERREUR CAPTURE01 "
+
+#~ msgid "CAPTURE01: size mismatch "
+#~ msgstr "CAPTURE01 : tailles inappropriées"
+
+#~ msgid "CAPTURE_M32 error "
+#~ msgstr "ERREUR CAPTURE_M32"
+
+#~ msgid "CAPTURE_M32: size mismatch "
+#~ msgstr "CAPTURE_M32 : tailles inappropriées"
+
+#~ msgid "wait_rising "
+#~ msgstr "wait_rising "
+
+#~ msgid "Echo error = "
+#~ msgstr "Erreur d'écho = "
+
+#~ msgid "Time Measurement call Error. CMD = "
+#~ msgstr "Erreur d'appel de mesure de temps. CMD = "
+
+#~ msgid "DIGIN error"
+#~ msgstr "ERREUR DIGIN"
+
+#~ msgid "Could not find Phoenix-MCA hardware"
+#~ msgstr "Le boîtier Phoenix-MCA n'a pas été trouvé"
+
+#~ msgid "inWaiting"
+#~ msgstr "inWaiting"
+
+#~ msgid "res = "
+#~ msgstr "res = "
+
+#~ msgid "Found MCA version "
+#~ msgstr "Version MCA trouvée "
+
+#~ msgid "No MCA hardware detected"
+#~ msgstr "Le boîtier MCA n'a pas été trouvé"
+
+#~ msgid "HIST read data error"
+#~ msgstr "Erreur de lecture de données HIST"
+
+#~ msgid "Channel"
+#~ msgstr "Canal"
+
+#~ msgid "dN"
+#~ msgstr "dN"
+
+#~ msgid "No data yet"
+#~ msgstr "Pas encore de données"
+
+#~ msgid "Mark a Peak before calibration"
+#~ msgstr "Marquer un pic avant calibration"
+
+#~ msgid "Energy (MeV)"
+#~ msgstr "Énergie (MeV)"
+
+#~ msgid "Energy(MeV)"
+#~ msgstr "Énergie (MeV)"
+
+#~ msgid "Calibration done"
+#~ msgstr "Calibration terminée"
+
+#~ msgid "Existing Calibration Removed. Do it again"
+#~ msgstr "La calibration a été supprimée. Il faut la refaire"
+
+#~ msgid "E"
+#~ msgstr "E"
+
+#~ msgid "No data to fit"
+#~ msgstr "Pas de données à modéliser"
+
+#~ msgid "Amplitude= %5.1f  %s= %5.2f  sigma = %5.2f"
+#~ msgstr "Amplitude = %5.1f  %s = %5.2f  sigma = %5.2f"
+
+#~ msgid "Acquisition Started"
+#~ msgstr "Acquisition démarrée"
+
+#~ msgid "Acquisition stopped by user"
+#~ msgstr "Acquisition arrêtée par l'utilisateur"
+
+#~ msgid "Spectrum Cleared by user"
+#~ msgstr "Spectre effacé par l'utilisateur"
+
+#~ msgid "Histogram saved"
+#~ msgstr "Histogramme enregistré"
+
+#~ msgid "Called xmgrace"
+#~ msgstr "Xmgrace a été appelé"
+
+#~ msgid "dN/dE"
+#~ msgstr "dN/dE"
+
+#~ msgid "y-scale"
+#~ msgstr "échelle-y"
+
+#~ msgid "Auto/Man"
+#~ msgstr "Auto/Man"
+
+#~ msgid "UPDATE"
+#~ msgstr "MISE À JOUR"
+
+#~ msgid "FIT"
+#~ msgstr "MODÉLISER"
+
+#~ msgid "xmGrace"
+#~ msgstr "XmGrace"
+
+#~ msgid "Calibrate using Peak at"
+#~ msgstr "Calibré à l'aide d'un pic à"
+
+#~ msgid "MeV"
+#~ msgstr "MeV"
+
+#~ msgid "SAVE Histogram to"
+#~ msgstr "Enregistrer l'histogramme dans"
+
+#~ msgid "ERROR: Spectrometer hardware NOT found"
+#~ msgstr "ERREUR : le boîtier du spectromètre N'EST PAS trouvé"
+
+#~ msgid "PHOENIX Alpha Spectrometer"
+#~ msgstr "Spectromètre Alpha PHOENIX"
+
+#~ msgid "freq"
+#~ msgstr "fréq"
+
+#~ msgid "power"
+#~ msgstr "puissance"
+
+#~ msgid "Capture"
+#~ msgstr "Capture"
+
+#~ msgid "Power Spectrum"
+#~ msgstr "Spectre de puissance"
+
+#~ msgid "Number of Samples ="
+#~ msgstr "Nombre d'échantillons ="
+
+#~ msgid "Delay between samples="
+#~ msgstr "Délai entre échantillons ="
+
+#~ msgid "uS."
+#~ msgstr "µs."
+
+#~ msgid "UPV ="
+#~ msgstr "UPV ="
+
+#~ msgid "Amplitude Modulation"
+#~ msgstr "Modulation d'amplitude"
+
+#~ msgid "Point %5.3fV. Deviation A0 %5.2f%%"
+#~ msgstr "Point %5.3fV. Deviation A0 %5.2f%%"
+
+#~ msgid "ERROR: Check BPV to A0 connection"
+#~ msgstr "ERREUR : vérifier la connexion de BPV à A0"
+
+#~ msgid "ERROR: Check BPV to A1 connection"
+#~ msgstr "ERREUR : vérifier la connexion de BPV à A1"
+
+#~ msgid "ERROR : Point %5.3f Volts NOT done"
+#~ msgstr "ERREUR : point %5.3f V NON fait"
+
+#~ msgid "Readback for %5.3f V point = %5.3f V NOT GOOD"
+#~ msgstr "Lecture pour le point %5.3f = %5.3f V, PAS BON"
+
+#~ msgid "ADC0 m & c "
+#~ msgstr "ADC0 m & c "
+
+#~ msgid "ADC1 m & c "
+#~ msgstr "ADC1 m & c "
+
+#~ msgid "DAC0 m & c "
+#~ msgstr "DAC0 m & c "
+
+#~ msgid "DONE: (%7.6f,%5.3f)(%7.6f,%5.3f)(%5.1f,%5.1f)"
+#~ msgstr "FAIT : (%7.6f,%5.3f)(%7.6f,%5.3f)(%5.1f,%5.1f)"
+
+#~ msgid "Set %3.0f Volts"
+#~ msgstr "Régler à %3.0f V"
+
+#~ msgid "Measured ="
+#~ msgstr "Mesure ="
+
+#~ msgid ""
+#~ "First you MUST Connect BPV to A0 & A1.\n"
+#~ "Then click on each \"Set Volts Button\","
+#~ msgstr ""
+#~ "IL FAUT d'abord connecter BPV à A0 et A1.\n"
+#~ "Puis cliquer sur chaque « bouton de réglage de tension »."
+
+#~ msgid ""
+#~ "Measure BPV with a 4.5 DMM and\n"
+#~ " enter it in the \"Measured=\" Field.\n"
+#~ msgstr ""
+#~ "Mesurer BPV avec un DMM 4.5 et\n"
+#~ "le saisir dans le champ « Mesure = ».\n"
+
+#~ msgid "IMPROPER USE MAY SPOIL THE CALIBRATION"
+#~ msgstr "UN USAGE NON APPROPRIÉ PEUT ALTÉRER LA CALIBRATION."
+
+#~ msgid "Calibrate"
+#~ msgstr "Calibrer"
+
+#~ msgid "Verify CH0"
+#~ msgstr "Vérifier CH0"
+
+#~ msgid "Verify CH1"
+#~ msgstr "Vérifier CH1"
+
+#~ msgid "msg"
+#~ msgstr "msg"
+
+#~ msgid "AD/DA CALIBRATION. NOT FOR EVERYONE!!"
+#~ msgstr "CALIBRATION AD/DA. PAS POUR N'IMPORTE QUI !!"
+
+#~ msgid "You can select SEN, A2 or (A1, A0 or both)"
+#~ msgstr "On peut sélectionner SEN, A2 ou (A1, A0 ou les deux)"
+
+#~ msgid "NP delay = "
+#~ msgstr "Délai NP = "
+
+#~ msgid "Vpeak = %5.2f V | Freq = %5.2f Hz"
+#~ msgstr "Vcrête = %5.2f V | Fréq = %5.2f Hz"
+
+#~ msgid "CH0 Vp = %5.2f V | Freq = %5.2f Hz "
+#~ msgstr "CH0 Vcrête = %5.2f V | Fréq = %5.2f Hz "
+
+#~ msgid "CH1 Vp = %5.2f V | Freq = %5.2f Hz"
+#~ msgstr "CH1 Vcrête = %5.2f V | Fréq = %5.2f Hz "
+
+#~ msgid "mS/div"
+#~ msgstr "ms/div"
+
+#~ msgid "Volt/div"
+#~ msgstr "V/div"
+
+#~ msgid "SEN"
+#~ msgstr "SEN"
+
+#~ msgid "EYES CRO Program"
+#~ msgstr "Programme d'oscillo EYES"
+
+#~ msgid "Starting to plot I-V"
+#~ msgstr "Démarrage du graphique I-U"
+
+#~ msgid "Diode IV Curve"
+#~ msgstr "Courbe I-U de la diode"
+
+#~ msgid "Fitted with Diode Equation : Io = %5.2e mA , Ideality factor = %5.2f"
+#~ msgstr ""
+#~ "Modélisé avec l'équation de la diode : Io = %5.2e mA , facteur d'idéalité "
+#~ "= %5.2f"
+
+#~ msgid "ZENER"
+#~ msgstr "ZENER"
+
+#~ msgid "Grace"
+#~ msgstr "Grace"
+
+#~ msgid "Diode IV Characteristic"
+#~ msgstr "Courbe I-U de la diode"
+
+#~ msgid "EYES: Diode IV characteristics"
+#~ msgstr "EYES : courbe I-U de la diode"
+
+#~ msgid ""
+#~ "For help, click on the Terminal Boxes(1 to 32).\n"
+#~ "LIZ : Lissajous figure.\n"
+#~ msgstr ""
+#~ "Pour l'aide, cliquer sur les carrés des connexions (1 à 32).\n"
+#~ "LIZ : figure de Lissajous.\n"
+
+#~ msgid ""
+#~ "FT : Fourier Transform power spectrum.\n"
+#~ "XM : Xmgrace 2D plotting program\n"
+#~ msgstr ""
+#~ "FT : Spectre de puissance par transformation de Fourier.\n"
+#~ "XM : programme de tracé de courbes 2D XmGrace\n"
+
+#~ msgid "XmGrace is NOT available under MSWindows"
+#~ msgstr "XmGrace n'est pas disponible sous MSWindows"
+
+#~ msgid ""
+#~ "1.Software can read the voltage input level, LOW ( < .8V) or HIGH (>2V).\n"
+#~ msgstr ""
+#~ "1.Le logiciel peut lire le niveau logique de tension, BAS (<0,8V) ou HAUT "
+#~ "(>2V).\n"
+
+#~ msgid ""
+#~ "If a square wave input is given, click on the Buttons for measuring "
+#~ "frequency / duty cycle"
+#~ msgstr ""
+#~ "Si on entre un signal carré, cliquer sur le bouton pour mesurer la "
+#~ "fréquence / le rapport cyclique"
+
+#~ msgid "2. Can sense input level"
+#~ msgstr "2.Peut mesurer le niveau d'entrée"
+
+#~ msgid ""
+#~ "3. Digital Output.  Can be set to 0 or 5 volts.\n"
+#~ "Use the Checkbutton to change the Level"
+#~ msgstr ""
+#~ "3. Sortie numérique.Peut être mise à 0 ou 5 V.\n"
+#~ "Utiliser le bouton Check pour changer le niveau"
+
+#~ msgid ""
+#~ "4. Digital Output.  Can be set to 0 or 5 volts.\n"
+#~ "Use the Checkbutton to change the Level"
+#~ msgstr ""
+#~ "4. Sortie numérique.Peut être mise à 0 ou 5 V.\n"
+#~ "Utiliser le bouton Check pour changer le niveau"
+
+#~ msgid "5. Ground (zero volts)"
+#~ msgstr "5. Masse (zéro volt)"
+
+#~ msgid ""
+#~ "6. SQR1: Generates Square Wave. Voltage swings between 0 and 5V. "
+#~ "Frequency is programmable from "
+#~ msgstr ""
+#~ "6. SQR1 : générateur de signal carré. La tension varie de 0 à 5 V.La "
+#~ "fréquence est programmable de "
+
+#~ msgid "Hz to1 MHz. All intermediate values of frequency are not possible."
+#~ msgstr ""
+#~ "Hz à 1MHz. Les valeurs intermédiaires de fréquence ne sont pas toutes "
+#~ "disponibles."
+
+#~ msgid ""
+#~ "7. SQR2: Generates Square Wave. The frequency range is controlled by "
+#~ "software and fine adjustment "
+#~ msgstr ""
+#~ "7. SQR2 : générateur de signal carré. L'intervalle de fréquence est "
+#~ "contrôlé par logiciel et l'ajustement fin "
+
+#~ msgid ""
+#~ "is done by an external 22 kOhm variable resistor. Frequency range is from "
+#~ "0.7 Hz to 90 kHz."
+#~ msgstr ""
+#~ "est fait à l'aide d'une résistance variable de 22 kOhm. L'intervalle de "
+#~ "fréquence va de 0,7 Hz à 90 kHz."
+
+#~ msgid "8. 22 kOhm resistor used for frequency adjustment of SQR2."
+#~ msgstr ""
+#~ "8. Résistance de 22 kOhm utilisée pour ajuster la fréquence de SQR2."
+
+#~ msgid "9. 22 kOhm resistor used for frequency adjustment of SQR2."
+#~ msgstr ""
+#~ "9. Résistance de 22 kOhm utilisée pour ajuster la fréquence de SQR2."
+
+#~ msgid ""
+#~ "10. Programmable Pulse. Frequency is 488.3 Hz. Duty cycle from 0 to 100%% "
+#~ "in 255 steps."
+#~ msgstr ""
+#~ "10. Impulsions programmables. La fréquence est 488,3 Hz. Le rapport "
+#~ "cyclique peut varier de 0 à 100 %% en 255 étapes."
+
+#~ msgid "11. Ground"
+#~ msgstr "11. Masse (zéro volt)"
+
+#~ msgid "12. Output of Inverting Amplifier with a gain of 47. (Input at 14)"
+#~ msgstr ""
+#~ "12. Sortie de l'amplificateur inverseur avec un gain de 47. (entrée en 14)"
+
+#~ msgid "13. Output of Inverting Amplifier with a gain of 47. (Input at 15)"
+#~ msgstr ""
+#~ "13. Sortie de l'amplificateur inverseur avec un gain de 47. (entrée en 15)"
+
+#~ msgid "14. Input of Inverting Amplifier with a gain of 47. (Output at 12)"
+#~ msgstr ""
+#~ "14. Entrée de l'amplificateur inverseur avec un gain de 47. (sortie en 12)"
+
+#~ msgid ""
+#~ "15. Input of Inverting Amplifier with a gain of 47. (Output at 13). Also "
+#~ "acts as a Frequency counter, "
+#~ msgstr ""
+#~ "15. Entrée de l'amplificateur inverseur avec un gain de 47. (sortie en "
+#~ "13). Fonctionne aussi en fréquencemètre, "
+
+#~ msgid ""
+#~ "for a bipolar a signal (amplitude from 100 mV to 5V). If the signal is "
+#~ "unipolar feed it "
+#~ msgstr ""
+#~ "pour un signal bipolaire (amplitude de 100 mV à 5 V). Si le signal est "
+#~ "unipolaire, le brancher "
+
+#~ msgid "via a series capacitor"
+#~ msgstr "via un condensateur en série"
+
+#~ msgid "16. Ground"
+#~ msgstr "16. Masse (zéro volt)"
+
+#~ msgid ""
+#~ "17. Input of Inverting Amplifier. Default Gain=100. The gain can be "
+#~ "reduced by a series resistor at the input. "
+#~ msgstr ""
+#~ "17. Sortie de l'amplificateur inverseur. Gain par défaut = 100. On peut "
+#~ "réduire ce gain avec une résistance en série avec l'entrée. "
+
+#~ msgid ""
+#~ "The gain will be given by G = 10000/(100+R), where R is the value of the "
+#~ "external series resistor."
+#~ msgstr ""
+#~ "Le gain est donné par G = 10000/(100+R), où R est la valeur de la "
+#~ "résistance externe en série."
+
+#~ msgid "18. Output of the Inverting Amplifier (Input 17)"
+#~ msgstr "18. Sortie de l'amplificateur inverseur (entrée en 17)"
+
+#~ msgid "19. Ground"
+#~ msgstr "19. Masse (zéro volt)"
+
+#~ msgid ""
+#~ "20. Gain control resistor for Non-Inverting amplifier, from 20 to Ground. "
+#~ "Gain = 1 + 10000/Rg."
+#~ msgstr ""
+#~ "20. Résistance de contrôle du gain pour l'amplificateur non-inverseur, "
+#~ "entre 20 et Masse. Gain = 1 + 10000/Rg."
+
+#~ msgid "21. Input of Non-Inverting Amplifier (Output 22)"
+#~ msgstr "21. Entrée de l'amplificateur non-inverseur (sortie en 22)"
+
+#~ msgid "22. Output of Non-Inverting Amplifier(Input 21)"
+#~ msgstr "22. Sortie de l'amplificateur non-inverseur (entrée en 21)"
+
+#~ msgid ""
+#~ "23. Sensor Input. Connect Photo transistor collector here and emitter to "
+#~ "Ground."
+#~ msgstr ""
+#~ "23. Entrée de capteur. Brancher ici lecollecteur du phototransistor et "
+#~ "l'émetteur à la masse."
+
+#~ msgid ""
+#~ "24. Voltage measurement terminal. Input must be in the 0 to 5V range."
+#~ msgstr "24. Borne de mesure de tension. L'entrée doit être entre 0 et 5 V."
+
+#~ msgid ""
+#~ "25. Voltage measurement terminal. Input must be in the -5V to 5V range."
+#~ msgstr ""
+#~ "25. Borne de mesure de tension. L'entrée doit être entre -5 V et 5 V."
+
+#~ msgid ""
+#~ "26. Voltage measurement terminal. Input must be in the -5V to 5V range."
+#~ msgstr ""
+#~ "26. Borne de mesure de tension. L'entrée doit être entre -5 V et 5 V."
+
+#~ msgid "27. Ground"
+#~ msgstr "27. Masse (zéro volt)"
+
+#~ msgid ""
+#~ "28. Programmable constant current source. 0.05 to 2 milli ampere range. "
+#~ "The load resistor "
+#~ msgstr ""
+#~ "28. Source de courant constant programmable. 0,05 à 2 mA. La résistance "
+#~ "de charge "
+
+#~ msgid "should be chosen to make the product of I and R less than 2 volts."
+#~ msgstr "doit être choisie pour que leproduit de I et R soit moins de 2 V."
+
+#~ msgid ""
+#~ "29. Output of 30 through a 1kOhm resistor. Used for doing diode I-V "
+#~ "characteristic."
+#~ msgstr ""
+#~ "29. sortie de 30 à travers une résistance de 1 kOhm. Utilisé pour la "
+#~ "caractéristique I-U de la diode."
+
+#~ msgid "30. Programmable voltage between -5V to +5V."
+#~ msgstr "30. Tension programmable entre -5 V et +5 V."
+
+#~ msgid "31. Programmable voltage between 0 to +5V."
+#~ msgstr "31. Tension programmable entre 0 et +5 V."
+
+#~ msgid ""
+#~ "32. Sine wave output. Frequency around 90 Hz. Voltage swings between -4V "
+#~ "to +4V."
+#~ msgstr ""
+#~ "32. Sortie de signal sinusoïdal. Fréquence de 90 Hz environ. La tension "
+#~ "varie de -4 V à +4 V."
+
+#~ msgid "EXPERIMENTS"
+#~ msgstr "EXPÉRIENCES"
+
+#~ msgid "LO"
+#~ msgstr "BAS"
+
+#~ msgid "F"
+#~ msgstr "F"
+
+#~ msgid "0 Hz"
+#~ msgstr "0 Hz"
+
+#~ msgid "Traces saved to explore.dat"
+#~ msgstr "Enregistrement des données dans explore.dat"
+
+#~ msgid "Could not find Xmgrace or Pygrace. Install them"
+#~ msgstr "Ni XmGrace ni PyGrace n'ont été trouvés. Il faut les installer."
+
+#~ msgid "Could not find scipy package. Install it"
+#~ msgstr "Le paquet Scipy n'a pas été trouvé. Il faut l'installer"
+
+#~ msgid "Fourier transform Saved to exploreFFT.dat."
+#~ msgstr "Transformée de Fourier enregistrée dans exploreFFT.dat"
+
+#~ msgid "HI"
+#~ msgstr "HAUT"
+
+#~ msgid "python-scipy not installed. Required for data fitting"
+#~ msgstr ""
+#~ "python-scipy n'est pas installé. Il est nécessaire pour la modélisation"
+
+#~ msgid "CH%d %5.2f V , F= %5.2f Hz"
+#~ msgstr "CH%d %5.2f V , F= %5.2f Hz"
+
+#~ msgid "CH%d nosig "
+#~ msgstr "CH%d nosig "
+
+#~ msgid "CH0 : %5.2f V , %5.2f Hz "
+#~ msgstr "CH0 : %5.2f V , %5.2f Hz "
+
+#~ msgid "CH0: no signal "
+#~ msgstr "CH0 : pas de signal"
+
+#~ msgid "| CH1 %5.2f V , %5.2f Hz"
+#~ msgstr "| CH1 %5.2f V , %5.2f Hz"
+
+#~ msgid " | dphi= %5.1f"
+#~ msgstr " | dphi= %5.1f"
+
+#~ msgid "| CH1:no signal "
+#~ msgstr "| CH1 : pas de signal"
+
+#~ msgid "Transaction Error."
+#~ msgstr "Erreur de transaction."
+
+#~ msgid "LIZ"
+#~ msgstr "LISS"
+
+#~ msgid "Save"
+#~ msgstr "Enregistrer"
+
+#~ msgid "FT"
+#~ msgstr "TF"
+
+#~ msgid "XM"
+#~ msgstr "XM"
+
+#~ msgid "Resistor IV"
+#~ msgstr "Résitance I-U"
+
+#~ msgid "RC Circuit"
+#~ msgstr "Circuit RC"
+
+#~ msgid "RL Circuit"
+#~ msgstr "Circuit RL"
+
+#~ msgid "RLC Discharge"
+#~ msgstr "Décharge RLC"
+
+#~ msgid "EM Induction"
+#~ msgstr "Induction é-m"
+
+#~ msgid "Diode IV"
+#~ msgstr "Diode I-U"
+
+#~ msgid "LED IV"
+#~ msgstr "DEL I-U"
+
+#~ msgid "Transistor CE"
+#~ msgstr "Transistor CE"
+
+#~ msgid "Frequency Response"
+#~ msgstr "Réponse en fréquence"
+
+#~ msgid "Velocity of Sound"
+#~ msgstr "Vitesse du son"
+
+#~ msgid "Interference of Sound"
+#~ msgstr "Interférence sonore"
+
+#~ msgid "Photo-Transistor CE"
+#~ msgstr "Photo-transistor CE"
+
+#~ msgid "Rod Pendulum"
+#~ msgstr "Pendule-barre"
+
+#~ msgid "Gravity TOF"
+#~ msgstr "Gravité par temps de vol"
+
+#~ msgid "Pendulum Wavefrorm"
+#~ msgstr "Signal du pendule"
+
+#~ msgid "40 kHz Piezo TOF"
+#~ msgstr "Temps de vol - piézo 40 kHz"
+
+#~ msgid "PT100 Sensor"
+#~ msgstr "Capteur PT100"
+
+#~ msgid "Temp Comptroller"
+#~ msgstr "Contrôleur de température"
+
+#~ msgid "Data Logger"
+#~ msgstr "Enregistreur de signal"
+
+#~ msgid "CRO"
+#~ msgstr "Oscillo"
+
+#~ msgid "AM and FM"
+#~ msgstr "MA et MF"
+
+#~ msgid "Music"
+#~ msgstr "Musique"
+
+#~ msgid "Finished "
+#~ msgstr "Fini"
+
+#~ msgid "Finished \""
+#~ msgstr "Fini \""
+
+#~ msgid "EYES Hardware NOT found."
+#~ msgstr "Le boîtier EYES n'a pas été trouvé"
+
+#~ msgid ""
+#~ "EYES Hardware Not Found.\n"
+#~ "Re-Connect USB cable and restart the program."
+#~ msgstr ""
+#~ "Le boîtier EYES n'a pas été trouvé.\n"
+#~ "Reconnecter le câble USB et redémarrer le programme."
+
+#~ msgid "EYES Hardware found on "
+#~ msgstr "Le boîtier EYES n'a pas été trouvé sur "
+
+#~ msgid "Fo = %5.0f Hz"
+#~ msgstr "Fo = %5.0f Hz"
+
+#~ msgid "Frequency"
+#~ msgstr "Fréquence"
+
+#~ msgid "Amplitude"
+#~ msgstr "Amplitude"
+
+#~ msgid "Frequency response curve"
+#~ msgstr "Courbe de la réponse en fréquence"
+
+#~ msgid "Freq"
+#~ msgstr "Fréq"
+
+#~ msgid "Amp"
+#~ msgstr "A"
+
+#~ msgid "Fmax = "
+#~ msgstr "Fmax = "
+
+#~ msgid ""
+#~ "Connect Piezo from SQR1 to GND. Microphone to 16,15 & 31. Wire from 13 to "
+#~ "26"
+#~ msgstr ""
+#~ "Connecter lepiézo entre SQR1 et lamasse. Le microphone à 16, 15 et 31. Un "
+#~ "fil entre 13 et 26"
+
+#~ msgid "Frequency Response Curve"
+#~ msgstr "Courbe de la réponse en fréquence"
+
+#~ msgid "Audio Frequency response Curve"
+#~ msgstr "Courbe de la réponse en fréquence audio"
+
+#~ msgid "Value of \"g\" by fitting the data points = %5.2f"
+#~ msgstr "Valeur de « g » par modélisation des points de données = %5.2f"
+
+#~ msgid "Invalid H"
+#~ msgstr "H non valide"
+
+#~ msgid "t=%6.4f g=%5.1f"
+#~ msgstr "t=%6.4f g=%5.1f"
+
+#~ msgid "Timeout Err"
+#~ msgstr "Erreur de timeout"
+
+#~ msgid "Attach Ball at H="
+#~ msgstr "Fixer la bille à H ="
+
+#~ msgid "Measure TOF"
+#~ msgstr "Mesurer le temps de vol"
+
+#~ msgid "Acceleration due to gravity by Time of Flight"
+#~ msgstr "Accélération due à la gravité, par le temps de vol"
+
+#~ msgid "Gravity by TOF"
+#~ msgstr "Gravité par temps de vol"
+
+#~ msgid "Gravity by Time of Flight"
+#~ msgstr "Gravité par temps de vol"
+
+#~ msgid "%8.6f sec"
+#~ msgstr "%8.6f s"
+
+#~ msgid "Timeout Error.."
+#~ msgstr "Erreur de timeout ..."
+
+#~ msgid "Error.."
+#~ msgstr "Erreur ..."
+
+#~ msgid " Error"
+#~ msgstr "Erreur"
+
+#~ msgid "Height="
+#~ msgstr "Hauteur ="
+
+#~ msgid "Attach Ball"
+#~ msgstr "Fixer la bille"
+
+#~ msgid "Electromagnetic Induction"
+#~ msgstr "Induction électromagnétique"
+
+#~ msgid "EYES: Electromagnetic Induction"
+#~ msgstr "EYES : Induction électromagnétique"
+
+#~ msgid "Freq = %5.0f Hz"
+#~ msgstr "Fréq = %5.0f Hz"
+
+#~ msgid "No Signal"
+#~ msgstr "Pas de signal"
+
+#~ msgid "Fourier transform Saved to FFT.dat."
+#~ msgstr "Transformée de Fourier enregistrée dans FFT.dat"
+
+#~ msgid "milliSeconds"
+#~ msgstr "ms"
+
+#~ msgid "NS ="
+#~ msgstr "NS ="
+
+#~ msgid "PULSE="
+#~ msgstr "PULSE ="
+
+#~ msgid "SQR1="
+#~ msgstr "SQR1 ="
+
+#~ msgid "FFT"
+#~ msgstr "FFT"
+
+#~ msgid "Sound Interference"
+#~ msgstr "Interférence sonore"
+
+#~ msgid "EYES: Interference of Sound"
+#~ msgstr "EYES : interférence sonore"
+
+#~ msgid "Exiting"
+#~ msgstr "Sortie en cours"
+
+#~ msgid "Playing Music"
+#~ msgstr "Musique en cours d'interprétation"
+
+#~ msgid ""
+#~ "X-scale changed to %d mS/div.Capturing %d samples with %d usec spacing"
+#~ msgstr ""
+#~ "Échelle-x changée à %d ms/div. Capture de %d échantillons avec un délai "
+#~ "de %d µs"
+
+#~ msgid ""
+#~ "Error in Fit (A0: Black &Yellow, A1-Red & Green). Try Changing X-scale"
+#~ msgstr ""
+#~ "Erreur de modélisation (A0 : noir et jaune, A1 : rouge et vert). Essayer "
+#~ "de changer l'échelle-X"
+
+#~ msgid "Frequency = %5.1f Hz"
+#~ msgstr "Fréquence = %5.1f Hz"
+
+#~ msgid "A1:Total voltage = %5.2f V"
+#~ msgstr "A1 : tension totale = %5.2f V"
+
+#~ msgid "A2:Voltage across R = %5.2f V"
+#~ msgstr "A2 : tension à la résistance R = %5.2f V"
+
+#~ msgid "A1-A2:Voltage across LC = %5.2f V"
+#~ msgstr "A1-A2 : tension aux bornes de LC = %5.2f V"
+
+#~ msgid "Phase Shift = %5.1f deg"
+#~ msgstr "Déphasage = %5.1f °"
+
+#~ msgid "Curve Fitfing failed. Try changing X scale"
+#~ msgstr "Modélisation de la courbe manquée. Essayer de changer l'échelle-x"
+
+#~ msgid "Capture Error. Check input voltage levels."
+#~ msgstr "Erreur de capture. Vérifier les niveaux de tension aux entrées."
+
+#~ msgid "Traces saved to %s"
+#~ msgstr "Traces enregistrées dans %s"
+
+#~ msgid "Traces send to Xmgrace"
+#~ msgstr "Traces envoyées à XmGrace"
+
+#~ msgid ""
+#~ "XC = %5.1f   XL = %5.1f\n"
+#~ "Dphi = %5.1f degree"
+#~ msgstr ""
+#~ "XC = %5.1f   XL = %5.1f\n"
+#~ "Dphi = %5.1f °"
+
+#~ msgid "Wrong Input"
+#~ msgstr "Entrée incorrecte"
+
+#~ msgid "mSec/div"
+#~ msgstr "ms/div"
+
+#~ msgid "Save Traces to"
+#~ msgstr "Enregistrer les traces dans"
+
+#~ msgid "XmGrace"
+#~ msgstr "XmGrace"
+
+#~ msgid ""
+#~ "Connect SINE to A1, R from A2 to GND. Inductor and/or Capacitor from A1 "
+#~ "to A2."
+#~ msgstr ""
+#~ "Connecter SINE à A1, R entre A2 et la masse. Inductance et/ou capacité "
+#~ "entre A1 et A2."
+
+#~ msgid "Phasor Plot"
+#~ msgstr "Courbe du déphasage"
+
+#~ msgid "Calculator"
+#~ msgstr "Calculatrice"
+
+#~ msgid "Freq="
+#~ msgstr "Fréq ="
+
+#~ msgid "Hz R="
+#~ msgstr "Hz R ="
+
+#~ msgid "Ohm"
+#~ msgstr "Ohm"
+
+#~ msgid "C="
+#~ msgstr "C ="
+
+#~ msgid "uF. L="
+#~ msgstr "µF. L ="
+
+#~ msgid "mH"
+#~ msgstr "mH"
+
+#~ msgid "Calculate XL, XC and Angle"
+#~ msgstr "Calcul de ZL, ZC et de l'angle"
+
+#~ msgid "Study of AC Circuit"
+#~ msgstr "Étude de circuits en alternatif"
+
+#~ msgid "Study of AC Circuits"
+#~ msgstr "Étude de circuits en alternatif"
+
+#~ msgid "PVS ="
+#~ msgstr "PVS ="
+
+#~ msgid "PVS is NOT connected to A1"
+#~ msgstr "PVS n'est pas connecté à A1"
+
+#~ msgid "PVS is NOT connected to A2"
+#~ msgstr "PVS n'est pas connecté à A2"
+
+#~ msgid "Too much error in A1: m = %f  c=%f"
+#~ msgstr "Trop d'erreur en A1 : m = %f c = %f"
+
+#~ msgid "Too much error in A2: m = %f  c=%f"
+#~ msgstr "Trop d'erreur en A2 : m = %f c = %f"
+
+#~ msgid "EEPROM write failed. Old Firmware ?"
+#~ msgstr "Écriture dans l'EEPROM manquée. Vieux firmware ?"
+
+#~ msgid ""
+#~ "m1 = %f   c1 = %6.3f\n"
+#~ "m2 = %f   c2 = %6.3f"
+#~ msgstr ""
+#~ "m1 = %f   c1 = %6.3f\n"
+#~ "m2 = %f   c2 = %6.3f"
+
+#~ msgid "A1&A2 Calibration Saved to EEPROM\n"
+#~ msgstr "Calibration de A1 et A2 enregistrée dans l'EEPROM\n"
+
+#~ msgid "Enter the R connected to SEN"
+#~ msgstr "Entrez la valeur de R connectée à SEN"
+
+#~ msgid "Wrong Resistor ??. Calculated Rp =%5.1f Ohm"
+#~ msgstr "Mauvais résistance ?? On a calculé Rp = %5.1f Ohm"
+
+#~ msgid "Calibrated SEN. Rp =%5.0f"
+#~ msgstr "SEN calibré. Rp = %5.0f"
+
+#~ msgid "Empty Socket is %5.1f pF"
+#~ msgstr "Capacité de l'entrée :%5.1f pF"
+
+#~ msgid "IN1 not empty"
+#~ msgstr "IN1 n'est pas déconnecté"
+
+#~ msgid "Measure Socket capacitance first"
+#~ msgstr "Mesurer la capacité propre de l'entrée d'abord"
+
+#~ msgid "Enter the C connected to IN1"
+#~ msgstr "Entrer la valeur de C connectée à IN1"
+
+#~ msgid "Mesuring capacitor failed"
+#~ msgstr "Mesure de capacité manquée"
+
+#~ msgid "Too much error: Socket C= %f CF=%f"
+#~ msgstr "Trop grande erreur : capacité propre C= %f CF=%f"
+
+#~ msgid "Write to EEPROM failed"
+#~ msgstr "Écriture dans l'EEPROM manquée"
+
+#~ msgid "Saved: Socket C = %5.1f pF. CF = %5f %%"
+#~ msgstr "Enregistré : capacité propre C = %5.1f pF. CF = %5f %%"
+
+#~ msgid "Calibration of Inputs A1 & A2"
+#~ msgstr "Calibration des entrées A1 et A2"
+
+#~ msgid "Connect PVS to both A1 and A2"
+#~ msgstr "Connecter PVS à A1 et A2 en même temps"
+
+#~ msgid "Calibrate A1 & A2"
+#~ msgstr "Calibrer les entrées A1 et A2"
+
+#~ msgid "Calibration of Resistor on SEN"
+#~ msgstr "Calibration de la résistance de SEN"
+
+#~ msgid "Enter the Resistance connected from SEN to GND="
+#~ msgstr "Entrer la valeur de résistance branchée entre SEN et la masse ="
+
+#~ msgid "and Click here to Calibrate SEN"
+#~ msgstr "et cliquer pour calibrer SEN"
+
+#~ msgid "Calibration of IN1 for Capacitance"
+#~ msgstr "Calibration de la capacité propre de IN1"
+
+#~ msgid "First, Click Here without Capacitor on IN1"
+#~ msgstr "D'abord, cliquer sans rien brancher à IN1"
+
+#~ msgid "Enter the Capacitance connected to IN1"
+#~ msgstr "Entrer la valeur de la capacité branchée à IN1"
+
+#~ msgid "pF"
+#~ msgstr "pF"
+
+#~ msgid "and Click Here to Calibrate IN1"
+#~ msgstr "et cliquer ici pour calibrer IN1"
+
+#~ msgid "calibration program"
+#~ msgstr "programme de calibration"
+
+#~ msgid "Exit"
+#~ msgstr "Sortir"
+
+#~ msgid "EYES Junior Hardware not found"
+#~ msgstr "Le boîtier EYES Junior n'a pas été trouvé"
+
+#~ msgid "EYES Junior Calibration"
+#~ msgstr "Calibration de EYES Junior"
+
+#~ msgid "PVS = %5.3f volts"
+#~ msgstr "PVS = %5.3f V"
+
+#~ msgid ""
+#~ "To change PVS drag the slider. For fine adjustment, click on its left or "
+#~ "right"
+#~ msgstr ""
+#~ "Pour modifier PVS bouger le curseur. Pour un ajustement fin, cliquer à sa "
+#~ "gauche ou à sa droite"
+
+#~ msgid "EYES Junior: Adjust PVS"
+#~ msgstr "EYES Junior : ajuster PVS"
+
+#~ msgid "Analog Trigger"
+#~ msgstr "Seuil (trigger) analogique"
+
+#~ msgid "Wait for HIGH"
+#~ msgstr "Attente de valeur HAUTE"
+
+#~ msgid "Wait for LOW"
+#~ msgstr "Attente de valeur BASSE"
+
+#~ msgid "Wait for Rising Edge"
+#~ msgstr "Attente de front montant"
+
+#~ msgid "Wait for Falling Edge"
+#~ msgstr "Attente de front descendant"
+
+#~ msgid "Set HIGH"
+#~ msgstr "Mettre à HAUT"
+
+#~ msgid "Set LOW"
+#~ msgstr "Mettre à BAS"
+
+#~ msgid "High True Pulse"
+#~ msgstr "Impulsion vraie Haute"
+
+#~ msgid "Low True Pulse"
+#~ msgstr "Impulsion vraie Basse"
+
+#~ msgid "Analog Input -5 to +5 volts. Drag this to CH1 .. CH4 to Display it"
+#~ msgstr ""
+#~ "Entrée analogique de -5 V à +5 V. Tirer vers CH1 .. CH4 pour l'afficher"
+
+#~ msgid "Analog Input  0 to +5 volts. Drag this to CH1 .. CH4 to Display it"
+#~ msgstr ""
+#~ "Entrée analogique de 0 à +5 V. Tirer vers CH1 .. CH4 pour l'afficher"
+
+#~ msgid ""
+#~ "Digital Output 0 to +5 volts. SHI, SLO,HTP or LTP can be assigned to this"
+#~ msgstr ""
+#~ "Sortie numérique de 0 à +5 V. SHI, SLO, HTP ou LTP peuvent lui être "
+#~ "affectés"
+
+#~ msgid ""
+#~ "Constant Current Source Output. SHI, SLO,HTP or LTP can be assigned to "
+#~ "this"
+#~ msgstr ""
+#~ "Sortie de courant constant. SHI, SLO, HTP ou LTP peuvent lui être affectés"
+
+#~ msgid "Fourier Transform,power spectrum"
+#~ msgstr "Transformée de Fourier, spectre de puissance"
+
+#~ msgid "%s Fourier transform done, Data saved to \"fft.dat\""
+#~ msgstr ""
+#~ "%s transformée de Fourier terminée, données enregistrées sous \"fft.dat\""
+
+#~ msgid "%4s : Freq = %5.3f. Duty Cycle = %5.1f %%"
+#~ msgstr "%4s : Fréq = %5.3f. Rapport cyclique = %5.1f %%"
+
+#~ msgid ""
+#~ "%4s\n"
+#~ "%5.3f Hz\n"
+#~ "%5.1f %%"
+#~ msgstr ""
+#~ "%4s\n"
+#~ "%5.3f Hz\n"
+#~ "%5.1f %%"
+
+#~ msgid "No squarewave detected on %4s"
+#~ msgstr "Pas de signal carré détecté sur %4s"
+
+#~ msgid ""
+#~ "%s: %5.3f V, %5.2f Hz | %s: %5.2f V, %5.3f Hz | Phase difference = %5.1f "
+#~ "degree"
+#~ msgstr "%s: %5.3f V, %5.2f Hz | %s: %5.2f V, %5.3f Hz | Déphasage = %5.1f °"
+
+#~ msgid "Fitting of data failed. Try with Xmgrace"
+#~ msgstr "Modélisation des données manquée. Essayer avec XmGrace"
+
+#~ msgid "Selected channel and the next one should have data"
+#~ msgstr "Sélectionner le canal et le suivant devrait avoir des données"
+
+#~ msgid "Invalid Action"
+#~ msgstr "Action non valide"
+
+#~ msgid "Assigned Data Input %4s to Channel %s"
+#~ msgstr "Affecté l'entrée %4s au canal %s"
+
+#~ msgid "%4s effective on Output %s"
+#~ msgstr "%4s effectif sur la sortie %s"
+
+#~ msgid "%4s effective on Input %s"
+#~ msgstr "%4s effectif sur l'entrée %s"
+
+#~ msgid "Channel %s is Empty"
+#~ msgstr "Le canal %s est vide"
+
+#~ msgid "Disabled fitting %s"
+#~ msgstr "Modélisation de %s désactivée"
+
+#~ msgid "Voltage at %s = %5.3f V"
+#~ msgstr "Tension à %s = %5.3f V"
+
+#~ msgid "%3s: %5.3f V"
+#~ msgstr "%3s :  %5.3f V"
+
+#~ msgid " (Logic Level = %d)"
+#~ msgstr "(Niveau logique = %d)"
+
+#~ msgid "Invalid selection"
+#~ msgstr "Sélection non valide"
+
+#~ msgid "%4s is an Output"
+#~ msgstr "%4s est une sortie"
+
+#~ msgid ""
+#~ "Selected Data Input %4s. For Trace, Drag this to CH1 .. CH4. To print "
+#~ "value release the button."
+#~ msgstr ""
+#~ "Sélectionner l'entrée %4s. Pour la trace, la tirer vers CH1 ..CH4. Pour "
+#~ "afficher la valeur, relâcher le bouton."
+
+#~ msgid "Selected %4s. Drag cursor to the OD1 or CSS Output"
+#~ msgstr "Sélectionné %4s. Tirer le curseur vers la sortie OD1 ou CSS"
+
+#~ msgid "Selected %4s. Drag cursor to desired Data Input"
+#~ msgstr "Sélectionné %4s. Tirerlecurseur vers l'entrée désirée"
+
+#~ msgid "Selected %4s. Drag cursor to NML FIT or DEL"
+#~ msgstr "Sélectionné %4s. Tirer le curseur vers NML FIT ou DEL"
+
+#~ msgid "Communication Error. Check input voltage levels."
+#~ msgstr ""
+#~ "Erreur de communication. Vérifier les niveaux de tension aux entrées."
+
+#~ msgid "%5.2f V, %5.1f Hz"
+#~ msgstr "%5.2f V, %5.1f Hz"
+
+#~ msgid "ONE "
+#~ msgstr "UN "
+
+#~ msgid "Press SCAN Button to do a single Capture"
+#~ msgstr "Appuyer sur le bouton SCAN pour faire une capture unique"
+
+#~ msgid "LOOP"
+#~ msgstr "BOUCLE"
+
+#~ msgid "Captured %d points in %d usecs"
+#~ msgstr "Capturé %d points en %d µs"
+
+#~ msgid "Use this only in Single scan mode"
+#~ msgstr "Utiliser cela en mode scan unique, seulement"
+
+#~ msgid "Enter a value between 0 to +5 volts"
+#~ msgstr "Entrer une valeur entre 0 et +5 V"
+
+#~ msgid "PVS set to %5.3f volts"
+#~ msgstr "PVS réglé à %5.3f V"
+
+#~ msgid "PVS: %5.3f V"
+#~ msgstr "PVS : %5.3f V"
+
+#~ msgid "Enter voltage between -5 and +5 volts"
+#~ msgstr "Entrer une valeur entre -5 V et +5 V"
+
+#~ msgid "SQR1 set to LOW"
+#~ msgstr "SQR1 mis à BAS"
+
+#~ msgid "Enter a value between .7 to 200000 Hz"
+#~ msgstr "Entrer une valeur entre 0,7 et 200000 Hz"
+
+#~ msgid "SQR1 set to %5.1f Hertz"
+#~ msgstr "SQR1 mis à %5.1f Hz"
+
+#~ msgid "Enter valid frequency, in Hertz"
+#~ msgstr "Entrer une fréquence valide, en Hz"
+
+#~ msgid "SQR2 set to LOW"
+#~ msgstr "SQR2 mis à BAS"
+
+#~ msgid "SQR2 set to %5.1f Hertz"
+#~ msgstr "SQR2 mis à %5.1f Hz"
+
+#~ msgid "SQR1 and SQR2 set to LOW"
+#~ msgstr "SQR1 et SQR2 mis à BAS"
+
+#~ msgid "SQR1 and SQR2 set to %5.1f Hertz, Shift is %5.2f %% of Period"
+#~ msgstr ""
+#~ "SQR1 et SQR2 mis à %5.1f Hz, le déphasage est %5.2f %% de la période"
+
+#~ msgid "Enter valid frequency in Hertz and phase shift in percentage"
+#~ msgstr "Entrer une fréquence valide en Hz et un déphasage en pourcentage"
+
+#~ msgid "SQR1 set to %5.1f"
+#~ msgstr "SQR1 mis à %5.1f"
+
+#~ msgid "Starting Capacitance Measurement.."
+#~ msgstr "Démarrage de la mesure de capacité ..."
+
+#~ msgid "Error: Capacitance too high or short to ground"
+#~ msgstr "Erreur :capacité trop grande ou court-circuit à la masse"
+
+#~ msgid "IN1: %6.1f pF"
+#~ msgstr "IN1 : %6.1f pF"
+
+#~ msgid "IN1 Not Calibrated."
+#~ msgstr "IN1 n'est pas calibré."
+
+#~ msgid "Resistance from SEN to GND = %6.0f Ohm"
+#~ msgstr "Résistance branchée entre SEN et la masse = %6.0f Ohm"
+
+#~ msgid "%5.0f Ohm"
+#~ msgstr "%5.0f Ohm"
+
+#~ msgid "expEYES Junior NOT found. Bad connection or another program using it"
+#~ msgstr ""
+#~ "expEYES Junior NON trouvé. Mauvais connexion ou utilisation par un autre "
+#~ "programme"
+
+#~ msgid "Four Channel CRO+ found expEYES-Junior on %s"
+#~ msgstr "Le programme CR0+ a trouvé expEYES-Junior sur %s"
+
+#~ msgid "Move UP"
+#~ msgstr "Monter"
+
+#~ msgid "CENTER"
+#~ msgstr "Centrer"
+
+#~ msgid "Move DOWN"
+#~ msgstr "Descendre"
+
+#~ msgid "Trig level"
+#~ msgstr "Niveau de seuil (trigger)"
+
+#~ msgid "Setting Squarewaves"
+#~ msgstr "Réglage des signaux carrés"
+
+#~ msgid "Hz. dphi="
+#~ msgstr "Hz, dPhi ="
+
+#~ msgid "BOTH"
+#~ msgstr "ENSEMBLE"
+
+#~ msgid "Set PVS ="
+#~ msgstr "Régler PVS ="
+
+#~ msgid "Set State"
+#~ msgstr "Régler l'état"
+
+#~ msgid "Measure C on IN1"
+#~ msgstr "Mesurer C sur IN1"
+
+#~ msgid "Measure R on SEN"
+#~ msgstr "Mesurer R sur SEN"
+
+#~ msgid "SCAN"
+#~ msgstr "SCAN"
+
+#~ msgid "XMG"
+#~ msgstr "XMG"
+
+#~ msgid "Search Hardware"
+#~ msgstr "Chercher le matériel"
+
+#~ msgid ""
+#~ "Could not open expEYES Junior. Bad connection or another program using it"
+#~ msgstr ""
+#~ "expEYES Junior NON trouvé. Mauvais connexion ou utilisation par un autre "
+#~ "programme"
+
+#~ msgid "Select Experiment"
+#~ msgstr "Choisir une expérience"
+
+#~ msgid "Control PVS"
+#~ msgstr "Contrôler PVS"
+
+#~ msgid "Capture Burst of Sound"
+#~ msgstr "Capture d'une salve sonore"
+
+#~ msgid "Driven Pendulum"
+#~ msgstr "Pendule excité"
+
+#~ msgid "Stroboscope"
+#~ msgstr "Stroboscope"
+
+#~ msgid "Use Slider to change SQR1 from 1 to 50 Hz"
+#~ msgstr "Utiliser le curseur pour régler SQR1 entre 1 et 50 Hz"
+
+#~ msgid "EYES Junior: Driven Pendulum"
+#~ msgstr "EYES Junior : pendule excité"
+
+#~ msgid "EYESJUN: Electromagnetic Induction"
+#~ msgstr "EYES Junior : induction électromagnétique"
+
+#~ msgid "SQR2="
+#~ msgstr "SQR2 ="
+
+#~ msgid "Starting the Measurement"
+#~ msgstr "Démarrage de la mesure"
+
+#~ msgid "Failed to Start Measurement"
+#~ msgstr "Échec du démarrage de la mesure"
+
+#~ msgid "Data Saved"
+#~ msgstr "Données enregistrées"
+
+#~ msgid "IN1"
+#~ msgstr "IN1"
+
+#~ msgid "IN2"
+#~ msgstr "IN2"
+
+#~ msgid "EYES-Junior: Four Channel Data Logger"
+#~ msgstr "EYES Junior : enregistreur de signaux à 4 canaux"
+
+#~ msgid "Angular velocity = %5.2f rad/sec. Damping Factor = %5.3f"
+#~ msgstr "Vitesse angulaire = %5.2f rad/s. Facteur d'amortissement = %5.3f"
+
+#~ msgid "Failed to fit data"
+#~ msgstr "Échec de la modélisation"
+
+#~ msgid "Pendulum Oscillations"
+#~ msgstr "Oscillations du pendule"
+
+#~ msgid "Oscillations of Pendulum"
+#~ msgstr "Oscillations du pendule"
+
+#~ msgid "Voltage at Freezing Point is %5.3f V"
+#~ msgstr "La tension au point de fusion est %5.3f V"
+
+#~ msgid "Something wrong. Check the connection & Rg"
+#~ msgstr "Quelque chose s'est mal passé. Vérifier les connexions et Rg"
+
+#~ msgid "Voltage at Boiling Point is %5.3f V"
+#~ msgstr "La tension au point d'ébullition est %5.3f V"
+
+#~ msgid "Calibration Done m = %5.3f, c = 5.3f"
+#~ msgstr "Calibration faite m = %5.3f, c = 5.3f"
+
+#~ msgid "Boiling & Freezing points to be measured first"
+#~ msgstr "Il faut mesurer les points de fusion et d'ébullition d'abord"
+
+#~ msgid "Gain="
+#~ msgstr "Gain ="
+
+#~ msgid "Freezing Point"
+#~ msgstr "Point de fusion"
+
+#~ msgid "Boiling Point"
+#~ msgstr "Point d'ébullition"
+
+#~ msgid "Temperatue by PT100"
+#~ msgstr "Température par sonde  PT100"
+
+#~ msgid "Done"
+#~ msgstr "Fait"
+
+#~ msgid "RC = %5.2f mSec"
+#~ msgstr "RC = %5.2f ms"
+
+#~ msgid "Failed to fit the curve with V=Vo*exp(-t/RC)"
+#~ msgstr "Échec de modélisation de la courbe avec U=Uo*exp(-t/RC)"
+
+#~ msgid "0 to 5V STEP"
+#~ msgstr "Échelon de 0 à 5V"
+
+#~ msgid "5 to 0V STEP"
+#~ msgstr "Échelon de 5 à 0V"
+
+#~ msgid "CC Charge"
+#~ msgstr "Charge CC"
+
+#~ msgid "Calculate RC"
+#~ msgstr "Calculer RC"
+
+#~ msgid "ViewAll"
+#~ msgstr "Voir tout"
+
+#~ msgid "RC Circuit, Transient"
+#~ msgstr "Circuit RC, transitoire"
+
+#~ msgid "Transient response of RC Circuit"
+#~ msgstr "Réponse transitoire d'un circuit RC"
+
+#~ msgid "EYES Junior: Set SQR1"
+#~ msgstr "EYES Junior : régler SQR1"
+
+#~ msgid "Discharge Done"
+#~ msgstr "Décharge terminée"
+
+#~ msgid "Fit Failed"
+#~ msgstr "Modélisation manquée"
+
+#~ msgid "Resonant Frequency = %5.2f kHz Damping = %5.3f"
+#~ msgstr "Fréquence de résonance = %5.2f kHz Amortissement = %5.3f"
+
+#~ msgid "5->0V STEP"
+#~ msgstr "Échelon de 5->0V"
+
+#~ msgid "RLC Circuit, Transient"
+#~ msgstr "Circuit RLC, transitoire"
+
+#~ msgid "EYES Junior: RLC Discharge"
+#~ msgstr "EYES Junior : décharge RLC"
+
+#~ msgid "L/R = %5.3f mSec : Rind = %5.0f Ohm : L = %5.1f mH"
+#~ msgstr "L/R = %5.3f ms : Rind = %5.0f Ohm : L = %5.1f mH"
+
+#~ msgid "Failed to Fit. Try fitting V=Vo*exp(-tR/L) with Xmgrace"
+#~ msgstr ""
+#~ "Modélisation manquée. Essayer de modéliser U=Uo*exp(-tR/L) avec XmGrace"
+
+#~ msgid "Rext="
+#~ msgstr "Rext ="
+
+#~ msgid "Calculate R/L"
+#~ msgstr "Caculer R/L"
+
+#~ msgid "RL Circuit, Transient"
+#~ msgstr "Circuit RL, transitoire"
+
+#~ msgid "Transient response of RL Circuit"
+#~ msgstr "Réponse transitoire d'un circuit RL"
+
+#~ msgid "%5.1f mS\n"
+#~ msgstr "%5.1f ms\n"
+
+#~ msgid "Timeout Error. Check Connections"
+#~ msgstr "Erreur de timeout. Vérifier lesconnexions"
+
+#~ msgid "Trials"
+#~ msgstr "Essais"
+
+#~ msgid "Period of a Pendulum"
+#~ msgstr "Période d'un pendule"
+
+#~ msgid "EYES Junior: Pendulum"
+#~ msgstr "EYES Junior : pendule"
+
+#~ msgid "Volatge Scan Done. Noise Level = %5.3f V"
+#~ msgstr "Scan de tension terminé. Niveau de bruit = %5.3f V"
+
+#~ msgid "Captured Sound Burst"
+#~ msgstr "Salve sonore capturée"
+
+#~ msgid "Wait for HIGH on IN1"
+#~ msgstr "Attente de valeur HAUTE sur IN1"
+
+#~ msgid "Capture a burst of sound"
+#~ msgstr "Capture d'une salve sonore"
+
+#~ msgid "EYESJUN: Capturing burst of sound"
+#~ msgstr "EYES Junior : capture d'une salve sonore"
+
+#~ msgid "Use Slider to change SQR1 from 1 to 100 Hz"
+#~ msgstr "Utiliser le curseur pour régler SQR1 entre 1 et 100 Hz"
+
+#~ msgid "Busy Drawing"
+#~ msgstr "En train de dessiner"
+
+#~ msgid "Base Current = %5.1f uA"
+#~ msgstr "Courant de base = %5.1f µA"
+
+#~ msgid "Ib=%4.0f uA"
+#~ msgstr "Ib = %4.0f µA"
+
+#~ msgid "Vb (via 200K)="
+#~ msgstr "Vb (via 200kOhm) ="
+
+#~ msgid "Transistor CE Char (NPN)"
+#~ msgstr "Caractéristique CE de transistor (NPN)"
+
+#~ msgid "EYES Junior: Transistor CE characteristics"
+#~ msgstr "EYESJunior : caractéristique CE de transistor"
+
+#~ msgid "Invalid Frequency"
+#~ msgstr "Fréquence non valide"
+
+#~ msgid "Measurement failed"
+#~ msgstr "Échec de la mesure"
+
+#~ msgid "Freq = %5.0f Hz Phase = %5.0f deg"
+#~ msgstr "Fréq = %5.0f Hz Phase = %5.0f °"
+
+#~ msgid ""
+#~ "EYES Junior Hardware Not Found. Check Connections and restart the program"
+#~ msgstr ""
+#~ "Le boîtier EYES n'a pas été trouvé. Vérifier les connexions et redémarrer "
+#~ "le programme."
+
+#~ msgid "Measure Phase"
+#~ msgstr "Mesurer le déphasage"
+
+#~ msgid "EYES Junior: Velocity of Sound"
+#~ msgstr "EYES Junior : vitesse du son"
+
+#~ msgid "Linear part of IV Curve (I > 1mA)"
+#~ msgstr "Partie linéaire de lacourbe I-U (I > 1 mA)"
+
+#~ msgid "LED IV char. Connections"
+#~ msgstr "Connexions pour la caractéristique I-U de DEL"
+
+#~ msgid "EYES: LED IV characteristics"
+#~ msgstr "EYES : caractéristique I-U de DEL"
+
+#~ msgid "EYES: Four Channel Data Logger"
+#~ msgstr "EYES : enregistreur de signaux à 4 canaux"
+
+#~ msgid "Photo Transistor CE Char."
+#~ msgstr "Caractéristique CE de photo-transistor"
+
+#~ msgid "EYES: Photo-transistor CE characteristics"
+#~ msgstr "EYES : caractéristique CE de photo-transistor"
+
+#~ msgid "Temp From"
+#~ msgstr "Temp de"
+
+#~ msgid "Deg C. "
+#~ msgstr "°C "
+
+#~ msgid "Temperatue bt PT100"
+#~ msgstr "Température par sonde  PT100"
+
+#~ msgid "CS (28) is open or the resistor connected is > 20 kOhm"
+#~ msgstr "CS (28) est débranché ou la résistance connectée est > 20 kOhm"
+
+#~ msgid "Linear Fitting of VI curve gave R = %5.0f Ohm"
+#~ msgstr "La modélisation linéaire de la courbe U-I a donné R = %5.0f Ohm"
+
+#~ msgid "R = %5.0f Ohm"
+#~ msgstr "R = %5.0f Ohm"
+
+#~ msgid "Resistor VI curve"
+#~ msgstr "Courbe U-I de résistance"
+
+#~ msgid "R = "
+#~ msgstr "R = "
+
+#~ msgid "Resistor IV char. Connections"
+#~ msgstr "Connexions pour la caractéristique I-U de résistance"
+
+#~ msgid "EYES: Resistor IV characteristics"
+#~ msgstr "EYES : caractéristique I-U de résistance"
+
+#~ msgid "Discharge"
+#~ msgstr "Décharge"
+
+#~ msgid "T & g"
+#~ msgstr "T et g"
+
+#~ msgid "Length="
+#~ msgstr "longueur ="
+
+#~ msgid "cm. "
+#~ msgstr "cm."
+
+#~ msgid "Measure"
+#~ msgstr "Mesure"
+
+#~ msgid "times."
+#~ msgstr "fois."
+
+#~ msgid "Period of Rod Pendulum"
+#~ msgstr "Période du pendule-barre"
+
+#~ msgid "EYES: Value of Accn. due to gravity using Pendulum"
+#~ msgstr "EYES : mesure de l'accélération de la gravité à l'aide du pendule"
+
+#~ msgid "Already Running"
+#~ msgstr "Encore en cours de fonctionnement"
+
+#~ msgid "CH0 : %5.1f V , %5.1f Hz "
+#~ msgstr "CH0 : %5.1f V , %5.1f Hz "
+
+#~ msgid "Buzzer1"
+#~ msgstr "Buzzer 1"
+
+#~ msgid "Buzzer2"
+#~ msgstr "Buzzer 2"
+
+#~ msgid "FreeRUN"
+#~ msgstr "Fonctionnement libre"
+
+#~ msgid "EYES: Sound Experiments"
+#~ msgstr "EYES : expériences sur les sons"
+
+#~ msgid "EYES: Transistor CE characteristics"
+#~ msgstr "EYES : caractéristique CE de transistor"
+
+#~ msgid "Connect Transmitter from OD1 to Ground"
+#~ msgstr "Connecter l'émetteur entre OD1 et la masse"
+
+#~ msgid "Connect Receiver from T15 to Ground"
+#~ msgstr "Connecter le récepteur entre (15) et la masse"
+
+#~ msgid "Keep them facing each other, at a known distance"
+#~ msgstr "Les placer face à face, à une distance connue"
+
+#~ msgid "Measure Time of Travel"
+#~ msgstr "Mesure de temps de propagation"
+
+#~ msgid "Velocity of Sound, 40kHz"
+#~ msgstr "Vitesse du son,40 kHz"
+
+#~ msgid "Phase = %5.0f deg"
+#~ msgstr "Phase = %5.0f °"
+
+#~ msgid "ON/OFF"
+#~ msgstr "ON/OFF"
+
+#~ msgid "EYES: Velocity of Sound"
+#~ msgstr "EYES : vitesse du son"
+
+#~ msgid "Create microHope environment"
+#~ msgstr "Créer l'environnement pour microHpe"
+
+#~ msgid ""
+#~ "Do you want to create your own microHope environment?\n"
+#~ "\n"
+#~ "If you reply \"Yes\", a subdirectory named microHope will be created in "
+#~ "your home directory, and a set of files will be copied into it.\n"
+#~ "\n"
+#~ "If any previous installation existed, its contents will be overwriten."
+#~ msgstr ""
+#~ "Voulez-vous créer votre environnement personnel pour microHope ?\n"
+#~ "\n"
+#~ "Sivous répondez « oui », un sous-répertoire nommé microHope sera créé "
+#~ "dans votre répertoire personnel, et un ensemble de fichiers y sera "
+#~ "copié.\n"
+#~ "\n"
+#~ "Si une installation plus ancienne existe, son contenu sera écrasé."
+
+#~ msgid "Not connected"
+#~ msgstr "Non connecté"
+
+#~ msgid "atmega32"
+#~ msgstr "atmega32"
+
+#~ msgid "uHOPE :: File --> "
+#~ msgstr "µHOPE :: Fichier --> "
+
+#~ msgid "Not selected"
+#~ msgstr "Non sélectionné"
+
+#~ msgid "\t\tDevice -->"
+#~ msgstr "\t\tContrôleur -->"
+
+#~ msgid "&New\tCtrl+N"
+#~ msgstr "&Nouveau\tCtrl+N"
+
+#~ msgid "Create a new Document"
+#~ msgstr "Créer un nouveau document"
+
+#~ msgid "&Open\tCtrl+O"
+#~ msgstr "&Ouvrir\tCtrl+O"
+
+#~ msgid "Open a file"
+#~ msgstr "Ouvrir un fichier"
+
+#~ msgid "Blinks a LED on PB0"
+#~ msgstr "Faire clignoter une DEL sur PB0"
+
+#~ msgid "Reads ADC channel 0 and diplays the result on the LCD"
+#~ msgstr "Lire le canal ADC 0 et afficher le résultat sur l'afficheur LCD"
+
+#~ msgid "Reads ADC channel 0 and diplays the result on the LCD in loop"
+#~ msgstr ""
+#~ "Lire le canal ADC 0 et afficher le résultat sur l'afficheur LCD en boucle"
+
+#~ msgid "ADC -version 2"
+#~ msgstr "ADC -version 2"
+
+#~ msgid "ADC -version 3"
+#~ msgstr "ADC -version 3"
+
+#~ msgid "Copies a PORTA and display it on PORTB"
+#~ msgstr "Copier un PORTA et l'afficher sur PORTB"
+
+#~ msgid "Copy 2"
+#~ msgstr "Copy 2"
+
+#~ msgid "Copy 3"
+#~ msgstr "Copy 3"
+
+#~ msgid "PWM-tc0 version 1"
+#~ msgstr "PWM-tc0 version 1"
+
+#~ msgid "H-Bridge Controlling motor"
+#~ msgstr "Contrôle de moteur par un pont H"
+
+#~ msgid "PWM tc0 version 2"
+#~ msgstr "PWM tc0 version 2"
+
+#~ msgid "To make microHOPE as small CRO"
+#~ msgstr "faire un petit oscillo avec microHOPE"
+
+#~ msgid "To make microHOPE as small CRO (version 2)"
+#~ msgstr "faire un petit oscillo avec microHOPE (version 2)"
+
+#~ msgid "Print message in LCD"
+#~ msgstr "Afficher un message sur LCD"
+
+#~ msgid "Blinking messages in LCD"
+#~ msgstr "Messages clignotants sur LCD"
+
+#~ msgid "Examples"
+#~ msgstr "Exemples"
+
+#~ msgid "&Save\tCtrl+S"
+#~ msgstr "Enregistrer\tCtrl+S"
+
+#~ msgid "Save the current file"
+#~ msgstr "Enregistrer le fichier courant"
+
+#~ msgid "&SaveAs\tShift+Ctrl+S"
+#~ msgstr "Enregistrer sous\tMaj+Ctrl+S"
+
+#~ msgid "Save the current file with a different name"
+#~ msgstr "Enregistrer le fichier courant sous un nouveau nom"
+
+#~ msgid "&Init()\tCtrl+I"
+#~ msgstr "&Init()\tCtrl+I"
+
+#~ msgid "Initialize microhope working directory"
+#~ msgstr "Initialiser le répertoire de travail microHOPE"
+
+#~ msgid "&Exit\tCtrl+Q"
+#~ msgstr "&Quitter\tCtrl+Q"
+
+#~ msgid "Quit the programme"
+#~ msgstr "Quitter le programme"
+
+#~ msgid "&Undo\tCtrl+Z"
+#~ msgstr "&Défaire\tCtrl+Z"
+
+#~ msgid "&Redo\tCtrl+Y"
+#~ msgstr "&Refaire\tCtrl+Y"
+
+#~ msgid "&Cut\tCtrl+X"
+#~ msgstr "&Couper\tCtrl+X"
+
+#~ msgid "Cut the selection"
+#~ msgstr "Coupe lasélection"
+
+#~ msgid "&Copy\tCtrl+C"
+#~ msgstr "&Copier\tCtrl+C"
+
+#~ msgid "Copy the selection"
+#~ msgstr "Copie la sélection"
+
+#~ msgid "&Paste\tCtrl+P"
+#~ msgstr "&Coller\tCtrl+P"
+
+#~ msgid "Paste the clipboard"
+#~ msgstr "Coller le contenu du presse-papier"
+
+#~ msgid "&Delete"
+#~ msgstr "Effacer"
+
+#~ msgid "Deleted the selected text"
+#~ msgstr "Efface le texte sélectionné"
+
+#~ msgid "&Select All\tCtrl+A"
+#~ msgstr "&Sélectionner tout\tCtrl+A"
+
+#~ msgid "select the entire document"
+#~ msgstr "Sélectionne le document complet"
+
+#~ msgid "&Statusbar"
+#~ msgstr "&Barre de statut"
+
+#~ msgid "Show or hide the statusbar in the current window"
+#~ msgstr "Montre ou cache la barre de statut de la fenêtre courante"
+
+#~ msgid "Black on white(default)"
+#~ msgstr "Noir sur blanc (par défaut)"
+
+#~ msgid "White on Black"
+#~ msgstr "Noir sur Blanc"
+
+#~ msgid "Theme"
+#~ msgstr "Thème"
+
+#~ msgid "Default"
+#~ msgstr "Par défaut"
+
+#~ msgid "Large"
+#~ msgstr "Grand"
+
+#~ msgid "Font Size"
+#~ msgstr "Taille de caractères"
+
+#~ msgid "Detect Board\tCtrl+B"
+#~ msgstr "Détection du circuit\tCtrl+B"
+
+#~ msgid "Detect the hardware"
+#~ msgstr "Détecte le matériel"
+
+#~ msgid "Set Bootloader"
+#~ msgstr "Mise en place du chargeur de démarrage"
+
+#~ msgid "For setting the mcu by uploading the bootloader"
+#~ msgstr "Pour mettre en place le chargeur de démarrage dans le MCU"
+
+#~ msgid "Soft RST"
+#~ msgstr "RST logiciel"
+
+#~ msgid "Software RESET"
+#~ msgstr "Redémarrage logiciel"
+
+#~ msgid "Compile\tCtrl+K"
+#~ msgstr "Compiler\tCtrl+K"
+
+#~ msgid "To Compile the program"
+#~ msgstr "Pour compiler le programme"
+
+#~ msgid "Assemble\tCtrl+J"
+#~ msgstr "Assembler\tCtrl+J"
+
+#~ msgid "To Assemble the program"
+#~ msgstr "Pour assembler le programme"
+
+#~ msgid "Uplod\tCtrl+L"
+#~ msgstr "Charger\tCtrl+L"
+
+#~ msgid "To upload the program to mcu"
+#~ msgstr "Pour charger le programme dans le MCU"
+
+#~ msgid "Upload via USBASP"
+#~ msgstr "Charger via USBASP"
+
+#~ msgid "Upload program via USBASP"
+#~ msgstr "Charger le programme via USBASP"
+
+#~ msgid "&Help\tShift+Ctrl+H"
+#~ msgstr "Aide\tMaj+Ctrl+H"
+
+#~ msgid "&About"
+#~ msgstr "À propos"
+
+#~ msgid "&Author"
+#~ msgstr "&Auteurs"
+
+#~ msgid "Create a new document"
+#~ msgstr "Créer un nouveau document"
+
+#~ msgid "Undo the last action"
+#~ msgstr "Défaire la dernière action"
+
+#~ msgid "Redo the last undone action"
+#~ msgstr "Refaire la dernière action défaite"
+
+#~ msgid "To compile the current programe"
+#~ msgstr "Pour compiler le programme courant"
+
+#~ msgid "To upload the pgm to mh"
+#~ msgstr "Pour charger le programme dans microHope"
+
+#~ msgid "To detect microhope hardware"
+#~ msgstr "Pour détecter le matériel microHope"
+
+#~ msgid "Help for microHOPE"
+#~ msgstr "Aide pour microHOPE"
+
+#~ msgid "File"
+#~ msgstr "Fichier"
+
+#~ msgid "Edit"
+#~ msgstr "Édition"
+
+#~ msgid "View"
+#~ msgstr "Afficher"
+
+#~ msgid "Device"
+#~ msgstr "Contrôleur"
+
+#~ msgid "Build"
+#~ msgstr "Construire"
+
+#~ msgid "About"
+#~ msgstr "À propos"
+
+#~ msgid "uHOPE :: File -->New File.c *"
+#~ msgstr "µHOPE :: Fichier --> Nouveau fichier *.c"
+
+#~ msgid "uHOPE :: File -->"
+#~ msgstr "µHOPE :: Fichier --> "
+
+#~ msgid "line ={line}\t\tcolumn={column}"
+#~ msgstr "ligne ={line}\t\tcolonne ={column}"
+
+#~ msgid "Choose a file"
+#~ msgstr "Choisir un fichier"
+
+#~ msgid "Save before exiting ?"
+#~ msgstr "Enregistrer avant de quitter ?"
+
+#~ msgid "Are you sure ?"
+#~ msgstr "Êtes-vous sûr ?"
+
+#~ msgid "Save before opening New File ?"
+#~ msgstr "Enregistrer avant d'ouvrir un nouveau fichier ?"
+
+#~ msgid "New file"
+#~ msgstr "Nouveau fichier"
+
+#~ msgid ".c\t\tDevice -->"
+#~ msgstr ".c\t\tContrôleur -->"
+
+#~ msgid "uHOPE :: Status"
+#~ msgstr "µHOPE :: Statut"
+
+#~ msgid "Filename not selected ."
+#~ msgstr "Non de fichier non sélectionné."
+
+#~ msgid "Compilation Error :\n"
+#~ msgstr "Erreur de compilation :\n"
+
+#~ msgid "Compilation Done"
+#~ msgstr "Compilation terminée"
+
+#~ msgid ""
+#~ "Device not selected\n"
+#~ "Please select a device"
+#~ msgstr ""
+#~ "Contrôleur non sélectionné\n"
+#~ "Veuillez sélectionner un contrôleur"
+
+#~ msgid "Upload Error:\n"
+#~ msgstr "Erreur de chargement :\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "Try pressing microHOPE Reset button just before Uploading"
+#~ msgstr ""
+#~ "\n"
+#~ "Essayer d'appuyer sur le bouton de redémarrage de microHOPE juste avant "
+#~ "de charger"
+
+#~ msgid "Upload Completed\n"
+#~ msgstr "Chargement terminé\n"
+
+#~ msgid ""
+#~ "Steps:\n"
+#~ "1.Write a program on editor / Open a programe C or Assembler files\n"
+#~ "2.Compile it by cliking on compile\n"
+#~ "3.You can view the objdump file(*.lst) by opening it in the editoring\n"
+#~ "4.Connect microHOPE and wait a minute\n"
+#~ "5.Click on Device->Detect Board to detect your board\n"
+#~ "6.If microHOPE is not found , repeat or reconnect microHOPE\n"
+#~ "7.Upload the hex file to microHOPE (Build->Upload)\n"
+#~ "8.If upload fails check microHOPE and upload again\n"
+#~ "\n"
+#~ "Note: Make sure that microhope folder from /usr/share/microhope/microhope "
+#~ "is copied to your home folder .\n"
+#~ "It contains example programes , mh-libs etc."
+#~ msgstr ""
+#~ "Étapes :\n"
+#~ "1. Écrire un programme dans l'éditeur / Ouvrir un programme en C ou en "
+#~ "assembleur\n"
+#~ "2. Le compiler (cliquer sur « compiler »)\n"
+#~ "3. On peut voir le fichier objdump (*.lst) en l'ouvrant dans l'éditeur\n"
+#~ "4. Connecter microHOPE et attendre une minute\n"
+#~ "5. Cliquer sur Contrôleur -> détecter le circuit pour détecter votre "
+#~ "circuit\n"
+#~ "6. Si microHOPE n'est pas détecté, recommencer ou reconnecter microHOPE\n"
+#~ "7. Charger le fichier hex dans microHOPE (Construire -> Charger)\n"
+#~ "8. Si le chargement échoue, vérifier microHOPE et charger à nouveau\n"
+#~ "\n"
+#~ "Note : assurez-vous que le répertoire /usr/share/microhope/microhope soit "
+#~ "recopié dans votre répertoire personnel.\n"
+#~ "Il contient des programmes, des bibliothèques, etc."
+
+#~ msgid "microHOPE-Help"
+#~ msgstr "microHOPE - Aide"
+
+#~ msgid ""
+#~ "Arun Jayan\n"
+#~ "arunjayan32@gmail.com\n"
+#~ "FOSSR -College Of Engineering,Poonjar\n"
+#~ "\n"
+#~ "https://github.com/ArunJayan"
+#~ msgstr ""
+#~ "Arun Jayan\n"
+#~ "arunjayan32@gmail.com\n"
+#~ "FOSSR -College Of Engineering,Poonjar\n"
+#~ "\n"
+#~ "https://github.com/ArunJayan"
+
+#~ msgid "Author of IDE"
+#~ msgstr "Auteur de l'interface utilisateur"
+
+#~ msgid "uHOPE :: File -> {file} & Device -> {dev}"
+#~ msgstr "µHOPE :: Fichier --> {file} & Contrôleur -> {dev}"
+
+#~ msgid ""
+#~ "microHOPE is a developement Board using Atmega32\n"
+#~ "Created by :Dr.Ajith Kumar B P\n"
+#~ "\t\t\t\t IUAC,New Delhi\n"
+#~ "\t\t\t\t http://www.expeyes.in/microhope"
+#~ msgstr ""
+#~ "microHOPE est un circuit de développement utilisant Atmega32\n"
+#~ "Créé par :Dr.Ajith Kumar B P\n"
+#~ "\t\t\t\t IUAC,New Delhi\n"
+#~ "\t\t\t\t http://www.expeyes.in/microhope"
+
+#~ msgid "About uHOPE"
+#~ msgstr "À propos de µHOPE"
+
+#~ msgid "Assembler Error :\n"
+#~ msgstr "Erreur de l'assembleur :\n"
+
+#~ msgid "Assembing Done"
+#~ msgstr "Assemblage terminé"
+
+#~ msgid "Setting up MicroHOPE bootloader via USBASP....."
+#~ msgstr "Mise en place du chargeur de démarrage microHOPE via USBASP ..."
+
+#~ msgid ""
+#~ "Setting up MicroHOPE bootloader via USBASP.... \n"
+#~ "It will take few seconds"
+#~ msgstr ""
+#~ "Mise en place du chargeur de démarrage microHOPE via USBASP ...\n"
+#~ "Ça va durer quelques secondes"
+
+#~ msgid "Error: Check Connections...."
+#~ msgstr "Erreur : vérifier les connexions ..."
+
+#~ msgid "Error: Setting up fuses"
+#~ msgstr "Erreur : mise en place des fusibles"
+
+#~ msgid "Upload Completed"
+#~ msgstr "Chargement terminé"
+
+#~ msgid "Uploading through USBASP ...."
+#~ msgstr "Chargement à l'aide de USBASP ..."
+
+#~ msgid "Check connections of USBASP"
+#~ msgstr "Vérifier les connexions de USBASP"
+
+#~ msgid "Uploading via USBASP completed....."
+#~ msgstr "Chargement via USBASP terminé."
+
+#~ msgid "microHOPE hardware not found?"
+#~ msgstr "Matériel microHOPE non trouvé ?"
+
+#~ msgid "uHOPE :: File --> New File"
+#~ msgstr "µHOPE :: Fichier --> Nouveau fichier"
+
+#~ msgid "\t\tDevice --> Not Connected"
+#~ msgstr "\t\tContrôleur --> Non connecté"
+
+#~ msgid "Device is found at "
+#~ msgstr "Contrôleur trouvé à "
+
+#~ msgid ""
+#~ "Create microHope environment\n"
+#~ "Do you want to create your own microHope environment?\n"
+#~ "\n"
+#~ "If you reply \"Yes\", a subdirectory named microHope will be created in "
+#~ "your home directory, and a set of files will be copied into it.\n"
+#~ "\n"
+#~ "If any previous installation existed, its contents will be overwriten."
+#~ msgstr ""
+#~ "Créer l'environnement microHOPE\n"
+#~ "Voulez-vous créer l'environnement microHOPE personnel ?\n"
+#~ "\n"
+#~ "Si vous répondez «oui », un sous-répertoire nommé microHope sera créé "
+#~ "dans votre répertoire personnel,etun ensemble de fichiers y sera copié.\n"
+#~ "\n"
+#~ "Si une installation plus ancienne existe, ses contenus seront écrasés."
+
+#~ msgid "uHOPE init()"
+#~ msgstr "µHOPE init()"
+
+#~ msgid "creating microhope environment"
+#~ msgstr "création de l'environnement microhope"
+
+#~ msgid "IRSEND1 ERROR"
+#~ msgstr "ERREUR IRSEND1"
+
+#~ msgid "IRSEND4 ERROR"
+#~ msgstr "ERREUR IRSEND4"
+
+#~ msgid "MEASURECV ERROR"
+#~ msgstr "ERREUR MEASURECV"
+
+#~ msgid "wait"
+#~ msgstr "attendre"
+
+#~ msgid "text files"
+#~ msgstr "Fichiers texte"
+
+#~ msgid "All files"
+#~ msgstr "Tous fichiers"
+
+#~ msgid ""
+#~ "microHOPE IDE\n"
+#~ "\n"
+#~ "(c) 2013-2014 Ajith Kumar\n"
+#~ "\n"
+#~ "This program is free software, it is available under the license GPL-3; "
+#~ "on Debian systems, please see the file /usr/share/common-licenses/GPL-3\n"
+#~ "\n"
+#~ "Translations:\n"
+#~ "(FR) (c) 2014 Georges Khaznadar"
+#~ msgstr ""
+#~ "Environnement de développement microHOPE\n"
+#~ "\n"
+#~ "(c) 2013-2014 Ajith Kumar\n"
+#~ "\n"
+#~ "Ce programme est un logiciel libre, il est sous licence GPL-3 ; sur un "
+#~ "système Debian, voir le fichier /usr/share/common-licenses/GPL-3\n"
+#~ "\n"
+#~ "Traductions :\n"
+#~ "(FR) (c) 2014 Georges Khaznadar"
+
+#~ msgid "File->%s : Device-> %s"
+#~ msgstr "Fichier->%s : Périph-> %s"
+
+#~ msgid "File Saved"
+#~ msgstr "Fichier enregistré"
+
+#~ msgid "Hardware device not selected"
+#~ msgstr "Pas de périphérique détecté"
+
+#~ msgid "Starting Upload...."
+#~ msgstr "Début de chargement ..."
+
+#~ msgid "Upload Error: Make use USBASP programmer is connected"
+#~ msgstr ""
+#~ "Erreur de chargement : vérifiez si le programmeur USBASP est connecté"
+
+#~ msgid "Hints"
+#~ msgstr "Trucs et astuces"
+
+#~ msgid ""
+#~ "You may need to build the directory ~/microhope with the command 'create-"
+#~ "microhope-env'. See 'man create-microhope-env'."
+#~ msgstr ""
+#~ "Il se peut que vous ayez à créer le répertoire ~/microhope à  l'aide de "
+#~ "la commande « create-microhope-env ». Voyez « man create-microhope-env »."
+
+#~ msgid "Open"
+#~ msgstr "Ouvrir"
+
+#~ msgid "Save As"
+#~ msgstr "Enregistrer sous"
+
+#~ msgid "Upload"
+#~ msgstr "Charger"
+
+#~ msgid "Documentation"
+#~ msgstr "Documentation"
+
+#~ msgid "Help"
+#~ msgstr "Aide"
+
+#~ msgid ""
+#~ "microHOPE IDE\n"
+#~ "\n"
+#~ "(c) 2013-2014 Ajith Kumar\n"
+#~ "\n"
+#~ "This program is freesoftware, it is available under the license GPL-3; on "
+#~ "Debian systems, please see the file /usr/share/common-licenses/GPL-3\n"
+#~ "\n"
+#~ "Translations:\n"
+#~ "(FR) (c) 2014 Georges Khaznadar"
+#~ msgstr ""
+#~ "Environnement de développement microHOPE\n"
+#~ "\n"
+#~ "(c) 2013-2014 Ajith Kumar\n"
+#~ "\n"
+#~ "Ce programme est un logiciel libre, il est sous licence GPL-3 ; sur un "
+#~ "système Debian, voir le fichier /usr/share/common-licenses/GPL-3\n"
+#~ "\n"
+#~ "Traductions :\n"
+#~ "(FR) (c) 2014 Georges Khaznadar"
+
+#~ msgid "Compile)"
+#~ msgstr "Compiler"
+
+#~ msgid "SEN pullup = %5f Ohm"
+#~ msgstr "SEN : pull-up = %5f Ohm"
+
+#~ msgid "SEN calibration failed"
+#~ msgstr "Échec calibration SEN"
+
+#~ msgid "SEN to GND="
+#~ msgstr "SEN à GND ="
+
+#~ msgid "Calc Pullup"
+#~ msgstr "Calc Pull-up"
+
+#~ msgid "EYES Junior Calibration: PVS should be conected to A1 & A2"
+#~ msgstr "Calibration de EYES Junior : PVS doit être connecté à A1 & A2"
+
+#~ msgid "Capacitance = %6.1f pF(%6.1fpF - %6.1fpF of the Socket)"
+#~ msgstr "Capacité = %6.1f pF(%6.1fpF - %6.1fpF de la connection)"
+
+#~ msgid ""
+#~ "10. Programmable Pulse. Frequency is 488.3 Hz. Duty cycle from 0 to 100% "
+#~ "in 255 steps."
+#~ msgstr ""
+#~ "10. Impulsions programmables. Le fréquence est 488,3 Hz. Le rapport "
+#~ "cyclique va de 0 à 100% en 255 pas."
+
+#~ msgid "Calibration data NOT found. You may run Calibrate program"
+#~ msgstr ""
+#~ "Données de calibration NON trouvées. Lancez le programme \"calibrate\""
+
+#~ msgid "Resistance too high or open %5.3f"
+#~ msgstr "Résistance trop élevée ou circuit ouvert %5.3f"
+
+#~ msgid "Resistance too high or open"
+#~ msgstr "Résistance trop élevée ou circuit ouvert"
+
+#~ msgid "Resistance too low or short %5.3f"
+#~ msgstr "Résistance trop faible ou court-circuit %5.3f"
+
+#~ msgid "Resistance too low or short"
+#~ msgstr "Résistance trop faible ou court-circuit"
+
+#~ msgid "Use Left Side Panel to Select Data Sources and Modifiers."
+#~ msgstr ""
+#~ "Utiliser le panneau gauche pour sélectionner les entrées et les "
+#~ "modifications."
+
+#~ msgid "Type command<Enter>"
+#~ msgstr "Commande + <Entrée>"
+
+#~ msgid "ch= "
+#~ msgstr "ch= "
+
+#~ msgid "ERROR"
+#~ msgstr "ERREUR"
+
+#~ msgid "Enter all Mesured Voltages Proper"
+#~ msgstr "Entrer toutes les tensions mesurées proprement"
+
+#~ msgid "Enter an integer : "
+#~ msgstr "Entrez un entier :"
+
+#~ msgid "Pendulum Waveform"
+#~ msgstr "Signal du pendule"
+
+#~ msgid "Freq1="
+#~ msgstr "Fréq1="
+
+#~ msgid "Freq2="
+#~ msgstr "Fréq2="
