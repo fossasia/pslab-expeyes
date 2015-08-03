@@ -1,0 +1,419 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-03 11:40+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../AccelerometerADXL335/acceleration-xy.py:54
+#: ../Humidity-Sensor/humidity.py:54
+#: ../Magnetic-Field-Sensors/hall-effect-sensor.py:49
+#: ../Tempreature-Sensor/temp-control.py:62
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:68
+#: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:61
+#: ../Weather-Station/Weather-Data-Logger.py:47
+msgid "Time"
+msgstr ""
+
+#: ../AccelerometerADXL335/acceleration-xy.py:54
+#: ../Magnetic-Field-Sensors/hall-effect-sensor.py:49
+msgid "m/s^2"
+msgstr ""
+
+#: ../AccelerometerADXL335/acceleration-xy.py:56
+#: ../Humidity-Sensor/humidity.py:58
+#: ../Magnetic-Field-Sensors/hall-effect-sensor.py:51
+#: ../Tempreature-Sensor/Temp-LM35-GUI.py:61
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:72
+#: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:63
+#: ../Weather-Station/Weather-Data-Logger.py:51
+msgid "Starting the Measurements"
+msgstr ""
+
+#: ../AccelerometerADXL335/acceleration-xy.py:59
+#: ../Humidity-Sensor/humidity.py:61
+#: ../Magnetic-Field-Sensors/hall-effect-sensor.py:54
+#: ../Tempreature-Sensor/temp-control.py:71
+#: ../Tempreature-Sensor/Temp-LM35-GUI.py:64
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:75
+#: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:66
+#: ../Weather-Station/Weather-Data-Logger.py:54
+msgid "Failed to Start"
+msgstr ""
+
+#: ../AccelerometerADXL335/acceleration-xy.py:64
+#: ../Humidity-Sensor/humidity.py:67
+#: ../Magnetic-Field-Sensors/hall-effect-sensor.py:59
+#: ../Tempreature-Sensor/temp-control.py:80
+#: ../Tempreature-Sensor/Temp-LM35-GUI.py:70
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:81
+#: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:71
+#: ../Weather-Station/Weather-Data-Logger.py:61
+msgid "User Stopped the measurements"
+msgstr ""
+
+#: ../AccelerometerADXL335/acceleration-xy.py:89
+#: ../Humidity-Sensor/humidity.py:91
+#: ../Magnetic-Field-Sensors/hall-effect-sensor.py:81
+#: ../Tempreature-Sensor/temp-control.py:108
+#: ../Tempreature-Sensor/Temp-LM35-GUI.py:96
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:105
+#: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:94
+#: ../Weather-Station/Weather-Data-Logger.py:99
+msgid "Completed the Measurements"
+msgstr ""
+
+#: ../AccelerometerADXL335/acceleration-xy.py:99
+#: ../Humidity-Sensor/humidity.py:102
+#: ../Magnetic-Field-Sensors/hall-effect-sensor.py:91
+#: ../Tempreature-Sensor/temp-control.py:120
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:125
+#: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:104
+#: ../Weather-Station/Weather-Data-Logger.py:110
+#, python-format
+msgid "Data saved to %s"
+msgstr ""
+
+#: ../AccelerometerADXL335/acceleration-xy.py:106
+#: ../Humidity-Sensor/humidity.py:109
+#: ../Magnetic-Field-Sensors/hall-effect-sensor.py:98
+#: ../Tempreature-Sensor/temp-control.py:127
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:132
+#: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:111
+#: ../Weather-Station/Weather-Data-Logger.py:117
+msgid "Cleared Data and Trace"
+msgstr ""
+
+#: ../AccelerometerADXL335/acceleration-xy.py:122
+#: ../Magnetic-Field-Sensors/hall-effect-sensor.py:114
+#: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:128
+msgid "Digitize for"
+msgstr ""
+
+#: ../AccelerometerADXL335/acceleration-xy.py:128
+#: ../Humidity-Sensor/humidity.py:143
+#: ../Magnetic-Field-Sensors/hall-effect-sensor.py:120
+#: ../Tempreature-Sensor/temp-control.py:175
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:166
+#: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:134
+msgid "Seconds."
+msgstr ""
+
+#: ../AccelerometerADXL335/acceleration-xy.py:130
+msgid "Black line -X axis, Red line -Yaxis, Blue line -Z axis"
+msgstr ""
+
+#: ../AccelerometerADXL335/acceleration-xy.py:135
+#: ../Humidity-Sensor/humidity.py:160
+#: ../Magnetic-Field-Sensors/hall-effect-sensor.py:127
+#: ../Tempreature-Sensor/temp-control.py:190
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:183
+#: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:147
+#: ../Weather-Station/Weather-Data-Logger.py:158
+msgid "START"
+msgstr ""
+
+#: ../AccelerometerADXL335/acceleration-xy.py:137
+#: ../Humidity-Sensor/humidity.py:162
+#: ../Magnetic-Field-Sensors/hall-effect-sensor.py:129
+#: ../Tempreature-Sensor/temp-control.py:192
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:185
+#: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:149
+#: ../Weather-Station/Weather-Data-Logger.py:160
+msgid "STOP"
+msgstr ""
+
+#: ../AccelerometerADXL335/acceleration-xy.py:139
+#: ../Humidity-Sensor/humidity.py:164
+#: ../Magnetic-Field-Sensors/hall-effect-sensor.py:131
+#: ../Tempreature-Sensor/temp-control.py:194
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:187
+#: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:151
+#: ../Voltammetry/voltammogram.py:143
+#: ../Weather-Station/Weather-Data-Logger.py:162
+msgid "CLEAR"
+msgstr ""
+
+#: ../AccelerometerADXL335/acceleration-xy.py:141
+#: ../Humidity-Sensor/humidity.py:178
+#: ../Magnetic-Field-Sensors/hall-effect-sensor.py:133
+#: ../Tempreature-Sensor/temp-control.py:196
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:201
+#: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:153
+msgid "Xmgrace"
+msgstr ""
+
+#: ../AccelerometerADXL335/acceleration-xy.py:143
+#: ../Humidity-Sensor/humidity.py:180
+#: ../Magnetic-Field-Sensors/hall-effect-sensor.py:135
+#: ../Tempreature-Sensor/temp-control.py:198
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:203
+#: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:155
+#: ../Weather-Station/Weather-Data-Logger.py:165
+msgid "SAVE to"
+msgstr ""
+
+#: ../AccelerometerADXL335/acceleration-xy.py:149
+#: ../AccelerometerADXL335/lissajous-accelerometer.py:105
+#: ../ATTINY85-MCU/Lissajous.py:119 ../Humidity-Sensor/humidity.py:190
+#: ../Magnetic-Field-Sensors/hall-effect-sensor.py:141
+#: ../Tempreature-Sensor/temp-control.py:204
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:213
+#: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:161
+#: ../Voltammetry/voltammogram.py:139
+#: ../Weather-Station/Weather-Data-Logger.py:171
+msgid "QUIT"
+msgstr ""
+
+#: ../AccelerometerADXL335/acceleration-xy.py:154
+#: ../Humidity-Sensor/humidity.py:195
+#: ../Magnetic-Field-Sensors/hall-effect-sensor.py:146
+#: ../Tempreature-Sensor/temp-control.py:210
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:218
+#: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:166
+#: ../Weather-Station/Weather-Data-Logger.py:176
+msgid "Message"
+msgstr ""
+
+#: ../AccelerometerADXL335/acceleration-xy.py:157
+msgid "EYESJUN: Accelerometer"
+msgstr ""
+
+#: ../AccelerometerADXL335/lissajous-accelerometer.py:41
+#: ../ATTINY85-MCU/Lissajous.py:51
+msgid "Volts"
+msgstr ""
+
+#: ../AccelerometerADXL335/lissajous-accelerometer.py:55
+#: ../ATTINY85-MCU/Lissajous.py:69 ../Voltammetry/voltammogram.py:113
+msgid "Data saved to file "
+msgstr ""
+
+#: ../AccelerometerADXL335/lissajous-accelerometer.py:66
+#: ../ATTINY85-MCU/Lissajous.py:80 ../Voltammetry/voltammogram.py:127
+msgid "mS"
+msgstr ""
+
+#: ../AccelerometerADXL335/lissajous-accelerometer.py:66
+#: ../ATTINY85-MCU/Lissajous.py:80 ../Voltammetry/voltammogram.py:127
+msgid "V"
+msgstr ""
+
+#: ../AccelerometerADXL335/lissajous-accelerometer.py:69
+#: ../ATTINY85-MCU/Lissajous.py:83
+msgid "EYES Hardware Not Found. Check Connections and restart the program"
+msgstr ""
+
+#: ../AccelerometerADXL335/lissajous-accelerometer.py:96
+#: ../ATTINY85-MCU/Lissajous.py:110
+msgid "DRAW"
+msgstr ""
+
+#: ../AccelerometerADXL335/lissajous-accelerometer.py:100
+#: ../ATTINY85-MCU/Lissajous.py:114 ../Voltammetry/voltammogram.py:134
+msgid "Save to"
+msgstr ""
+
+#: ../AccelerometerADXL335/lissajous-accelerometer.py:111
+#: ../ATTINY85-MCU/Lissajous.py:125 ../Voltammetry/voltammogram.py:148
+msgid "Messages"
+msgstr ""
+
+#: ../AccelerometerADXL335/lissajous-accelerometer.py:115
+#: ../ATTINY85-MCU/Lissajous.py:128
+msgid "Lissajous Figures"
+msgstr ""
+
+#: ../AccelerometerADXL335/lissajous-accelerometer.py:116
+msgid "EYES: Lissajous Figuresusing accelerometer"
+msgstr ""
+
+#: ../ATTINY85-MCU/Lissajous.py:129
+msgid "EYES: Lissajous Figures"
+msgstr ""
+
+#: ../Humidity-Sensor/humidity.py:54 ../Tempreature-Sensor/temp-control.py:62
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:68
+msgid "Volt"
+msgstr ""
+
+#: ../Humidity-Sensor/humidity.py:129
+#: ../Tempreature-Sensor/temp-control.py:161
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:152
+#: ../Weather-Station/Weather-Data-Logger.py:135
+msgid "Read Every"
+msgstr ""
+
+#: ../Humidity-Sensor/humidity.py:135
+#: ../Tempreature-Sensor/temp-control.py:167
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:158
+#: ../Weather-Station/Weather-Data-Logger.py:141
+msgid "mS,"
+msgstr ""
+
+#: ../Humidity-Sensor/humidity.py:137
+#: ../Tempreature-Sensor/temp-control.py:169
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:160
+#: ../Weather-Station/Weather-Data-Logger.py:145
+msgid "for total"
+msgstr ""
+
+#: ../Humidity-Sensor/humidity.py:146
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:169
+msgid "Range"
+msgstr ""
+
+#: ../Humidity-Sensor/humidity.py:152
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:175
+msgid "to,"
+msgstr ""
+
+#: ../Humidity-Sensor/humidity.py:158
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:181
+msgid "C. "
+msgstr ""
+
+#: ../Humidity-Sensor/humidity.py:171
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:194
+msgid "Current ="
+msgstr ""
+
+#: ../Humidity-Sensor/humidity.py:177
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:200
+msgid "mA"
+msgstr ""
+
+#: ../Humidity-Sensor/humidity.py:198
+msgid "Relative Humidity Measuements using HS1101"
+msgstr ""
+
+#: ../Magnetic-Field-Sensors/hall-effect-sensor.py:122
+msgid "........"
+msgstr ""
+
+#: ../Magnetic-Field-Sensors/hall-effect-sensor.py:151
+msgid "Magnetic field using Hall Sensor "
+msgstr ""
+
+#: ../Tempreature-Sensor/temp-control.py:52
+msgid "temperature setpoint out of range"
+msgstr ""
+
+#: ../Tempreature-Sensor/temp-control.py:60
+msgid "UPV setpoint out of range"
+msgstr ""
+
+#: ../Tempreature-Sensor/temp-control.py:66
+msgid "Starting the Controller"
+msgstr ""
+
+#: ../Tempreature-Sensor/temp-control.py:143
+msgid "Rg="
+msgstr ""
+
+#: ../Tempreature-Sensor/temp-control.py:149
+msgid "Ohm. "
+msgstr ""
+
+#: ../Tempreature-Sensor/temp-control.py:152
+msgid "UPV="
+msgstr ""
+
+#: ../Tempreature-Sensor/temp-control.py:158
+msgid "V. "
+msgstr ""
+
+#: ../Tempreature-Sensor/temp-control.py:181
+msgid "Set at"
+msgstr ""
+
+#: ../Tempreature-Sensor/temp-control.py:187
+msgid "deg C"
+msgstr ""
+
+#: ../Tempreature-Sensor/temp-control.py:213
+msgid "Temperature Controller (LM35)"
+msgstr ""
+
+#: ../Tempreature-Sensor/temp-control.py:214
+msgid "Temperature controller using LM35"
+msgstr ""
+
+#: ../Tempreature-Sensor/Temp-LM35-GUI.py:57
+msgid "Time in second"
+msgstr ""
+
+#: ../Tempreature-Sensor/Temp-LM35-GUI.py:57
+msgid "Temp in celsius"
+msgstr ""
+
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:116
+msgid "Wrong connections or value of Rg"
+msgstr ""
+
+#: ../Tempreature-Sensor/Temp-PT100-GUI.py:221
+msgid "Temperature Measuements using PT100"
+msgstr ""
+
+#: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:61
+#: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:142
+msgid "cm"
+msgstr ""
+
+#: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:136
+msgid "Max Dist="
+msgstr ""
+
+#: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:171
+msgid "Motion Graph using Position Sensor SRF-05"
+msgstr ""
+
+#: ../Voltammetry/voltammogram.py:70
+#, python-format
+msgid "Voltage Scan on Coil Done. Noise Voltage = %5.3f V"
+msgstr ""
+
+#: ../Voltammetry/voltammogram.py:93
+#, python-format
+msgid "Peak voltages %5.2f and %5.3f separated by %5.3f msec"
+msgstr ""
+
+#: ../Voltammetry/voltammogram.py:131
+msgid "Start Scanning"
+msgstr ""
+
+#: ../Voltammetry/voltammogram.py:141
+msgid "VIEW"
+msgstr ""
+
+#: ../Voltammetry/voltammogram.py:152
+msgid "EYESJUN: Voltamogram"
+msgstr ""
+
+#: ../Weather-Station/Weather-Data-Logger.py:47
+msgid "Data"
+msgstr ""
+
+#: ../Weather-Station/Weather-Data-Logger.py:151
+msgid "Seconds"
+msgstr ""
+
+#: ../Weather-Station/Weather-Data-Logger.py:180
+msgid "---"
+msgstr ""
+
+#: ../Weather-Station/Weather-Data-Logger.py:181
+msgid "Weather Station Data Logger"
+msgstr ""
