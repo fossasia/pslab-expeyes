@@ -70,7 +70,7 @@ class WS:
 		v1 = p.get_voltage(1) 				# Read A1  for Humidity in %
 		v2 = p.get_voltage(2)				# Read A2 for Wind Speed
 		v3 = p.get_voltage(4)				# Read SEN for Barrometric Pressure
-		# calculations of various parameters from v, v1 v2 and v3 to be done.
+		# calculations of various parameters from v, v1 v2 and v3 to be done.humidity from v1 wind speed from v2 and pressure from v3
 		
 		
 		if len(self.tv[0]) == 0:
