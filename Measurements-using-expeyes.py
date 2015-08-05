@@ -1,3 +1,12 @@
+'''
+These are procedures for measuring various parameters using ExpEYES Jr
+'''
+
+
+'''
+From croplus.py
+'''
+
 def measurecap():
     msg(_('Starting Capacitance Measurement..'))
     cap = p.measure_cap()
@@ -11,7 +20,9 @@ def measurecap():
         msg(_('IN1: %6.1f pF')%cap)
         
         
-        
+'''
+from eyesj.py
+'''
 
  def measure_cv(self, ch, ctime, i = 5.5):  
         '''
