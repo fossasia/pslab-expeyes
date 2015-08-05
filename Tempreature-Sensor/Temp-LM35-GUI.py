@@ -72,7 +72,7 @@ class LM35:
 	def update(self):
 		if self.running == False:
 			return
-		t,v = p.get_voltage_time(3)  # Read A1
+		t,v = p.get_voltage_time(4)  # Read IN2 as IN1 is useful for capacity measurements and is required for HS1101 sensor for humidity measurements
 		if len(self.tv[0]) == 0:
 			self.start_time = t
 			elapsed = 0

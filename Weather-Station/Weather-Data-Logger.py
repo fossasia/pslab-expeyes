@@ -64,13 +64,16 @@ class WS:
 	def update(self):
 		if self.running == False:
 			return
-		t,v = p.get_voltage_time(3) 			# Read IN1  for Time and Temperature
+		t,v = p.get_voltage_time(4) 			# Read IN2 for Time and Temperature ...Read IN2 as IN1 is useful for capacity measurements and is required for HS1101 sensor for humidity measurements
 		
 		
-		v1 = p.get_voltage(1) 				# Read A1  for Humidity in %
+		v1 = p.get_voltage(3) 				# Read IN1  for Humidity in %  
+'''
+Modification needed as capacity of HS1101 can be measured at IN1
+'''
 		v2 = p.get_voltage(2)				# Read A2 for Wind Speed
-		v3 = p.get_voltage(4)				# Read SEN for Barrometric Pressure
-		# calculations of various parameters from v, v1 v2 and v3 to be done.
+		v3 = p.get_voltage(5)				# Read SEN for Barrometric Pressure
+		# calculations of various parameters from v, v1 v2 and v3 to be done.humidity from v1 wind speed from v2 and pressure from v3
 		
 		
 		if len(self.tv[0]) == 0:
