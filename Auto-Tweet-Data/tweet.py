@@ -1,5 +1,6 @@
 '''
 PSLab program for auto-tweeting weather station data
+This can be embeded in weather station program
 
 Install tweepy module
 Add API keys from tweetter spp
