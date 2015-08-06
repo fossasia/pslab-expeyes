@@ -1,3 +1,10 @@
+'''
+PSLab program for auto-tweeting weather station data
+
+Install tweepy module
+Add API keys from tweetter spp
+'''
+
 import tweepy
 from datetime import datetime
 
