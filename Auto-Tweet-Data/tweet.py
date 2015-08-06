@@ -30,4 +30,5 @@ temperature = str(temperature )
 
 thetime = datetime.now().strftime('%-I:%M%P on %d-%m-%Y')
 
-api.update_status(temperature + " C at " + thetime)
+#api.update_status(temperature + " C at " + thetime)
+api.update_status(" Temperature at Belgaum - India  "+ temperature + " C at " + thetime + " #loklak #fossasia @lklknt   Testing ... :) ")
