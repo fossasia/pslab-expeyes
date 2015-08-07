@@ -1,3 +1,4 @@
+
 '''
 expEYES program for measuring relative humidity using sensor HS1101
 License : GNU GPL version 3
@@ -30,7 +31,10 @@ class humidity:
 	MAXY = 100
 	running = False
 	
-
+	def xmgrace(self):
+		if self.running == True:
+			return
+		p.grace([self.tv])
 	def start(self):
 		self.running = True
 		self.index = 0
@@ -111,7 +115,7 @@ p.set_state(11,1)
 root = Tk()
 Canvas(root, width = WIDTH, height = 5).pack(side=TOP)  
 g = eyeplot.graph(root, width=WIDTH, height=HEIGHT, bip=False)
-Pen = humidity()
+pt = humidity()
 
 cf = Frame(root, width = WIDTH, height = 10)
 cf.pack(side=TOP,  fill = BOTH, expand = 1)
@@ -171,7 +175,7 @@ b3 = Button(cf, text = _('SAVE to'), command = pt.save)
 b3.pack(side = LEFT, anchor = N)
 filename = StringVar()
 e1 =Entry(cf, width=15, bg = 'white', textvariable = filename)
-filename.set('temperature.dat')
+filename.set('humidity.dat')
 
 cf = Frame(root, width = WIDTH, height = 10)
 cf.pack(side=TOP,  fill = BOTH, expand = 1)
