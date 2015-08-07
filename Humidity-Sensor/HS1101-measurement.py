@@ -6,7 +6,7 @@ https://www.parallax.com/sites/default/files/downloads/27920-Humidity-Sensor-Dat
 Slope of the curve and y-intercept is determined for 4 different linear sections of the response curve 
 given in the data sheet using
 
-y=mx+c 			Here y is capacity ( cap) in pF and x is relative humidity (RH) in %
+y=mx+c 			Here y is capacity ( cap) in pF and x is relative humidity (RH) in % and c is y-intercept
 m = dy/dx
 c =y-mx
 and 
@@ -16,11 +16,21 @@ For Humidity 0% to 50%
 c= 163 in pF
 m = 0.3
 
+For Humidity 50% to 70%
+c= 160.25 in pF
+m = 0.375
 
+For Humidity 70% to 90%
+c= 156.75 in pF
+m = 0.425
+
+For Humidity 90% to 100%
+c= 136.5 in pF
+m = 0.65
 
 
 '''
-cap = 190
+cap = 'To be measure using expeyes at IN1'
 if cap< 180: 
          RH= (cap -163)/0.3
 elif 180<cap<186: 
