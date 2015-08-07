@@ -1,4 +1,10 @@
 '''
+expEYES program developed as a part of GSoC-2015 project
+Mentor Organization:FOSSASIA
+Author: Praveen Patil
+License : GNU GPL version 3
+
+
 Program to convert capacitancein pF to relative humidity in %
 For Calculations this data sheet is used:
 https://www.parallax.com/sites/default/files/downloads/27920-Humidity-Sensor-Datasheet.pdf
@@ -28,9 +34,18 @@ For Humidity 90% to 100%
 c= 136.5 in pF
 m = 0.65
 
-
 '''
-cap = 'To be measure using expeyes at IN1'
+
+
+import time, math, sys
+import expeyes.eyesj as eyes
+import expeyes.eyeplot as eyeplot
+import expeyes.eyemath as eyemath
+
+
+#cap = 'To be measure using expeyes at IN1'
+#connect HS1011 between IN1 ans GND
+cap = p.measure_cap()
 if cap< 180: 
          RH= (cap -163)/0.3
 elif 180<cap<186: 
