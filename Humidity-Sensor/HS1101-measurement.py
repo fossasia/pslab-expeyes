@@ -1,5 +1,14 @@
 '''
+Program to convert capacitancein pF to relative humidity in %
+For Calculations this data sheet is used:
 https://www.parallax.com/sites/default/files/downloads/27920-Humidity-Sensor-Datasheet.pdf
+
+Slope of the curve and y-intercept is determined for 4 different linear sections of the response curve 
+given in the data sheet using
+y=mx+c
+m = dy/dx
+c =y-mx
+
 
 '''
 cap = 190
