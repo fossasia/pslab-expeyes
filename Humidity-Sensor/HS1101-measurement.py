@@ -35,16 +35,11 @@ c= 136.5 in pF
 m = 0.65
 
 '''
-
-
-import time, math, sys
-import expeyes.eyesj as eyes
-import expeyes.eyeplot as eyeplot
-import expeyes.eyemath as eyemath
-
-
-#cap = 'To be measure using expeyes at IN1'
 #connect HS1011 between IN1 ans GND
+
+import expeyes.eyesj
+p= expeyes.eyesj.open()
+
 cap = p.measure_cap()
 if cap< 180: 
          RH= (cap -163)/0.3
@@ -57,3 +52,4 @@ else:
 
 #print RH, '%'
 print ('Relative Humidity = %0.2f')%RH,'%'
+
