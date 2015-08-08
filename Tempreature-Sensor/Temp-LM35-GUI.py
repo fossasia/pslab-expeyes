@@ -72,7 +72,7 @@ class LM35:
 	def update(self):
 		if self.running == False:
 			return
-		t,v = p.get_voltage_time(4)  # Read IN2 as IN1 is useful for capacity measurements and is required for HS1101 sensor for humidity measurements
+		t,v = p.get_voltage_time(4)  # # Read IN2 as IN1 is useful for capacity measurements and is required for HS1101 sensor for humidity measurements
 		if len(self.tv[0]) == 0:
 			self.start_time = t
 			elapsed = 0
@@ -96,3 +96,16 @@ class LM35:
 			self.msg(_('Completed the Measurements'))
 			return 
 		root.after(self.TIMER, self.update)
+
+	
+	def save(self):
+		try:
+			fn = filename.get()
+		except:
+			fn = 'LM35.dat'
+		p.save([self.tv],fn)
+		self.msg(_('Data saved to %s')%fn)
+
+	def clear(self):
+		if self.running == True:
+			return
