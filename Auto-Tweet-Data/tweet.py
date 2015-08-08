@@ -18,17 +18,16 @@ auth = tweepy.OAuthHandler(API_KEY, API_SECRET)
 auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
 api = tweepy.API(auth)
 '''
-# add blocks for reading all parameters
-'''
-
-tempfile = open("address of the weather data file")
-thetext = tempfile.read()
+#tempfile = open("/sys/bus/w1/devices/28-00000XXXXXX/w1_slave")
+#thetext = tempfile.read()
 tempfile.close()
 tempdata = thetext.split("\n")[1].split(" ")[9]
 temperature = float(tempdata[2:])
-temperature = str(temperature )
+temperature = str(temperature / 1000)
 
 thetime = datetime.now().strftime('%-I:%M%P on %d-%m-%Y')
-
-#api.update_status(temperature + " C at " + thetime)
+'''
+temperature = 27 
+temperature = str(27)
+thetime = datetime.now().strftime('%-I:%M%P on %d-%m-%Y')
 api.update_status(" Temperature at Belgaum - India  "+ temperature + " C at " + thetime + " #loklak #fossasia @lklknt   Testing ... :) ")
