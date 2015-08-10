@@ -1,5 +1,8 @@
 
 ## Humidity Sensor HS-220
+
+*** Could not obtain this sensor. Currently working on HS1101
+
 Description: This sensor module converts relative humidity(30-90%RH) to voltage and can be used in weather monitoring application.
 
 Features:
