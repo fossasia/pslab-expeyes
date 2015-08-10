@@ -157,3 +157,48 @@ b3 = Label(cf, text = _('Range'))
 b3.pack(side = LEFT, anchor = SW)
 
 '''
+TMIN = StringVar()
+TMIN.set('0')
+Tmin =Entry(cf, width=5, bg = 'white', textvariable = TMIN)
+Tmin.pack(side = LEFT, anchor = SW)
+b3 = Label(cf, text = _('to,'))
+b3.pack(side = LEFT, anchor = SW)
+TMAX = StringVar()
+TMAX.set('250')
+Tmax =Entry(cf, width=5, bg = 'white', textvariable = TMAX)
+Tmax.pack(side = LEFT, anchor = SW)
+b3 = Label(cf, text = _('C. '))
+'''
+
+b3 = Button(cf, text = _('SAVE to'), command = pt.save)
+b3.pack(side = LEFT, anchor = SW)
+b3.pack(side = LEFT, anchor = SW)
+filename = StringVar()
+e1 =Entry(cf, width=15, bg = 'white', textvariable = filename)
+filename.set('Humidity.dat')
+e1.pack(side = LEFT, anchor = SW)
+
+cf = Frame(root, width = WIDTH, height = 10)
+cf.pack(side=TOP,  fill = BOTH, expand = 1)
+
+
+cf = Frame(root, width = WIDTH, height = 10)
+cf.pack(side=TOP,  fill = BOTH, expand = 1)
+e1.pack(side = LEFT)
+
+b5 = Button(cf, text = _('QUIT'), command = pt.quit)
+b5.pack(side = RIGHT, anchor = N)
+b4 = Button(cf, text = _('CLEAR'), command = pt.clear)
+b4.pack(side = RIGHT, anchor = N)
+b1 = Button(cf, text = _('STOP'), command = pt.stop)
+b1.pack(side = RIGHT, anchor = N)
+b1 = Button(cf, text = _('START'), command = pt.start)
+b1.pack(side = RIGHT, anchor = N)
+
+mf = Frame(root, width = WIDTH, height = 10)
+mf.pack(side=TOP)
+msgwin = Label(mf,text=_('Message'), fg = 'blue')
+msgwin.pack(side=LEFT, anchor = S, fill=BOTH, expand=1)
+
+root.title(_('Relative Humidity using HS1101'))
+root.mainloop()
