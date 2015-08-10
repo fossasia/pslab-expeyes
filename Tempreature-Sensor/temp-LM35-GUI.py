@@ -1,9 +1,19 @@
 '''
-expEYES program for measuring temperature using LM35 sensor
-Developed as a part of GSoC Project 
-Mentor Organisation : FOSSASIA
+GUI for Temperature Measurement using LM35 sensor
+
+
+ExpEYES program developed as a part of GSoC-2015 project
+Project Tilte: Sensor Plug-ins, Add-on devices and GUI Improvements for ExpEYES
+
+Mentor Organization:FOSSASIA
+Mentors: Hong Phuc, Mario Behling, Rebentisch
+Author: Praveen Patil
 License : GNU GPL version 3
+
 '''
+
+#connections LM35:  Pin1 (v-in) to OD1, Pin 2 (OUT) to IN2 and Pin 3 to GND
+
 import gettext
 gettext.bindtextdomain("expeyes")
 gettext.textdomain('expeyes')
@@ -28,7 +38,7 @@ HEIGHT = 400   # height
 
 class LM35:
 	tv = [ [], [], [] ]			# Lists for Readings
-	TIMER = 500				# Time interval between reads
+	TIMER = 1000				# Time interval between reads
 	MINY = 0				# Temperature range
 	MAXY = 100
 	running = False
@@ -136,7 +146,7 @@ b3 = Label(cf, text = _('Read Every'))
 b3.pack(side = LEFT, anchor = SW)
 TGAP = StringVar()
 Dur =Entry(cf, width=5, bg = 'white', textvariable = TGAP)
-TGAP.set('500')
+TGAP.set('1000')
 Dur.pack(side = LEFT, anchor = SW)
 b3 = Label(cf, text = _('mS,'))
 b3.pack(side = LEFT, anchor = SW)
@@ -181,6 +191,11 @@ b1.pack(side = LEFT, anchor = SW)
 cf = Frame(root, width = WIDTH, height = 10)
 cf.pack(side=TOP,  fill = BOTH, expand = 1)
 e1.pack(side = LEFT)
+
+b3 = Label(cf, text = _(' RED Line - Temperature in Celsius'), fg = 'red')
+b3.pack(side = LEFT, anchor = SW)
+b3 = Label(cf, text = _('    BLUE Line - Temperature in Fahrenheit'), fg = 'blue')
+b3.pack(side = LEFT, anchor = SW)
 
 b5 = Button(cf, text = _('QUIT'), command = pt.quit)
 b5.pack(side = RIGHT, anchor = N)
