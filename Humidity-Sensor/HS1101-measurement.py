@@ -1,6 +1,8 @@
 '''
 expEYES program developed as a part of GSoC-2015 project
+Project Tilte: Sensor Plug-ins, Add-on devices and GUI Improvements for ExpEYES
 Mentor Organization:FOSSASIA
+Mentors: Hong Phuc, Mario Behling, Rebentisch
 Author: Praveen Patil
 License : GNU GPL version 3
 
@@ -12,7 +14,7 @@ https://www.parallax.com/sites/default/files/downloads/27920-Humidity-Sensor-Dat
 Slope of the curve and y-intercept is determined for 4 different linear sections of the response curve 
 given in the data sheet using
 
-y=mx+c 			Here y is capacity ( cap) in pF and x is relative humidity (RH) in % and c is y-intercept
+y=mx+c 		Here y is capacity ( cap) in pF and x is relative humidity (RH) in % and c is y-intercept
 m = dy/dx
 c =y-mx
 and 
