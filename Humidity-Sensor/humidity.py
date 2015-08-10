@@ -32,7 +32,7 @@ HEIGHT = 400   # height
 
 class humidity:
 	tv = [ [], [], [] ]			# Lists for Readings
-	TIMER = 500				# Time interval between reads
+	TIMER = 2000				# Time interval between reads
 	MINY = 0				# Humidity Range
 	MAXY = 250
 	running = False
@@ -44,8 +44,6 @@ class humidity:
 		
 		try:
 			self.MAXTIME = int(DURATION.get())
-			#self.MINY = int(TMIN.get())
-			#self.MAXY = int(TMAX.get())
 			
 			g.setWorld(0, self.MINY, self.MAXTIME, self.MAXY,_('Time in second'),_('C & RH '))
 			self.TIMER = int(TGAP.get())
@@ -140,7 +138,7 @@ b3 = Label(cf, text = _('Read Every'))
 b3.pack(side = LEFT, anchor = SW)
 TGAP = StringVar()
 Dur =Entry(cf, width=5, bg = 'white', textvariable = TGAP)
-TGAP.set('500')
+TGAP.set('2000')
 Dur.pack(side = LEFT, anchor = SW)
 b3 = Label(cf, text = _('mS,'))
 b3.pack(side = LEFT, anchor = SW)
@@ -153,8 +151,6 @@ Total.pack(side = LEFT, anchor = SW)
 b3 = Label(cf, text = _('Seconds.'))
 b3.pack(side = LEFT, anchor = SW)
 
-b3 = Label(cf, text = _('Range'))
-b3.pack(side = LEFT, anchor = SW)
 
 '''
 TMIN = StringVar()
@@ -171,12 +167,12 @@ b3 = Label(cf, text = _('C. '))
 '''
 
 b3 = Button(cf, text = _('SAVE to'), command = pt.save)
-b3.pack(side = LEFT, anchor = SW)
-b3.pack(side = LEFT, anchor = SW)
+b3.pack(side = LEFT, anchor = N)
+#b3.pack(side = LEFT, anchor = SW)
 filename = StringVar()
 e1 =Entry(cf, width=15, bg = 'white', textvariable = filename)
 filename.set('Humidity.dat')
-e1.pack(side = LEFT, anchor = SW)
+e1.pack(side = RIGHT, anchor = SW)
 
 cf = Frame(root, width = WIDTH, height = 10)
 cf.pack(side=TOP,  fill = BOTH, expand = 1)
@@ -185,6 +181,12 @@ cf.pack(side=TOP,  fill = BOTH, expand = 1)
 cf = Frame(root, width = WIDTH, height = 10)
 cf.pack(side=TOP,  fill = BOTH, expand = 1)
 e1.pack(side = LEFT)
+
+
+b3 = Label(cf, text = _('   RED Line - Capacity in pF'), fg = 'red')
+b3.pack(side = LEFT, anchor = SW)
+b3 = Label(cf, text = _('    BLUE Line - Relative Humidity in %.'), fg = 'blue')
+b3.pack(side = LEFT, anchor = SW)
 
 b5 = Button(cf, text = _('QUIT'), command = pt.quit)
 b5.pack(side = RIGHT, anchor = N)
@@ -200,5 +202,5 @@ mf.pack(side=TOP)
 msgwin = Label(mf,text=_('Message'), fg = 'blue')
 msgwin.pack(side=LEFT, anchor = S, fill=BOTH, expand=1)
 
-root.title(_('Relative Humidity using HS1101'))
+root.title(_('Relative Humidity using HS-1101 sensor'))
 root.mainloop()
