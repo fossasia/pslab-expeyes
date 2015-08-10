@@ -1,13 +1,49 @@
 '''
-Relative Humidity using HS-1101 Sensor
+GUI for measuring Relative Humidity using HS-1101 Sensor
 
 ExpEYES program developed as a part of GSoC-2015 project
 Project Tilte: Sensor Plug-ins, Add-on devices and GUI Improvements for ExpEYES
+
 Mentor Organization:FOSSASIA
 Mentors: Hong Phuc, Mario Behling, Rebentisch
 Author: Praveen Patil
 License : GNU GPL version 3
 '''
+
+
+'''
+For Calculations this data sheet is used:
+https://www.parallax.com/sites/default/files/downloads/27920-Humidity-Sensor-Datasheet.pdf
+
+Slope of the curve and y-intercept is determined for 4 different linear sections of the response curve 
+given in the data sheet using
+
+y=mx+c 		Here y is capacity ( cap) in pF and x is relative humidity (RH) in % and c is y-intercept
+m = dy/dx
+c =y-mx
+and 
+x= (y-c)/m
+
+For Humidity 0% to 50%
+c= 163 in pF
+m = 0.3
+
+For Humidity 50% to 70%
+c= 160.25 in pF
+m = 0.375
+
+For Humidity 70% to 90%
+c= 156.75 in pF
+m = 0.425
+
+For Humidity 90% to 100%
+c= 136.5 in pF
+m = 0.65
+'''
+
+
+#connect HS1011 between IN1 and GND
+
 import gettext
 gettext.bindtextdomain("expeyes")
 gettext.textdomain('expeyes')
@@ -74,7 +110,6 @@ class humidity:
 		cap = p.measure_cap()
 		self.tv[1].append(cap)
 		
-
 		if cap< 180: 
          		RH= (cap -163)/0.3
 		elif 180<cap<186: 
@@ -151,20 +186,6 @@ Total.pack(side = LEFT, anchor = SW)
 b3 = Label(cf, text = _('Seconds.'))
 b3.pack(side = LEFT, anchor = SW)
 
-
-'''
-TMIN = StringVar()
-TMIN.set('0')
-Tmin =Entry(cf, width=5, bg = 'white', textvariable = TMIN)
-Tmin.pack(side = LEFT, anchor = SW)
-b3 = Label(cf, text = _('to,'))
-b3.pack(side = LEFT, anchor = SW)
-TMAX = StringVar()
-TMAX.set('250')
-Tmax =Entry(cf, width=5, bg = 'white', textvariable = TMAX)
-Tmax.pack(side = LEFT, anchor = SW)
-b3 = Label(cf, text = _('C. '))
-'''
 
 b3 = Button(cf, text = _('SAVE to'), command = pt.save)
 b3.pack(side = LEFT, anchor = N)
