@@ -39,10 +39,10 @@ HEIGHT = 600   # height
 # Temperature sensor LM-35 to IN2, OD1 and GND
 # Barrometric Pressure Sensor  to A2
 # Anemometer to A1
-# Wind Direction Device to SEN
+# Wind Direction Device  to SEN
 
 class WS:
-	tv = [ [], [], [], [], [] ]		# Three Lists for Readings time, v  , v1 and v2
+	tv = [ [], [], [], [], [], [] ]		# Six Lists for Readings time, v  , v1, v2, v3 and v4
 	TIMER = 500			# Time interval between reads
 	MINY = 0			# Voltage range
 	MAXY = 100
@@ -54,14 +54,18 @@ class WS:
 		
 		t = v * 100
 		return t
+
 	def start(self):
 		self.running = True
 		self.index = 0
 		p.set_state(10,1)
-		self.tv = [ [], [], [], [], [] ]
+		self.tv = [ [], [], [], [], [], [] ]
 		try:
 			self.MAXTIME = int(DURATION.get())
-			g.setWorld(0, self.MINY, self.MAXTIME, self.MAXY,_('Time'),_('Data'))
+			self.MINY = int(TMIN.get())
+			self.MAXY = int(TMAX.get())
+			
+			g.setWorld(0, self.MINY, self.MAXTIME, self.MAXY,_('Time in second'),_('Data'))
 			self.TIMER = int(TGAP.get())
 			Total.config(state=DISABLED)
 			Dur.config(state=DISABLED)
@@ -81,13 +85,65 @@ class WS:
 	def update(self):
 		if self.running == False:
 			return
-		t,v = p.get_voltage_time(4) 			# Read IN2 for Time and Temperature ...Read IN2 as IN1 is useful for capacity measurements and is required for HS1101 sensor for humidity measurements
+		t,v = p.get_voltage_time(4) # Read IN2 for temperature sensor
+		if len(self.tv[0]) == 0:
+			self.start_time = t
+			elapsed = 0
+		else:
+			elapsed = t - self.start_time   # To be done : make changes to have system time
+		self.tv[0].append(elapsed)
+		
+		temp = self.v2t(v)
+		self.tv[1].append(temp)
+
+		cap = p.measure_cap()
+		
+		
+		if cap< 180: 
+         		RH= (cap -163)/0.3
+		elif 180<cap<186: 
+        		RH= (cap -160.25)/0.375
+		elif 186<cap<195: 
+        		RH= (cap -156.75)/0.425
+		else:
+			RH= (cap -136.5)/0.65
+
+		self.tv[2].append(RH)
+
+
+		if len(self.tv[0]) >= 2:
+			g.delete_lines()
+			
+			g.line(self.tv[0], self.tv[1],1)    # red line - Capacity in pF
+			g.line(self.tv[0], self.tv[2],2)	# blue line - Relative Humidity in %
+		
+		if len(self.tv[0]) >= 2:
+			g.delete_lines()
+			
+			g.line(self.tv[0], self.tv[1],1)    # red line - temperature in celsius scale
+			
+		if elapsed > self.MAXTIME:
+			self.running = False
+			Total.config(state=NORMAL)
+			Dur.config(state=NORMAL)
+			self.msg(_('Completed the Measurements'))
+			return 
+		root.after(self.TIMER, self.update)
+
+
+
+
+
+
+
+
+
+
+			
 		
 		
 		v1 = p.get_voltage(3) 				# Read IN1  for Humidity in %  
-'''
-Modification needed as capacity of HS1101 can be measured at IN1
-'''
+
 		v2 = p.get_voltage(2)				# Read A2 for Wind Speed
 		v3 = p.get_voltage(5)				# Read SEN for Barrometric Pressure
 		# calculations of various parameters from v, v1 v2 and v3 to be done.humidity from v1 wind speed from v2 and pressure from v3
