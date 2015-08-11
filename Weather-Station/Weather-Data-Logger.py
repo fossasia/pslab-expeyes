@@ -124,10 +124,10 @@ class WS:
 		if len(self.tv[0]) >= 2:
 			g.delete_lines()
 
-			#g.line(self.tv[0], self.tv[1],1)    # red line - temperature in celsius scale
-			#g.line(self.tv[0], self.tv[2],2)	# blue line - Relative Humidity in %
-			#g.line(self.tv[0], self.tv[3],0)	# black line - A1
-			#g.line(self.tv[0], self.tv[4],5)	# green line -A2
+			g.line(self.tv[0], self.tv[1],1)    # red line - temperature in celsius scale
+			g.line(self.tv[0], self.tv[2],2)	# blue line - Relative Humidity in %
+			g.line(self.tv[0], self.tv[3],0)	# black line - A1
+			g.line(self.tv[0], self.tv[4],5)	# green line -A2
 			g.line(self.tv[0], self.tv[5],6)	#yellow line - SEN
 			
 		if elapsed > self.MAXTIME:
