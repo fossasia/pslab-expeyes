@@ -31,7 +31,7 @@ import expeyes.eyesj as eyes
 import expeyes.eyeplot as eyeplot
 import expeyes.eyemath as eyemath
 
-WIDTH  = 1000   # width of drawing canvas
+WIDTH  = 800   # width of drawing canvas
 HEIGHT = 600   # height    
 
 # Connections  
@@ -124,11 +124,11 @@ class WS:
 		if len(self.tv[0]) >= 2:
 			g.delete_lines()
 
-			g.line(self.tv[0], self.tv[1],1)    # red line - temperature in celsius scale
-			g.line(self.tv[0], self.tv[2],2)	# blue line - Relative Humidity in %
-			g.line(self.tv[0], self.tv[2],0)
-			g.line(self.tv[0], self.tv[3],3)
-			g.line(self.tv[0], self.tv[4],4)
+			#g.line(self.tv[0], self.tv[1],1)    # red line - temperature in celsius scale
+			#g.line(self.tv[0], self.tv[2],2)	# blue line - Relative Humidity in %
+			#g.line(self.tv[0], self.tv[3],0)	# black line - A1
+			#g.line(self.tv[0], self.tv[4],5)	# green line -A2
+			g.line(self.tv[0], self.tv[5],6)	#yellow line - SEN
 			
 		if elapsed > self.MAXTIME:
 			self.running = False
@@ -156,14 +156,18 @@ class WS:
 	def msg(self,s, col = 'blue'):
 		msgwin.config(text=s, fg=col)
 
-
+	def quit(self):
+		#p.set_state(10,0)
+		sys.exit()
 
 p = eyes.open()
 p.disable_actions()
+
 root = Tk()
-Canvas(root, width = WIDTH, height = 5).pack(side=TOP)  # Some space at the top
-g = eyeplot.graph(root, width=WIDTH, height=HEIGHT, bip=False)	# make plot objects using draw.disp
-log = WS()
+Canvas(root, width = WIDTH, height = 5).pack(side=TOP)  
+
+g = eyeplot.graph(root, width=WIDTH, height=HEIGHT, bip=False)
+pt = WS()
 
 cf = Frame(root, width = WIDTH, height = 10)
 cf.pack(side=TOP,  fill = BOTH, expand = 1)
@@ -172,7 +176,7 @@ b3 = Label(cf, text = _('Read Every'))
 b3.pack(side = LEFT, anchor = SW)
 TGAP = StringVar()
 Dur =Entry(cf, width=5, bg = 'white', textvariable = TGAP)
-TGAP.set('2000')
+TGAP.set('1000')
 Dur.pack(side = LEFT, anchor = SW)
 b3 = Label(cf, text = _('mS,'))
 b3.pack(side = LEFT, anchor = SW)
@@ -185,27 +189,38 @@ Total.pack(side = LEFT, anchor = SW)
 b3 = Label(cf, text = _('Seconds.'))
 b3.pack(side = LEFT, anchor = SW)
 
+b3 = Label(cf, text = _('Range'))
+b3.pack(side = LEFT, anchor = SW)
+TMIN = StringVar()
+TMIN.set('0')
+Tmin =Entry(cf, width=5, bg = 'white', textvariable = TMIN)
+Tmin.pack(side = LEFT, anchor = SW)
+b3 = Label(cf, text = _('to,'))
+b3.pack(side = LEFT, anchor = SW)
+TMAX = StringVar()
+TMAX.set('100')
+Tmax =Entry(cf, width=5, bg = 'white', textvariable = TMAX)
+Tmax.pack(side = LEFT, anchor = SW)
+b3 = Label(cf, text = _('C. '))
 
 b3 = Button(cf, text = _('SAVE to'), command = pt.save)
-b3.pack(side = LEFT, anchor = N)
-#b3.pack(side = LEFT, anchor = SW)
+b3.pack(side = LEFT, anchor = SW)
+b3.pack(side = LEFT, anchor = SW)
 filename = StringVar()
 e1 =Entry(cf, width=15, bg = 'white', textvariable = filename)
-filename.set('Humidity.dat')
-e1.pack(side = RIGHT, anchor = SW)
+filename.set('temperature.dat')
+e1.pack(side = LEFT, anchor = SW)
 
 cf = Frame(root, width = WIDTH, height = 10)
 cf.pack(side=TOP,  fill = BOTH, expand = 1)
-
 
 cf = Frame(root, width = WIDTH, height = 10)
 cf.pack(side=TOP,  fill = BOTH, expand = 1)
 e1.pack(side = LEFT)
 
-
-b3 = Label(cf, text = _('   RED Line - Capacity in pF'), fg = 'red')
+b3 = Label(cf, text = _(' RED Line - Temperature in Celsius'), fg = 'red')
 b3.pack(side = LEFT, anchor = SW)
-b3 = Label(cf, text = _('    BLUE Line - Relative Humidity in %.'), fg = 'blue')
+b3 = Label(cf, text = _('    BLUE Line - Relative Humidity in %'), fg = 'blue') # Add info for other data lines
 b3.pack(side = LEFT, anchor = SW)
 
 b5 = Button(cf, text = _('QUIT'), command = pt.quit)
