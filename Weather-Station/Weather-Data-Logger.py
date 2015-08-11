@@ -9,8 +9,9 @@ Mentors: Hong Phuc, Mario Behling, Rebentisch
 Author: Praveen Patil
 License : GNU GPL version 3
 
-This programme is for logging weather data like temperature,barometric pressure, humidity and wind speed.
+This programme is for logging weather data like temperature,barometric pressure, Relative humidity and wind speed.
 '''
+
 
 import gettext
 gettext.bindtextdomain("expeyes")
@@ -33,6 +34,12 @@ import expeyes.eyemath as eyemath
 WIDTH  = 1000   # width of drawing canvas
 HEIGHT = 600   # height    
 
+# Connections  
+# Humidity sensor HS1101 to IN1 and GND
+# Temperature sensor LM-35 to IN2, OD1 and GND
+# Barrometric Pressure Sensor  to A2
+# Anemometer to A1
+# Wind Direction Device to SEN
 
 class WS:
 	tv = [ [], [], [], [], [] ]		# Three Lists for Readings time, v  , v1 and v2
