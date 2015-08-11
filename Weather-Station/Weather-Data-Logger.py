@@ -96,8 +96,7 @@ class WS:
 		temp = self.v2t(v)
 		self.tv[1].append(temp)
 
-		cap = p.measure_cap()
-		
+		cap = p.measure_cap()		
 		
 		if cap< 180: 
          		RH= (cap -163)/0.3
@@ -111,63 +110,26 @@ class WS:
 		self.tv[2].append(RH)
 
 
-		if len(self.tv[0]) >= 2:
-			g.delete_lines()
-			
-			g.line(self.tv[0], self.tv[1],1)    # red line - Capacity in pF
-			g.line(self.tv[0], self.tv[2],2)	# blue line - Relative Humidity in %
-		
-		if len(self.tv[0]) >= 2:
-			g.delete_lines()
-			
-			g.line(self.tv[0], self.tv[1],1)    # red line - temperature in celsius scale
-			
-		if elapsed > self.MAXTIME:
-			self.running = False
-			Total.config(state=NORMAL)
-			Dur.config(state=NORMAL)
-			self.msg(_('Completed the Measurements'))
-			return 
-		root.after(self.TIMER, self.update)
+		v1 = p.get_voltage(1) 				# Read A1 for wind speed  
 
-
-
-
-
-
-
-
-
-
-			
-		
-		
-		v1 = p.get_voltage(3) 				# Read IN1  for Humidity in %  
-
-		v2 = p.get_voltage(2)				# Read A2 for Wind Speed
+		v2 = p.get_voltage(2)				# Read A2 for Wind direction
 		v3 = p.get_voltage(5)				# Read SEN for Barrometric Pressure
-		# calculations of various parameters from v, v1 v2 and v3 to be done.humidity from v1 wind speed from v2 and pressure from v3
-		
-		
-		if len(self.tv[0]) == 0:
-			self.start_time = t
-			elapsed = 0
-		else:
-			elapsed = t - self.start_time   # To be done : make changes to have system time
 
-		temp = self.v2t(v)
-		self.tv[1].append(temp)
-		self.tv[0].append(elapsed)
-		self.tv[1].append(temp)
-		self.tv[2].append(v1)
-		self.tv[3].append(v2)
-		self.tv[4].append(v3)
-		if len(self.tv[0]) >= 3:
+		# calculations of various parameters from v1 v2 and v3 to be done. 
+		
+		self.tv[3].append(v1)
+		self.tv[4].append(v2)
+		self.tv[5].append(v3)
+
+		if len(self.tv[0]) >= 2:
 			g.delete_lines()
-			g.line(self.tv[0], self.tv[1])
-			g.line(self.tv[0], self.tv[2],1)
-			g.line(self.tv[0], self.tv[3],2)
-			g.line(self.tv[0], self.tv[4],3)
+
+			g.line(self.tv[0], self.tv[1],1)    # red line - temperature in celsius scale
+			g.line(self.tv[0], self.tv[2],2)	# blue line - Relative Humidity in %
+			g.line(self.tv[0], self.tv[2],0)
+			g.line(self.tv[0], self.tv[3],3)
+			g.line(self.tv[0], self.tv[4],4)
+			
 		if elapsed > self.MAXTIME:
 			self.running = False
 			Total.config(state=NORMAL)
@@ -175,7 +137,6 @@ class WS:
 			self.msg(_('Completed the Measurements'))
 			return 
 		root.after(self.TIMER, self.update)
-
 
 	def save(self):
 		try:
@@ -188,7 +149,7 @@ class WS:
 	def clear(self):
 		if self.running == True:
 			return
-		self.tv = [ [], [], [], [], [] ]
+		self.tv = [ [], [], [], [], [], [] ]
 		g.delete_lines()
 		self.msg(_('Cleared Data and Trace'))
 
@@ -204,7 +165,6 @@ Canvas(root, width = WIDTH, height = 5).pack(side=TOP)  # Some space at the top
 g = eyeplot.graph(root, width=WIDTH, height=HEIGHT, bip=False)	# make plot objects using draw.disp
 log = WS()
 
-
 cf = Frame(root, width = WIDTH, height = 10)
 cf.pack(side=TOP,  fill = BOTH, expand = 1)
 
@@ -212,40 +172,50 @@ b3 = Label(cf, text = _('Read Every'))
 b3.pack(side = LEFT, anchor = SW)
 TGAP = StringVar()
 Dur =Entry(cf, width=5, bg = 'white', textvariable = TGAP)
-TGAP.set('1000')
+TGAP.set('2000')
 Dur.pack(side = LEFT, anchor = SW)
 b3 = Label(cf, text = _('mS,'))
 b3.pack(side = LEFT, anchor = SW)
-
-
 b3 = Label(cf, text = _('for total'))
 b3.pack(side = LEFT, anchor = SW)
 DURATION = StringVar()
 Total =Entry(cf, width=5, bg = 'white', textvariable = DURATION)
 DURATION.set('100')
 Total.pack(side = LEFT, anchor = SW)
-b3 = Label(cf, text = _('Seconds'))
+b3 = Label(cf, text = _('Seconds.'))
 b3.pack(side = LEFT, anchor = SW)
+
+
+b3 = Button(cf, text = _('SAVE to'), command = pt.save)
+b3.pack(side = LEFT, anchor = N)
+#b3.pack(side = LEFT, anchor = SW)
+filename = StringVar()
+e1 =Entry(cf, width=15, bg = 'white', textvariable = filename)
+filename.set('Humidity.dat')
+e1.pack(side = RIGHT, anchor = SW)
 
 cf = Frame(root, width = WIDTH, height = 10)
 cf.pack(side=TOP,  fill = BOTH, expand = 1)
 
 
-b1 = Button(cf, text = _('START'), command = log.start)
-b1.pack(side = LEFT, anchor = N)
-b1 = Button(cf, text = _('STOP'), command = log.stop)
-b1.pack(side = LEFT, anchor = N)
-b4 = Button(cf, text = _('CLEAR'), command = log.clear)
-b4.pack(side = LEFT, anchor = N)
-
-b3 = Button(cf, text = _('SAVE to'), command = log.save)
-b3.pack(side = LEFT, anchor = N)
-filename = StringVar()
-e1 =Entry(cf, width=15, bg = 'white', textvariable = filename)
-filename.set('weather-station.dat')
+cf = Frame(root, width = WIDTH, height = 10)
+cf.pack(side=TOP,  fill = BOTH, expand = 1)
 e1.pack(side = LEFT)
-b5 = Button(cf, text = _('QUIT'), command = sys.exit)
+
+
+b3 = Label(cf, text = _('   RED Line - Capacity in pF'), fg = 'red')
+b3.pack(side = LEFT, anchor = SW)
+b3 = Label(cf, text = _('    BLUE Line - Relative Humidity in %.'), fg = 'blue')
+b3.pack(side = LEFT, anchor = SW)
+
+b5 = Button(cf, text = _('QUIT'), command = pt.quit)
 b5.pack(side = RIGHT, anchor = N)
+b4 = Button(cf, text = _('CLEAR'), command = pt.clear)
+b4.pack(side = RIGHT, anchor = N)
+b1 = Button(cf, text = _('STOP'), command = pt.stop)
+b1.pack(side = RIGHT, anchor = N)
+b1 = Button(cf, text = _('START'), command = pt.start)
+b1.pack(side = RIGHT, anchor = N)
 
 mf = Frame(root, width = WIDTH, height = 10)
 mf.pack(side=TOP)
@@ -254,5 +224,5 @@ msgwin.pack(side=LEFT, anchor = S, fill=BOTH, expand=1)
 
 
 eyeplot.pop_image('pics/image-name.png', _('---'))  # save the image in the same directory as of the program
-root.title(_('Weather Station Data Logger'))
+root.title(_('ExpEYES- Weather Station Data Logger'))
 root.mainloop()
