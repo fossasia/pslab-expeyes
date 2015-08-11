@@ -1,7 +1,17 @@
 '''
-ExpEYES Program written as a part og GSoC Project with FOSSASIA
+ExpEYES-Weather Station GUI
+
+ExpEYES program developed as a part of GSoC-2015 project
+Project Tilte: Sensor Plug-ins, Add-on devices and GUI Improvements for ExpEYES
+
+Mentor Organization:FOSSASIA
+Mentors: Hong Phuc, Mario Behling, Rebentisch
+Author: Praveen Patil
+License : GNU GPL version 3
+
 This programme is for logging weather data like temperature,barometric pressure, humidity and wind speed.
 '''
+
 import gettext
 gettext.bindtextdomain("expeyes")
 gettext.textdomain('expeyes')
