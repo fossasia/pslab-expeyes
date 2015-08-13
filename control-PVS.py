@@ -1,3 +1,11 @@
+'''
+Program to control PVS programable voltage source in ExpEYES
+Useful in voltametry and other applications where voltage needs to be changed
+'''
+
+
+
+
 import sys
 
 if sys.version_info.major==3:
