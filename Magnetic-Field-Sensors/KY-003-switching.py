@@ -1,3 +1,34 @@
+'''
+GUI for using KY-003 Hall Magnetic Sensor as Switching Device/Magnetic field detector
+
+
+ExpEYES program developed as a part of GSoC-2015 project
+Project Tilte: Sensor Plug-ins, Add-on devices and GUI Improvements for ExpEYES
+
+Mentor Organization:FOSSASIA
+Mentors: Hong Phuc, Mario Behling, Rebentisch
+Author: Praveen Patil
+License : GNU GPL version 3
+
+
+'''
+
+
+
+import gettext
+gettext.bindtextdomain("expeyes")
+gettext.textdomain('expeyes')
+_ = gettext.gettext
+
+from Tkinter import *
+import time, math, sys
+if sys.version_info.major==3:
+        from tkinter import *
+else:
+        from Tkinter import *
+
+sys.path=[".."] + sys.path
+
 
 import expeyes.eyesj as eyes
 import expeyes.eyeplot as eyeplot
@@ -59,7 +90,7 @@ class KY003:
 		if len(self.tv[0]) >= 2:
 			g.delete_lines()
 			
-			g.line(self.tv[0], self.tv[1],1)   
+			g.line(self.tv[0], self.tv[1],1)    # red line - temperature in celsius scale
 			
 		if elapsed > self.MAXTIME:
 			self.running = False
