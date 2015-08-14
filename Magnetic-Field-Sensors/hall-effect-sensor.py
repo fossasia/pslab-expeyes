@@ -1,9 +1,16 @@
 '''
-expEYES program
-Developed as a part of GSoC- project
+GUI for using Hall Magnetic sensor
+
+ExpEYES program developed as a part of GSoC-2015 project
+Project Tilte: Sensor Plug-ins, Add-on devices and GUI Improvements for ExpEYES
+
+Mentor Organization:FOSSASIA
+Mentors: Hong Phuc, Mario Behling, Rebentisch
+Author: Praveen Patil
 License : GNU GPL version 3
-Program to plot hall voltage usinh Hall Effect sensor in real-time
+
 '''
+
 import gettext
 gettext.bindtextdomain("expeyes")
 gettext.textdomain('expeyes')
