@@ -60,7 +60,7 @@ class KY003:
 			self.MINY = int(TMIN.get())
 			self.MAXY = int(TMAX.get())
 			
-			g.setWorld(0, self.MINY, self.MAXTIME, self.MAXY,_('Volt'),_('Time'))
+			g.setWorld(0, self.MINY, self.MAXTIME, self.MAXY,_('Time'),_('volt'))
 			self.TIMER = int(TGAP.get())
 			Total.config(state=DISABLED)
 			Dur.config(state=DISABLED)
