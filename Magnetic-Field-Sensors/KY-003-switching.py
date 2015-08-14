@@ -90,7 +90,7 @@ class KY003:
 		if len(self.tv[0]) >= 2:
 			g.delete_lines()
 			
-			g.line(self.tv[0], self.tv[1],1)    # red line - temperature in celsius scale
+			g.line(self.tv[0], self.tv[1],1)    
 			
 		if elapsed > self.MAXTIME:
 			self.running = False
