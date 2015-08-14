@@ -1,6 +1,6 @@
-'''
-GUI for using KY-003 Hall Magnetic Sensor as Switching Device/Magnetic field detector
 
+'''
+GUI for MQ-7 gas sensor 
 
 ExpEYES program developed as a part of GSoC-2015 project
 Project Tilte: Sensor Plug-ins, Add-on devices and GUI Improvements for ExpEYES
@@ -13,7 +13,7 @@ License : GNU GPL version 3
 
 '''
 
-#connections KY-003:  Pin1 to GND,  Pin 2 to OD1 and Pin 3 to A1
+
 
 import gettext
 gettext.bindtextdomain("expeyes")
@@ -37,7 +37,7 @@ import expeyes.eyemath as eyemath
 WIDTH  = 600   # width of drawing canvas
 HEIGHT = 400   # height    
 
-class KY003:
+class MQ-7:
 	tv = [ [], [] ]			    # Lists for Readings
 	TIMER = 10				# Time interval between reads
 	MINY = 0				
@@ -60,7 +60,7 @@ class KY003:
 			self.MINY = int(TMIN.get())
 			self.MAXY = int(TMAX.get())
 			
-			g.setWorld(0, self.MINY, self.MAXTIME, self.MAXY,_('Time'),_('volt'))
+			g.setWorld(0, self.MINY, self.MAXTIME, self.MAXY,_(''),_(''))
 			self.TIMER = int(TGAP.get())
 			Total.config(state=DISABLED)
 			Dur.config(state=DISABLED)
@@ -90,7 +90,7 @@ class KY003:
 		if len(self.tv[0]) >= 2:
 			g.delete_lines()
 			
-			g.line(self.tv[0], self.tv[1],1)    
+			g.line(self.tv[0], self.tv[1],1)   
 			
 		if elapsed > self.MAXTIME:
 			self.running = False
@@ -105,7 +105,7 @@ class KY003:
 		try:
 			fn = filename.get()
 		except:
-			fn = 'KY-003.dat'
+			fn = 'MQ-7.dat'
 		p.save([self.tv],fn)
 		self.msg(_('Data saved to %s')%fn)
 
@@ -130,7 +130,7 @@ root = Tk()
 Canvas(root, width = WIDTH, height = 5).pack(side=TOP)  
 
 g = eyeplot.graph(root, width=WIDTH, height=HEIGHT, bip=False)
-pt = KY003()
+pt = MQ-7()
 
 cf = Frame(root, width = WIDTH, height = 10)
 cf.pack(side=TOP,  fill = BOTH, expand = 1)
@@ -185,10 +185,7 @@ cf = Frame(root, width = WIDTH, height = 10)
 cf.pack(side=TOP,  fill = BOTH, expand = 1)
 e1.pack(side = LEFT)
 
-b3 = Label(cf, text = _(' Output HIGH - Magnetic Field is NOT Present'), fg = 'red')
-b3.pack(side = LEFT, anchor = SW)
-b3 = Label(cf, text = _('    Output LOW - Magnetic Field is  Present'), fg = 'blue')
-b3.pack(side = LEFT, anchor = SW)
+
 
 b5 = Button(cf, text = _('QUIT'), command = pt.quit)
 b5.pack(side = RIGHT, anchor = N)
@@ -204,5 +201,5 @@ mf.pack(side=TOP)
 msgwin = Label(mf,text=_('Message'), fg = 'blue')
 msgwin.pack(side=LEFT, anchor = S, fill=BOTH, expand=1)
 
-root.title(_('Hall Magnetic Sensor KY-003'))
+root.title(_('MQ-7 Carbon Monoxide Gas Sensor'))
 root.mainloop()
