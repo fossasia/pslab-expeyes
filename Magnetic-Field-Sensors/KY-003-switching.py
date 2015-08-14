@@ -13,7 +13,7 @@ License : GNU GPL version 3
 
 '''
 
-
+#connections KY-003:  Pin1 to GND,  Pin 2 to OD1 and Pin 3 to A1
 
 import gettext
 gettext.bindtextdomain("expeyes")
