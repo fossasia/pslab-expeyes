@@ -79,8 +79,10 @@ class MQ6:
 
 	def stop(self):
 		self.running = False
+		
 		Total.config(state=NORMAL)
 		Dur.config(state=NORMAL)
+		p.set_state (10,0)
 		self.msg(_('User Stopped the measurements'))
 
 	def update(self):
@@ -102,9 +104,9 @@ class MQ6:
 		if len(self.tv[0]) >= 2:
 			g.delete_lines()
 			
-			g.line(self.tv[0], self.tv[1])   
-			g.line(self.tv[0], self.tv[2],1)  
-			g.line(self.tv[0], self.tv[3],2)  
+			g.line(self.tv[0], self.tv[1])   	# For MQ-4
+			g.line(self.tv[0], self.tv[2],1)  	# For MQ-6
+			g.line(self.tv[0], self.tv[3],2)  	# For MQ-7
 		if elapsed > self.MAXTIME:
 			self.running = False
 			Total.config(state=NORMAL)
@@ -184,7 +186,7 @@ b3.pack(side = LEFT, anchor = SW)
 b3.pack(side = LEFT, anchor = SW)
 filename = StringVar()
 e1 =Entry(cf, width=15, bg = 'white', textvariable = filename)
-filename.set('KY-003.dat')
+filename.set('MQ.dat')
 e1.pack(side = LEFT, anchor = SW)
 
 cf = Frame(root, width = WIDTH, height = 10)
@@ -198,6 +200,12 @@ cf = Frame(root, width = WIDTH, height = 10)
 cf.pack(side=TOP,  fill = BOTH, expand = 1)
 e1.pack(side = LEFT)
 
+b3 = Label(cf, text = _(' Black Line - Methane'), fg = 'black')
+b3.pack(side = LEFT, anchor = SW)
+b3 = Label(cf, text = _(' Red Line - Liquified Petroium Gas'), fg = 'red')
+b3.pack(side = LEFT, anchor = SW)
+b3 = Label(cf, text = _(' Blue Line - Carbon Monoxide Gas'), fg = 'blue')
+b3.pack(side = LEFT, anchor = SW)
 
 
 b5 = Button(cf, text = _('QUIT'), command = pt.quit)
