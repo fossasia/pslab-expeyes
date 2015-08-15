@@ -1,9 +1,7 @@
 '''
-GUI for interfacing Carbon Monoxide Gas Sensor MQ-7 with ExpEYES
-
-This GUI program is the same for all gas sensors except the calibration factor
+GUI for interfacing LPG Gas Sensor MQ-6 with ExpEYES
+The GUI program is same for all gas sensors except the calibration factor 
 to convert output voltage to gas concentartion in ppm.
-
 
 ExpEYES program developed as a part of GSoC-2015 project
 Project Tilte: Sensor Plug-ins, Add-on devices and GUI Improvements for ExpEYES
@@ -15,8 +13,8 @@ License : GNU GPL version 3
 
 
 '''
-# Connections :  VCC to OD1, GND to GND and AD to SEN
 
+#Connections vcc to OD1, GND to GND and AD to IN2
 
 import gettext
 gettext.bindtextdomain("expeyes")
@@ -40,7 +38,7 @@ import expeyes.eyemath as eyemath
 WIDTH  = 600   # width of drawing canvas
 HEIGHT = 400   # height    
 
-class MQ7:
+class MQ6:
 	tv = [ [], [] ]			    # Lists for Readings
 	TIMER = 10				# Time interval between reads
 	MINY = 0				
@@ -81,7 +79,7 @@ class MQ7:
 	def update(self):
 		if self.running == False:
 			return
-		t,v = p.get_voltage_time(5)  # Read SEN 
+		t,v = p.get_voltage_time(4)  # Read IN2
 		if len(self.tv[0]) == 0:
 			self.start_time = t
 			elapsed = 0
@@ -133,7 +131,7 @@ root = Tk()
 Canvas(root, width = WIDTH, height = 5).pack(side=TOP)  
 
 g = eyeplot.graph(root, width=WIDTH, height=HEIGHT, bip=False)
-pt = MQ7()
+pt = MQ6()
 
 cf = Frame(root, width = WIDTH, height = 10)
 cf.pack(side=TOP,  fill = BOTH, expand = 1)
@@ -204,5 +202,5 @@ mf.pack(side=TOP)
 msgwin = Label(mf,text=_('Message'), fg = 'blue')
 msgwin.pack(side=LEFT, anchor = S, fill=BOTH, expand=1)
 
-root.title(_('MQ-7 Carbon Monoxide Gas Sensor'))
+root.title(_('MQ-6 LPG Gas Sensor'))
 root.mainloop()

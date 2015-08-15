@@ -5,3 +5,4 @@ speed detection,  and current sensing applications.
 
 The KY-003 is a magnetic switch. If no magnetic field is present, the signal line of the sensor is HIGH (3.5 V). If a magnetic field is presented to the sensor, the signal line goes LOW, at the same time the LED on the sensor lights up. The polarity of the magnetic field is of influence to the switching action. 
 The front side of the sensor needs the opposite polarity as the back of the sensor to switch on. 
+![ky003-1](https://cloud.githubusercontent.com/assets/7612306/9290066/fc860470-43a1-11e5-8ce6-255306e6f4ff.png)
