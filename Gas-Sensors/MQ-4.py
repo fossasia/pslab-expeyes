@@ -75,6 +75,7 @@ class MQ4:
 		Total.config(state=NORMAL)
 		Dur.config(state=NORMAL)
 		self.msg(_('User Stopped the measurements'))
+		p.set_state (10,0)
 
 	def update(self):
 		if self.running == False:
@@ -106,7 +107,7 @@ class MQ4:
 		try:
 			fn = filename.get()
 		except:
-			fn = 'MQ-7.dat'
+			fn = 'MQ-4.dat'
 		p.save([self.tv],fn)
 		self.msg(_('Data saved to %s')%fn)
 
