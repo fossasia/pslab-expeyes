@@ -1,6 +1,5 @@
-
 '''
-GUI for MQ-7 gas sensor 
+GUI for interfacing Gas Sensor MQ-7 with ExpEYES
 
 ExpEYES program developed as a part of GSoC-2015 project
 Project Tilte: Sensor Plug-ins, Add-on devices and GUI Improvements for ExpEYES
@@ -37,7 +36,7 @@ import expeyes.eyemath as eyemath
 WIDTH  = 600   # width of drawing canvas
 HEIGHT = 400   # height    
 
-class MQ-7:
+class MQ7:
 	tv = [ [], [] ]			    # Lists for Readings
 	TIMER = 10				# Time interval between reads
 	MINY = 0				
@@ -130,7 +129,7 @@ root = Tk()
 Canvas(root, width = WIDTH, height = 5).pack(side=TOP)  
 
 g = eyeplot.graph(root, width=WIDTH, height=HEIGHT, bip=False)
-pt = MQ-7()
+pt = MQ7()
 
 cf = Frame(root, width = WIDTH, height = 10)
 cf.pack(side=TOP,  fill = BOTH, expand = 1)
