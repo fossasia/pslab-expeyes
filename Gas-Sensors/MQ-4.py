@@ -1,3 +1,34 @@
+'''
+GUI for interfacing LPG Gas Sensor MQ-4 with ExpEYES
+The GUI program is same for all gas sensors except the calibration factor 
+to convert output voltage to gas concentartion in ppm.
+
+ExpEYES program developed as a part of GSoC-2015 project
+Project Tilte: Sensor Plug-ins, Add-on devices and GUI Improvements for ExpEYES
+
+Mentor Organization:FOSSASIA
+Mentors: Hong Phuc, Mario Behling, Rebentisch
+Author: Praveen Patil
+License : GNU GPL version 3
+
+
+'''
+
+#Connections vcc to OD1, GND to GND and AD to IN1
+
+import gettext
+gettext.bindtextdomain("expeyes")
+gettext.textdomain('expeyes')
+_ = gettext.gettext
+
+from Tkinter import *
+import time, math, sys
+if sys.version_info.major==3:
+        from tkinter import *
+else:
+        from Tkinter import *
+
+sys.path=[".."] + sys.path
 
 
 import expeyes.eyesj as eyes
