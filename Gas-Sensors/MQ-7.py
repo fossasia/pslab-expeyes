@@ -1,5 +1,9 @@
 '''
-GUI for interfacing Gas Sensor MQ-7 with ExpEYES
+GUI for interfacing Carbon Monoxide Gas Sensor MQ-7 with ExpEYES
+
+This GUI program is the same for all gas sensors except the calibration factor
+to convert output voltage to gas concentartion in ppm.
+
 
 ExpEYES program developed as a part of GSoC-2015 project
 Project Tilte: Sensor Plug-ins, Add-on devices and GUI Improvements for ExpEYES
@@ -11,7 +15,7 @@ License : GNU GPL version 3
 
 
 '''
-
+# Connections :  VCC to OD1, GND to GND and AD to SEN
 
 
 import gettext
@@ -77,7 +81,7 @@ class MQ7:
 	def update(self):
 		if self.running == False:
 			return
-		t,v = p.get_voltage_time(1)  # Read A1 
+		t,v = p.get_voltage_time(5)  # Read SEN 
 		if len(self.tv[0]) == 0:
 			self.start_time = t
 			elapsed = 0
