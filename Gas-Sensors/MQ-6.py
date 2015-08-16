@@ -173,7 +173,7 @@ b3.pack(side = LEFT, anchor = SW)
 b3.pack(side = LEFT, anchor = SW)
 filename = StringVar()
 e1 =Entry(cf, width=15, bg = 'white', textvariable = filename)
-filename.set('KY-003.dat')
+filename.set('MQ-6.dat')
 e1.pack(side = LEFT, anchor = SW)
 
 cf = Frame(root, width = WIDTH, height = 10)
