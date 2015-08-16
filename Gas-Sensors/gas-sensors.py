@@ -120,7 +120,7 @@ class MQ6:
 		try:
 			fn = filename.get()
 		except:
-			fn = 'MQ-7.dat'
+			fn = 'gas-sensors.dat'
 		p.save([self.tv],fn)
 		self.msg(_('Data saved to %s')%fn)
 
@@ -186,7 +186,7 @@ b3.pack(side = LEFT, anchor = SW)
 b3.pack(side = LEFT, anchor = SW)
 filename = StringVar()
 e1 =Entry(cf, width=15, bg = 'white', textvariable = filename)
-filename.set('MQ.dat')
+filename.set('gas-sensors.dat')
 e1.pack(side = LEFT, anchor = SW)
 
 cf = Frame(root, width = WIDTH, height = 10)

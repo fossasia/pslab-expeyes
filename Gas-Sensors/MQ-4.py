@@ -75,7 +75,7 @@ class MQ4:
 		Total.config(state=NORMAL)
 		Dur.config(state=NORMAL)
 		self.msg(_('User Stopped the measurements'))
-		p.set_state (10,0)
+		#p.set_state (10,0)   # added in def quit 
 
 	def update(self):
 		if self.running == False:
@@ -173,7 +173,7 @@ b3.pack(side = LEFT, anchor = SW)
 b3.pack(side = LEFT, anchor = SW)
 filename = StringVar()
 e1 =Entry(cf, width=15, bg = 'white', textvariable = filename)
-filename.set('KY-003.dat')
+filename.set('MQ-4.dat')
 e1.pack(side = LEFT, anchor = SW)
 
 cf = Frame(root, width = WIDTH, height = 10)
