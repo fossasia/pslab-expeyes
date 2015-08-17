@@ -10,14 +10,14 @@ Author: Praveen Patil
 License : GNU GPL version 3
 
 '''
-import gettext
+import gettext					#Internationalization
 gettext.bindtextdomain("expeyes")
 gettext.textdomain('expeyes')
 _ = gettext.gettext
 
 
 import time, math, sys
-if sys.version_info.major==3:
+if sys.version_info.major==3:			# Python 3 compatibility
         from tkinter import *
 else:
         from Tkinter import *
@@ -49,7 +49,7 @@ class Accl:
 
 	def start(self):
 		
-		print p.set_voltage(5.0)
+		print p.set_voltage(5.0)   # set voltage at PVS
 		self.running = True
 		self.index = 0
 		self.tv = [ [], [], [], [] ]
@@ -70,9 +70,9 @@ class Accl:
 	def update(self):
 		if self.running == False:
 			return
-		t,v = p.get_voltage_time(1)  # Read A1
-		v2 = p.get_voltage(2)
-		v3 = p.get_voltage(3)
+		t,v = p.get_voltage_time(1)  	# Read A1
+		v2 = p.get_voltage(2)		# Read A2
+		v3 = p.get_voltage(3)		# Read IN1
 		if len(self.tv[0]) == 0:
 			self.start_time = t
 			elapsed = 0
@@ -84,9 +84,9 @@ class Accl:
 		self.tv[3].append(v3)
 		if len(self.tv[0]) >= 2:
 			g.delete_lines()
-			g.line(self.tv[0], self.tv[1])
-			g.line(self.tv[0], self.tv[2],1)
-			g.line(self.tv[0], self.tv[3],2)
+			g.line(self.tv[0], self.tv[1])  	# Black line for x-axis
+			g.line(self.tv[0], self.tv[2],1)	# Red line for y-axis
+			g.line(self.tv[0], self.tv[3],2)	# Blue line for z-axis
 		if elapsed > self.MAXTIME:
 			self.running = False
 			Dur.config(state=NORMAL)
@@ -115,8 +115,8 @@ class Accl:
 p = eyes.open()
 p.disable_actions()
 root = Tk()
-Canvas(root, width = WIDTH, height = 5).pack(side=TOP)  # Some space at the top
-g = eyeplot.graph(root, width=WIDTH, height=HEIGHT, bip=False)	# make plot objects using draw.disp
+Canvas(root, width = WIDTH, height = 5).pack(side=TOP)  		# Some space at the top
+g = eyeplot.graph(root, width=WIDTH, height=HEIGHT, bip=False)		# make plot objects using draw.disp
 pen = Accl()
 
 cf = Frame(root, width = WIDTH, height = 10)
@@ -158,5 +158,5 @@ mf.pack(side=TOP)
 msgwin = Label(mf,text=_('Message'), fg = 'blue')
 msgwin.pack(side=LEFT, anchor = S, fill=BOTH, expand=1)
 
-root.title(_('EYESJUN: Accelerometer'))
+root.title(_('EYESJUN: Accelerometer ADXL 335'))
 root.mainloop()
