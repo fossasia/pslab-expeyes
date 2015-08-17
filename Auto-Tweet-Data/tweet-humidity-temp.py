@@ -1,12 +1,12 @@
 '''
-expEYES program developed as a part of GSoC-2015 project
-Mentor Organization:FOSSASIA
-Author: Praveen Patil
-License : GNU GPL version 3
-
-
 Program to auto tweet humidity and temperature data from ExpEYES
 
+ExpEYES program developed as a part of GSoC-2015 project
+Project Tilte: Sensor Plug-ins, Add-on devices and GUI Improvements for ExpEYES
+Mentor Organization:FOSSASIA
+Mentors: Hong Phuc, Mario Behling, Rebentisch
+Author: Praveen Patil
+License : GNU GPL version 3
 
 '''
 #connect HS1011 between IN1 and GND
