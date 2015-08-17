@@ -9,6 +9,14 @@ Mentors: Hong Phuc, Mario Behling, Rebentisch
 Author: Praveen Patil
 License : GNU GPL version 3
 
+Calibration:
+For calculating acceleration in terms of g
+Ref: https://www.sparkfun.com/datasheets/Components/SMD/adxl335.pdf
+For 	0g  	v = 1.61 volt
+	-1g	v = 1.31 volt
+	+1g 	v = 1.91 volt
+Sensitivity 	0.3v/g
+ 
 '''
 import gettext					#Internationalization
 gettext.bindtextdomain("expeyes")
@@ -40,6 +48,8 @@ class Accl:
 	MAXY = 5
 	running = False
 	MAXTIME = 10
+	VZERO = 1.6  	# voltage at zero g
+	SEN = 0.3   	# sensitivity 0.3v/g
 	
 
 	def xmgrace(self):
@@ -49,17 +59,17 @@ class Accl:
 
 	def start(self):
 		
-		print p.set_voltage(5.0)   # set voltage at PVS
+		print p.set_voltage(3.6)   # set voltage at PVS  3.6v is operating voltage for ADXL335
 		self.running = True
 		self.index = 0
 		self.tv = [ [], [], [], [] ]
 		try:
-			self.MAXTIME = int(DURATION.get())
+			
 			self.MAXTIME = int(DURATION.get())
 			self.MINY = int(TMIN.get())
 			self.MAXY = int(TMAX.get())
 
-			g.setWorld(0, self.MINY, self.MAXTIME, self.MAXY,_('Time'),_('m/s^2'))
+			g.setWorld(0, self.MINY, self.MAXTIME, self.MAXY,_('Time'),_('Acceleration g'))
 			self.TIMER = int(TGAP.get())
 			Total.config(state=DISABLED)
 			Dur.config(state=DISABLED)
@@ -80,15 +90,22 @@ class Accl:
 		t,v = p.get_voltage_time(1)  	# Read A1
 		v2 = p.get_voltage(2)		# Read A2
 		v3 = p.get_voltage(3)		# Read IN1
+
+		Xaccl = (v-1.6) / 0.3
+		Yaccl = (v2-1.6) / 0.3
+		Zaccl = (v3-1.6) / 0.3
+
 		if len(self.tv[0]) == 0:
 			self.start_time = t
 			elapsed = 0
 		else:
 			elapsed = t - self.start_time
+
 		self.tv[0].append(elapsed)
-		self.tv[1].append(v)
-		self.tv[2].append(v2)
-		self.tv[3].append(v3)
+		self.tv[1].append(Xaccl)
+		self.tv[2].append(Yaccl)
+		self.tv[3].append(Zaccl)
+
 		if len(self.tv[0]) >= 2:
 			g.delete_lines()
 			g.line(self.tv[0], self.tv[1])  	# Black line for x-axis
@@ -176,9 +193,8 @@ e1.pack(side = LEFT, anchor = SW)
 cf = Frame(root, width = WIDTH, height = 10)
 cf.pack(side=TOP,  fill = BOTH, expand = 1)
 
-cf = Frame(root, width = WIDTH, height = 10)
-cf.pack(side=TOP,  fill = BOTH, expand = 1)
-e1.pack(side = LEFT)
+b1 = Button(cf, text = _('Xmgrace'), command = pen.xmgrace)
+b1.pack(side = LEFT, anchor = SW)
 
 b3 = Label(cf, text = _(' Black Line : X-axis'), fg = 'black')
 b3.pack(side = LEFT, anchor = SW)
@@ -186,6 +202,12 @@ b3 = Label(cf, text = _(' RED Line : Y-axis'), fg = 'red')
 b3.pack(side = LEFT, anchor = SW)
 b3 = Label(cf, text = _('    BLUE Line - Z-axis'), fg = 'blue') 
 b3.pack(side = LEFT, anchor = SW)
+
+cf = Frame(root, width = WIDTH, height = 10)
+cf.pack(side=TOP,  fill = BOTH, expand = 1)
+e1.pack(side = LEFT)
+
+
 b5 = Button(cf, text = _('QUIT'), command = pen.quit)
 b5.pack(side = RIGHT, anchor = N)
 b4 = Button(cf, text = _('CLEAR'), command = pen.clear)
