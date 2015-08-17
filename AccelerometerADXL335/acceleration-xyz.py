@@ -9,6 +9,14 @@ Mentors: Hong Phuc, Mario Behling, Rebentisch
 Author: Praveen Patil
 License : GNU GPL version 3
 
+Calibration:
+For calculating acceleration in terms of g
+Ref: https://www.sparkfun.com/datasheets/Components/SMD/adxl335.pdf
+For 	0g  	v = 1.610 volt
+	-1g	v = 1.317 volt
+	+1g 	v = 1.965 volt
+ 
+
 '''
 import gettext					#Internationalization
 gettext.bindtextdomain("expeyes")
