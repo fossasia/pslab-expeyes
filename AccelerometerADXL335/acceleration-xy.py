@@ -165,11 +165,6 @@ Tmax =Entry(cf, width=5, bg = 'white', textvariable = TMAX)
 Tmax.pack(side = LEFT, anchor = SW)
 b3 = Label(cf, text = _('C. '))
 
-
-cf = Frame(root, width = WIDTH, height = 10)
-cf.pack(side=TOP,  fill = BOTH, expand = 1)
-
-
 b3 = Button(cf, text = _('SAVE to'), command = pen.save)
 b3.pack(side = LEFT, anchor = SW)
 b3.pack(side = LEFT, anchor = SW)
@@ -199,11 +194,6 @@ b1 = Button(cf, text = _('STOP'), command = pen.stop)
 b1.pack(side = RIGHT, anchor = N)
 b1 = Button(cf, text = _('START'), command = pen.start)
 b1.pack(side = RIGHT, anchor = N)
-
-mf = Frame(root, width = WIDTH, height = 10)
-mf.pack(side=TOP)
-msgwin = Label(mf,text=_('Message'), fg = 'blue')
-msgwin.pack(side=LEFT, anchor = S, fill=BOTH, expand=1)
 
 
 mf = Frame(root, width = WIDTH, height = 10)
