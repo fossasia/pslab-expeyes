@@ -54,7 +54,7 @@ class Accl:
 		self.index = 0
 		self.tv = [ [], [], [], [] ]
 		try:
-			self.MAXTIME = int(DURATION.get())
+			
 			self.MAXTIME = int(DURATION.get())
 			self.MINY = int(TMIN.get())
 			self.MAXY = int(TMAX.get())
@@ -176,9 +176,8 @@ e1.pack(side = LEFT, anchor = SW)
 cf = Frame(root, width = WIDTH, height = 10)
 cf.pack(side=TOP,  fill = BOTH, expand = 1)
 
-cf = Frame(root, width = WIDTH, height = 10)
-cf.pack(side=TOP,  fill = BOTH, expand = 1)
-e1.pack(side = LEFT)
+b1 = Button(cf, text = _('Xmgrace'), command = pen.xmgrace)
+b1.pack(side = LEFT, anchor = SW)
 
 b3 = Label(cf, text = _(' Black Line : X-axis'), fg = 'black')
 b3.pack(side = LEFT, anchor = SW)
@@ -186,6 +185,12 @@ b3 = Label(cf, text = _(' RED Line : Y-axis'), fg = 'red')
 b3.pack(side = LEFT, anchor = SW)
 b3 = Label(cf, text = _('    BLUE Line - Z-axis'), fg = 'blue') 
 b3.pack(side = LEFT, anchor = SW)
+
+cf = Frame(root, width = WIDTH, height = 10)
+cf.pack(side=TOP,  fill = BOTH, expand = 1)
+e1.pack(side = LEFT)
+
+
 b5 = Button(cf, text = _('QUIT'), command = pen.quit)
 b5.pack(side = RIGHT, anchor = N)
 b4 = Button(cf, text = _('CLEAR'), command = pen.clear)
