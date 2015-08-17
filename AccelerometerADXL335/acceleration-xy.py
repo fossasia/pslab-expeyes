@@ -49,7 +49,7 @@ class Accl:
 
 	def start(self):
 		
-		print p.set_voltage(5.0)   # set voltage at PVS
+		print p.set_voltage(3.6)   # set voltage at PVS  3.6v is operating voltage for ADXL335
 		self.running = True
 		self.index = 0
 		self.tv = [ [], [], [], [] ]
