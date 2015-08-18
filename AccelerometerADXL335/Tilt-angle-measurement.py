@@ -1,10 +1,33 @@
 '''
+GUI Program to plot acceleration data using ADXL335 sensor in real-time
+
+ExpEYES program developed as a part of GSoC-2015 project
+Project Tilte: Sensor Plug-ins, Add-on devices and GUI Improvements for ExpEYES
+Mentor Organization:FOSSASIA
+Mentors: Hong Phuc, Mario Behling, Rebentisch
+Author: Praveen Patil
+License : GNU GPL version 3
+
+
 Accelerometer ADXL 335 can be used for measuring Tilt angle
 ADXL335 acceleration measurement range is +/- 3 g. Supply voltage is 1.8 –  3.6 V, however all specifications at the datasheet is given at 3.0 V. This accelerometer has  3 outputs for X,Y,Z axis which voltage is proportional to acceleration on specific axis.
 
 At midpoint when acceleration is 0 g output is typically 1/2 of supply voltage. If a supply voltage is 3V, then output is 1.5 V. Output sensitivity typically is 300 mV/g.
 
+Calibration:
+For calculating acceleration in terms of g
+Ref: https://www.sparkfun.com/datasheets/Components/SMD/adxl335.pdf
+For 	0g  	v = 1.61 volt
+	-1g	v = 1.31 volt
+	+1g 	v = 1.91 volt
+Sensitivity 	0.3v/g
+
 '''
+import gettext					#Internationalization
+gettext.bindtextdomain("expeyes")
+gettext.textdomain('expeyes')
+_ = gettext.gettext
+
 
 import time, math, sys
 if sys.version_info.major==3:			# Python 3 compatibility
@@ -19,8 +42,6 @@ import expeyes.eyeplot as eyeplot
 import expeyes.eyemath as eyemath
 p=eyes.open()
 
-
-		
 print p.set_voltage(3.6)   # set voltage at PVS  3.6v is operating voltage for ADXL335
 		
 t,v = p.get_voltage_time(1)  	# Read A1
@@ -40,6 +61,3 @@ print angle_x
 print angle_y
 print angle_z
 	
-
-
-
