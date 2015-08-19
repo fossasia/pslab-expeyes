@@ -14,6 +14,8 @@ Author: Praveen Patil
 License : GNU GPL version 3
 
 
+
+Ref: For calculation of gas concentration in ppm : https://cdn.sparkfun.com/datasheets/Sensors/Biometric/MQ-7%20Ver1.3%20-%20Manual.pdf
 '''
 
 #Connections vcc to OD1, GND to GND for all sensors
