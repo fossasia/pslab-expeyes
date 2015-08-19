@@ -52,7 +52,8 @@ Xaccl = (v-1.6) / 0.3
 Yaccl = (v2-1.6) / 0.3
 Zaccl = (v3-1.6) / 0.3
 
-angle_x =atan2(-Yaccl,-Zaccl)*57.2957795+180;	
+angle_x =atan2(-Yaccl,-Zaccl)*57.2957795+180;	# math.atan2(y, x)-Return atan(y / x), in radians. The result is between -pi and pi. The vector in the plane from the origin to point (x, y) makes this angle with the positive X axis. The point of atan2() is that the signs of both inputs are known to it, so it can compute the correct quadrant for the angle. For example, atan(1) and atan2(1, 1) are both pi/4, but atan2(-1, -1) is -3*pi/4.
+
 
 angle_y =atan2(-Zaccl,-Xaccl)*57.2957795+180;
 angle_z =atan2(-Xaccl,-Yaccl)*57.2957795+180;
