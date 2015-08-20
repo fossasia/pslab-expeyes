@@ -12,7 +12,7 @@ Author: Praveen Patil
 License : GNU GPL version 3
 
 '''
-
+# Connections : PVS to main electrode,Ref. Electrode to GND
 import gettext
 gettext.bindtextdomain("expeyes")
 gettext.textdomain('expeyes')
@@ -81,7 +81,8 @@ def base_scan():
 
 def update():
 	global data, history, trial, NP, delay, noise
-	t, v= p.capture_hr(1,NP,delay)		# Scan for 5 times more
+	p.set_voltage(1.0) # set voltage on PVS
+        t, v= p.capture_hr(1,NP,delay)		# Scan for 5 times more
 	p1,p2 = find_peaks(t,v)
 	#print v[p1], v[p2]
 	if abs(v[p1] - noise) > 0.5 and p1 < .9*NP:  # Signal at least 0.5 volts above noise
