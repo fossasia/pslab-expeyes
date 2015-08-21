@@ -1,4 +1,4 @@
-### Applications of Sensor Plug-ins developed for GSoC-2015 Project
+### List of Sensor Plug-ins developed for GSoC-2015 Project
 
 ####1. Accelerometer 
 Sensor Used:    ADXL 335 - Three axis
@@ -26,3 +26,10 @@ Sensor Used:    IC-TCS3200D-SOP8
 Sensor Used:    Home-made 
 ####12. Wind Direction
 Sensor Used:    Home-made
+####13. Rotatory Motion Sensor
+Sensor Used:    DC Motor and a pick-up coil
+####14. Motion Sensor-Photo Gate
+Sensor Used:    Photo Gate using Photo Diode
+
+
+
