@@ -34,5 +34,7 @@ Sensor Used:    Photo Gate using Photo Diode
                 Solar Cells
                 Induction coil
                 condensor mic
+                ATTINY-85 MCU used for sine wave generation
+                Raspberry Pi 2 Model B for stand-alone weather station
 
 
