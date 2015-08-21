@@ -8,7 +8,14 @@ Mentors: Hong Phuc, Mario Behling, Rebentisch
 Author: Praveen Patil
 License : GNU GPL version 3
 '''
+# Connections : Dc motor between GND and IN ( amplifier input pin) , OUT to A1 
+# Get the output of DC motor amplified  
 
+
+import gettext #Internationalization
+gettext.bindtextdomain("expeyes")
+gettext.textdomain('expeyes')
+_ = gettext.gettext
 
 import time, math, sys
 if sys.version_info.major==3:
