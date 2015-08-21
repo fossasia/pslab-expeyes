@@ -1,3 +1,18 @@
+'''
+GUI for using Photo-gate with ExpEYES
+
+ExpEYES program developed as a part of GSoC-2015 project
+Project Tilte: Sensor Plug-ins, Add-on devices and GUI Improvements for ExpEYES
+
+Mentor Organization:FOSSASIA
+Mentors: Hong Phuc, Mario Behling, Rebentisch
+Author: Praveen Patil
+License : GNU GPL version 3
+
+
+Connections: LED between GND and SQR1 and Photo-transister between SEN and GND
+'''
+
 import gettext
 gettext.bindtextdomain("expeyes")
 gettext.textdomain('expeyes')
