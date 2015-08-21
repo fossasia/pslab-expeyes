@@ -1,7 +1,18 @@
 '''
 
 '''
+import gettext
+gettext.bindtextdomain("expeyes")
+gettext.textdomain('expeyes')
+_ = gettext.gettext
 
+import time, sys, math
+if sys.version_info.major==3:
+        from tkinter import *
+else:
+        from Tkinter import *
+
+sys.path=[".."] + sys.path
 
 import expeyes.eyesj as eyes
 import expeyes.eyeplot as eyeplot
