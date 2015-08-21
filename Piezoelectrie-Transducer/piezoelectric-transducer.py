@@ -1,5 +1,13 @@
 '''
+GUI Program for Piezo-electric Transducer- Can be used as a impact/force sensor
 
+
+ExpEYES program developed as a part of GSoC-2015 project
+Project Tilte: Sensor Plug-ins, Add-on devices and GUI Improvements for ExpEYES
+Mentor Organization:FOSSASIA
+Mentors: Hong Phuc, Mario Behling, Rebentisch
+Author: Praveen Patil
+License : GNU GPL version 3
 
 
 '''
@@ -161,7 +169,7 @@ b3.pack(side = LEFT, anchor = SW)
 b3.pack(side = LEFT, anchor = SW)
 filename = StringVar()
 e1 =Entry(cf, width=15, bg = 'white', textvariable = filename)
-filename.set('KY-003.dat')
+filename.set('piezo.dat')
 e1.pack(side = LEFT, anchor = SW)
 
 cf = Frame(root, width = WIDTH, height = 10)
