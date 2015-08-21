@@ -30,6 +30,9 @@ Sensor Used:    Home-made
 Sensor Used:    DC Motor and a pick-up coil
 ####14. Motion Sensor-Photo Gate
 Sensor Used:    Photo Gate using Photo Diode
-
+####15. Other tools used as sensors
+                Solar Cells
+                Induction coil
+                condensor mic
 
 
