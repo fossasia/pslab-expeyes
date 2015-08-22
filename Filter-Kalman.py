@@ -1,7 +1,16 @@
+'''
+For filtering readings from sensors like srf-05 or acceleromrter
+
+
+Credits:http://scottlobdell.me/2014/08/kalman-filtering-python-reading-sensor-input/
+	
+'''
+
+
+
+
 class KalmanFilter(object):
-	'''
-	Credits:http://scottlobdell.me/2014/08/kalman-filtering-python-reading-sensor-input/
-	'''
+	
 	def __init__(self, process_variance, estimated_measurement_variance):
 		self.process_variance = process_variance
 		self.estimated_measurement_variance = estimated_measurement_variance
