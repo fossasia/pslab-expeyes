@@ -1,4 +1,10 @@
+'''
+Reference Program for reading data from digital pressure sensor BMP180
+Can be used to measure pressure, temperature and altitude.
 
+# Modifications are required for reading with ExpEYES inputs
+
+'''
 
 from numpy import int16
 import time
