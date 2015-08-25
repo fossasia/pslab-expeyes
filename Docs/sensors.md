@@ -13,8 +13,14 @@ An accelerometer is a device that measures proper acceleration ("g-force"). Prop
 Relative humidity is an important metric used in weather forecasts and reports, as it is an indicator of the likelihood of precipitation, dew, or fog. In hot summer weather, a rise in relative humidity increases the apparent temperature to humans (and other animals) by hindering the evaporation of perspiration from the skin. Ref: wikipedia.org
 
 
-HS1101 sensor consists of a capacitor which varies with relative humidity and is used in a 555 circuit to generate a pulse train of frequency related to relative humidity. The number of pulses over a one second period are counted and the RH is then calculated.
+**HS1101 sensor** consists of a capacitor which varies with relative humidity and is used in a 555 circuit to generate a pulse train of frequency related to relative humidity. The number of pulses over a one second period are counted and the RH is then calculated.
 
 Based on a unique capacitive cell, this relative humidity sensor is designed for high volume, cost sensitive applications such as office automation, automotive cabin air control, home appliances, and industrial process control systems. They are also useful in all applications where humidity compensation is needed.
 
+####Temeprature Sensors : LM-35 and PT-100
 
+Platinum resistance thermometers (PRTs) offer excellent accuracy over a wide temperature range (from –200 to +850 °C). Standard sensors are are available from many manufacturers with various accuracy specifications and numerous packaging options to suit most applications. Unlike thermocouples, it is not necessary to use special cables to connect to the sensor. 
+
+For LM-35  temperature sensor the output voltage is linearly proportional to the Celsius (Centigrade) temperature. LM35 does not require any external calibration or trimming to provide typical accuracies of ±1⁄4̊ C  at room temperature and ±3⁄4̊C over a full −55 to +150 ̊C temperature range.  Another temperature sensor PT100 is previously  tested with ExpEYES.  It offers excellent accuracy over a wide temperature range (from –200 to +850 °C). 
+
+The LM35 series are precision integrated-circuit temperature sensors, whose output voltage is linearly proportional to the Celsius (Centigrade) temperature. The LM35 thus has an advantage over linear temperature sensors calibrated in ̊ Kelvin, as the user is not required to subtract a large constant voltage from its output to obtain convenient Centi- grade scaling. 
