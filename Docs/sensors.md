@@ -46,3 +46,7 @@ The KY-003 is a magnetic switch. If no magnetic field is present, the signal lin
 A piezoelectric sensor is a device that uses the piezoelectric effect, to measure changes in pressure, acceleration, temperature, strain, or force by converting them to an electrical charge. The prefix piezo- is Greek for 'press' or 'squeeze'.
 
 Cheap piezoceramic membrane used in piezoelectric ‘buzzers’ can be used as a very inexpensive, accurate and sensitive pressure sensor. These devices can be used both as sensors and actuators, so they’re referred to as transducers, a term applied to any device that can convert one form of energy to another. The sensor turns mechanical energy into electric potential, and the actuator converts electrical energy into mechanical force or motion.
+
+### Barometric Pressure Sensor BMP 180
+
+BMP-180Tested BMP180 Digital Barometric Pressure Sensor Board Module :This precision sensor from Bosch is the best low-cost sensing solution for measuring barometric pressure and temperature.  
