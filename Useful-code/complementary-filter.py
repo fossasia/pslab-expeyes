@@ -1,3 +1,7 @@
+'''
+filter useful for gyro data
+'''
+
 class ComplementaryFilter:
 	def __init__(self,):
 		self.pitch=0
