@@ -76,7 +76,7 @@ class piezo:
 	def update(self):
 		if self.running == False:
 			return
-		t,v = p.get_voltage_time(1)  # Read IN2
+		t,v = p.get_voltage_time(1)  # Read A1
 		if len(self.tv[0]) == 0:
 			self.start_time = t
 			elapsed = 0
