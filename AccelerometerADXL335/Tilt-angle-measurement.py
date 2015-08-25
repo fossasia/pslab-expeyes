@@ -1,5 +1,5 @@
 '''
-GUI Program to plot acceleration data using ADXL335 sensor in real-time
+GUI Program to calculate tilt angle using ADXL335 sensor
 
 
 ExpEYES program developed as a part of GSoC-2015 project
@@ -38,7 +38,7 @@ else:
 sys.path=[".."] + sys.path
 
 
-from math import*
+from math import* # for using function atan2
 
 # from numpy import*
 import expeyes.eyesj as eyes
