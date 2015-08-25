@@ -21,6 +21,13 @@ Based on a unique capacitive cell, this relative humidity sensor is designed for
 
 Platinum resistance thermometers (PRTs) offer excellent accuracy over a wide temperature range (from –200 to +850 °C). Standard sensors are are available from many manufacturers with various accuracy specifications and numerous packaging options to suit most applications. Unlike thermocouples, it is not necessary to use special cables to connect to the sensor. 
 
-For LM-35  temperature sensor the output voltage is linearly proportional to the Celsius (Centigrade) temperature. LM35 does not require any external calibration or trimming to provide typical accuracies of ±1⁄4̊ C  at room temperature and ±3⁄4̊C over a full −55 to +150 ̊C temperature range.  Another temperature sensor PT100 is previously  tested with ExpEYES.  It offers excellent accuracy over a wide temperature range (from –200 to +850 °C). 
+For **LM-35**  temperature sensor the output voltage is linearly proportional to the Celsius (Centigrade) temperature. LM35 does not require any external calibration or trimming to provide typical accuracies of ±1⁄4̊ C  at room temperature and ±3⁄4̊C over a full −55 to +150 ̊C temperature range.  Another temperature sensor PT100 is previously  tested with ExpEYES.  It offers excellent accuracy over a wide temperature range (from –200 to +850 °C). 
 
 The LM35 series are precision integrated-circuit temperature sensors, whose output voltage is linearly proportional to the Celsius (Centigrade) temperature. The LM35 thus has an advantage over linear temperature sensors calibrated in ̊ Kelvin, as the user is not required to subtract a large constant voltage from its output to obtain convenient Centi- grade scaling. 
+
+####Hall Magnetic Sensor : Hall Sensor -3144 and Module KY-003
+
+Exploring  the use of this magnetic sensor for measuring rotational speed of anemometer and other measurements was quiet interesting experience.  Tried Hall sensor 3144 and KY-003 module.
+
+The KY-003 is a magnetic switch. If no magnetic field is present, the signal line of the sensor is HIGH (3.5 V). If a magnetic field is presented to the sensor, the signal line goes LOW, at the same time the LED on the sensor lights up. The polarity of the magnetic field is of influence to the switching action. The front side of the sensor needs the opposite polarity as the back of the sensor to switch on.
+
