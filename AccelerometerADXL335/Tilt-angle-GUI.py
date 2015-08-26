@@ -14,7 +14,7 @@ atan2(y, x)-------- Returns atan(y / x), in radians. The result is between -pi a
 
 The rotation(for x axis) is calculated using atan2 function. It calculates angle from length of y, z vectors.	57.2957795 is conversation of radian to degree. +180 is for offset.	
 
-'''
+
 
 
 
@@ -114,6 +114,16 @@ v3 = p.get_voltage(3) # Read IN1
 Xaccl = (v-1.6) / 0.3
 Yaccl = (v2-1.6) / 0.3
 Zaccl = (v3-1.6) / 0.3
+
+angle_x =atan2(-Yaccl,-Zaccl)*57.2957795+180;							
+
+angle_y =atan2(-Zaccl,-Xaccl)*57.2957795+180;
+
+angle_z =atan2(-Xaccl,-Yaccl)*57.2957795+180;
+
+print "Tilt angle X-axis = ", angle_x, "degree"
+print "Tilt angle Y-axis = ", angle_y, "degree"
+print "Tilt angle z-axis = ", angle_z, "degree"
 if len(self.tv[0]) == 0:
 self.start_time = t
 elapsed = 0
