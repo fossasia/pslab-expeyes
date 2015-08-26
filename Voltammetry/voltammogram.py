@@ -11,6 +11,8 @@ Mentors: Hong Phuc, Mario Behling, Rebentisch
 Author: Praveen Patil
 License : GNU GPL version 3
 
+
+# Modifications needed to change voltage from +1 to -1 volt 
 '''
 # Connections : PVS to main electrode,Ref. Electrode to GND
 import gettext
