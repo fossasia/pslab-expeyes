@@ -51,8 +51,8 @@ HEIGHT = 400   # height
 class tilt:
 	tv = [ [], [], [], [] ]		# Three Lists for Readings time, v1, v2, v3
 	TIMER = 5			# Time interval between reads
-	MINY = -5			# Voltage range
-	MAXY = 5
+	MINY = -360			# Voltage range
+	MAXY = 360
 	running = False
 	MAXTIME = 10
 	VZERO = 1.6  	# voltage at zero g
@@ -109,9 +109,10 @@ class tilt:
 
 		angle_z =atan2(-Xaccl,-Yaccl)*57.2957795+180;
 
-		print "Tilt angle X-axis = ", angle_x, "degree"
-		print "Tilt angle Y-axis = ", angle_y, "degree"
-		print "Tilt angle z-axis = ", angle_z, "degree"
+		#print "Tilt angle X-axis = ", angle_x, "degree"
+		#print "Tilt angle Y-axis = ", angle_y, "degree"
+		#print "Tilt Calibration:
+
 
 		if len(self.tv[0]) == 0:
 			self.start_time = t
@@ -142,7 +143,7 @@ class tilt:
 		try:
 			fn = filename.get()
 		except:
-			fn = 'acceleration.dat'
+			fn = 'tiltangle.dat'
 		p.save([self.tv],fn)
 		self.msg(_('Data saved to %s')%fn)
 
@@ -163,7 +164,7 @@ p.disable_actions()
 root = Tk()
 Canvas(root, width = WIDTH, height = 5).pack(side=TOP)  		# Some space at the top
 g = eyeplot.graph(root, width=WIDTH, height=HEIGHT, bip=False)		# make plot objects using draw.disp
-pen = Accl()
+pen = tilt()
 
 cf = Frame(root, width = WIDTH, height = 10)
 cf.pack(side=TOP,  fill = BOTH, expand = 1)
@@ -205,7 +206,7 @@ b3.pack(side = LEFT, anchor = SW)
 b3.pack(side = LEFT, anchor = SW)
 filename = StringVar()
 e1 =Entry(cf, width=15, bg = 'white', textvariable = filename)
-filename.set('acceleration.dat')
+filename.set('tiltangle.dat')
 e1.pack(side = LEFT, anchor = SW)
 
 cf = Frame(root, width = WIDTH, height = 10)
@@ -241,5 +242,5 @@ mf.pack(side=TOP)
 msgwin = Label(mf,text=_('Message'), fg = 'blue')
 msgwin.pack(side=LEFT, anchor = S, fill=BOTH, expand=1)
 
-root.title(_('EYESJUN: Accelerometer ADXL 335'))
+root.title(_('Accelerometer ADXL 335  Tilt angle Measurement '))
 root.mainloop()
