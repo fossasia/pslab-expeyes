@@ -108,6 +108,8 @@ class tilt:
 		angle_y =atan2(-Zaccl,-Xaccl)*57.2957795+180;
 
 		angle_z =atan2(-Xaccl,-Yaccl)*57.2957795+180;
+		
+		#changes required to measure angle between +180 to -180 degrees
 
 		#print "Tilt angle X-axis = ", angle_x, "degree"
 		#print "Tilt angle Y-axis = ", angle_y, "degree"
