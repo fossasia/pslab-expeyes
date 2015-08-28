@@ -16,3 +16,21 @@ a_gravity can be calculated (or measured when the sensor is  at rest) and subtra
 a_sensor to isolate a_dynamic.
 
 
+Unfortunately, this is rarely the case. There is a heuristic technique that may be useful for estimating
+a_dynamic in cases where the orientation of the accelerometer is unknown and movement is sporadic.
+The magnitude of
+a_sensor is calculated as
+
+a_sensor= sqrt [(a_sensorX)^2 + (a_sensorY)^2 + (a_sensorZ)^2]
+
+
+
+If the magnitude of
+a_sensor is very close to 1g for prolonged periods of time, it is likely that a_dynamic is zero during these “rest times”
+(though they may also correspond to periods of movement at a constant velocity). 
+
+If we assume that a_sensor is equal to a_gravity during these periods, then the orientation of the sensor may be updated to a new value. This 
+estimate of a_gravity is then subtracted from all accelerometer readings until the next “rest time” where it can be
+reassessed.
+
+
