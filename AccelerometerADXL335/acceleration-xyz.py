@@ -94,7 +94,12 @@ class Accl:
 		Xaccl = (v-1.6) / 0.3
 		Yaccl = (v2-1.6) / 0.3
 		Zaccl = (v3-1.6) / 0.3
+# In the cases where the orientation of the accelerometer is unknown and movement is sporadic. 
+#The magnitude of a_sensor is calculated as 
+#a_sensor= sqrt [(a_sensorX)^2 + (a_sensorY)^2 + (a_sensorZ)^2]
 
+		#accln_xyz = sqrt(Xaccl**2 +Yaccl**2 +Zaccl**2)
+		
 		if len(self.tv[0]) == 0:
 			self.start_time = t
 			elapsed = 0
