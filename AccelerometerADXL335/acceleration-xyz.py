@@ -98,7 +98,8 @@ class Accl:
 #The magnitude of a_sensor is calculated as 
 #a_sensor= sqrt [(a_sensorX)^2 + (a_sensorY)^2 + (a_sensorZ)^2]
 
-
+		#accln_xyz = sqrt(Xaccl**2 +Yaccl**2 +Zaccl**2)
+		
 		if len(self.tv[0]) == 0:
 			self.start_time = t
 			elapsed = 0
