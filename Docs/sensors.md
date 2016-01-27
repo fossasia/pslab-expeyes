@@ -42,6 +42,8 @@ The KY-003 is a magnetic switch. If no magnetic field is present, the signal lin
 
 
 ####Piezielectric Transducer
+/home/gnovi/Desktop/WP_20160103_14_23_12_Selfie.jpg
+
 
 A piezoelectric sensor is a device that uses the piezoelectric effect, to measure changes in pressure, acceleration, temperature, strain, or force by converting them to an electrical charge. The prefix piezo- is Greek for 'press' or 'squeeze'.
 
