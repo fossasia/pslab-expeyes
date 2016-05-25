@@ -6,6 +6,13 @@ License : GPL
 '''
 
 
+
+import gettext
+gettext.bindtextdomain("expeyes")
+gettext.textdomain('expeyes')
+_ = gettext.gettext
+
+
 from Tkinter import *
 import expeyes.eyes as eyes, expeyes.eyeplot as eyeplot
 
