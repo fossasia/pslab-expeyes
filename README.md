@@ -10,4 +10,4 @@ This Repository is also intended for hosting programs to conduct science experim
 Thanks a million to **FOSSASIA** I got the oppurtinity to be a part of **GSoC - 2016** 
 Project Title: **" Open Source Science Experiments & Data Acquisition System for Physics Education and Research with ExpEYES - Pocket Science Lab"** (https://goo.gl/g7OzcG)
 Mentor Organization: **FOSSASIA** (http://fossasia.org/)
-Mentors: Mario Behling, Lorenz
+Mentors: Mario Behling, Lorenz Gerber, Gi Soong Chi
