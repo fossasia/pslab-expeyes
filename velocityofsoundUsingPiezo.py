@@ -42,7 +42,7 @@ res.pack(side = TOP, anchor = N)
 b5 = Button(cf, text = _('QUIT'), command = sys.exit)
 b5.pack(side = TOP, anchor = N)
 
-eyeplot.pop_image('pics/ultra-sound.png', _('Velocity of Sound, 40kHz'))
+eyeplot.pop_image('pics/xxxxx.png', _('Velocity of Sound, 40kHz'))
 root.title(_('Velocity of Sound'))
 root.mainloop()
 
