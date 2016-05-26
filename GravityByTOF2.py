@@ -1,3 +1,10 @@
+'''
+ExpEYES program developed as a part of GSoC-2016 project
+Project Tilte: 
+Mentor Organization:FOSSASIA
+License : GNU GPL version 3
+'''
+
 
 import expeyes.eyesj
 p= expeyes.eyesj.open()
