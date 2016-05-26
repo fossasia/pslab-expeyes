@@ -6,6 +6,21 @@ License : GNU GPL version 3
 '''
 
 
+import gettext
+gettext.bindtextdomain("expeyes")
+gettext.textdomain('expeyes')
+_ = gettext.gettext
+
+from Tkinter import *
+import time, math, sys
+if sys.version_info.major==3:
+        from tkinter import *
+else:
+        from Tkinter import *
+
+sys.path=[".."] + sys.path
+
+
 import expeyes.eyesj
 p= expeyes.eyesj.open()
 
