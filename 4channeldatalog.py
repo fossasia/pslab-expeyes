@@ -1,4 +1,8 @@
-
+'''
+expEYES program
+Author  : Ajith Kumar B.P, bpajith@gmail.com, Praveen Patil for GSoC-16
+License : GNU GPL version 3
+'''
 
 import gettext
 gettext.bindtextdomain("expeyes")
