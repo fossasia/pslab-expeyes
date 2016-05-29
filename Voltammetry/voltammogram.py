@@ -11,6 +11,11 @@ Mentors: Hong Phuc, Mario Behling, Rebentisch
 Author: Praveen Patil
 License : GNU GPL version 3
 
+Update : As a part of GSoC-16 project we are working on a complete and affordable open source solution for all types of voltammetric measurements.
+
+Since ExpEYES does not have a bipolar voltage source, Conversion from Unipolar to Bipolar will be done using external circuit.
+
+A new tool for Fossasia Science Lab is in the making. It will have inbuilt Bipolar Voltage Source.
 
 # Modifications needed to change voltage from +1 to -1 volt 
 '''
