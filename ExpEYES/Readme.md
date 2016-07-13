@@ -1,5 +1,7 @@
 ExpEYES Software
 
+Full software documentation at http://www.expeyes.in/software.html
+
 ExpEYES software is written in Python and it should run on any computer having Python interpreter (version > 2.7) and Python Serial library. It is included in the Debian and Ubuntu (version > 13.04) GNU/Linux distributions. Otherwise it can be installed from expeyes.deb file.
 For Ubuntu versions 10.04 to 12.10 you may use this deb file.
 
