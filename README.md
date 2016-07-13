@@ -11,3 +11,7 @@ This repository hosts the programs for additional experiments for ExpEYES.
 # Sensors and Devices
 
 Which sensors and devices exist? Please check out our list of [supported devices](/sensors/Readme.md).
+
+# Web Connectors
+
+It is possible to collect data and publish it automatically on the web on your own web application or on social networks like Twitter and Facebook. Find more info [web connectors here](/web-connectors/Readme.md).
