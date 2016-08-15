@@ -3,12 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#: ../sensors/Piezoelectrie-Transducer/piezoelectric-transducer.py:61
+#: ../sensors/DC-motor-as-pickup-device/dc-motor-pickup.py:151
+#: ../sensors/Battery-Characteristics/charging-discharging.py:169
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-03 11:40+0200\n"
-"PO-Revision-Date: 2015-08-03 19:09+0200\n"
+"POT-Creation-Date: 2016-08-15 16:46+0200\n"
+"PO-Revision-Date: 2016-08-15 16:48+0200\n"
 "Last-Translator: Georges Khaznadar <georgesk@debian.org>\n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -24,11 +27,32 @@ msgstr ""
 #: ../Tempreature-Sensor/Temp-PT100-GUI.py:68
 #: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:61
 #: ../Weather-Station/Weather-Data-Logger.py:47
+#: ../sensors/Infra-red-Object-Sensor/IR-object-sensor.py:62
+#: ../sensors/Temperatur-Sensor/Temp-PT100-GUI.py:68
+#: ../sensors/Gas-Sensors/gas-sensors.py:73
+#: ../sensors/DC-motor-as-pickup-device/dc-motor-pickup.py:54
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:63
+#: ../sensors/Magnetic-Field-Sensors/hall-effect-sensor.py:56
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:72
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:79
+#: ../sensors/Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:61
+#: ../sensors/Ultrasonic-Motion-Sensor/motion-srf-two-sensors.py:48
+#: ../experiments/Coupled-Pendulum/coupledpendulum.py:49
+#: ../experiments/4channeldatalog/4channeldatalog.py:54
+#: ../sensors/Infra-red-Object-Sensor/IR-object-sensor.py:61
+#: ../sensors/Gas-Sensors/gas-sensors.py:74
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:62
+#: ../sensors/Magnetic-Field-Sensors/hall-effect-sensor.py:57
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:74
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:82
+#: ../sensors/Ultrasonic-Motion-Sensor/motion-srf-two-sensors.py:52
 msgid "Time"
 msgstr "Temps"
 
 #: ../AccelerometerADXL335/acceleration-xy.py:54
 #: ../Magnetic-Field-Sensors/hall-effect-sensor.py:49
+#: ../sensors/Magnetic-Field-Sensors/hall-effect-sensor.py:56
+#: ../sensors/Magnetic-Field-Sensors/hall-effect-sensor.py:57
 msgid "m/s^2"
 msgstr "m/s^2"
 
@@ -39,6 +63,33 @@ msgstr "m/s^2"
 #: ../Tempreature-Sensor/Temp-PT100-GUI.py:72
 #: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:63
 #: ../Weather-Station/Weather-Data-Logger.py:51
+#: ../sensors/Piezoelectrie-Transducer/piezoelectric-transducer.py:65
+#: ../sensors/Infra-red-Object-Sensor/IR-object-sensor.py:66
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:71
+#: ../sensors/Temperatur-Sensor/Temp-PT100-GUI.py:72
+#: ../sensors/Gas-Sensors/MQ-6.py:68 ../sensors/Gas-Sensors/gas-sensors.py:77
+#: ../sensors/Gas-Sensors/MQ-7.py:70 ../sensors/Gas-Sensors/MQ-4.py:68
+#: ../sensors/DC-motor-as-pickup-device/dc-motor-pickup.py:56
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:67
+#: ../sensors/Magnetic-Field-Sensors/hall-effect-sensor.py:58
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:76
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:83
+#: ../sensors/Photo-gate/photo-gate.py:57
+#: ../sensors/Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:63
+#: ../sensors/Ultrasonic-Motion-Sensor/motion-srf-two-sensors.py:50
+#: ../sensors/Humidity-Sensor/humidity-HS1101-GUI.py:88
+#: ../experiments/Coupled-Pendulum/coupledpendulum.py:51
+#: ../experiments/Weather-Station/Weather-Data-Logger.py:72
+#: ../sensors/Infra-red-Object-Sensor/IR-object-sensor.py:65
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:70
+#: ../sensors/Gas-Sensors/MQ-6.py:67 ../sensors/Gas-Sensors/gas-sensors.py:78
+#: ../sensors/Gas-Sensors/MQ-7.py:69 ../sensors/Gas-Sensors/MQ-4.py:67
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:66
+#: ../sensors/Magnetic-Field-Sensors/hall-effect-sensor.py:59
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:78
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:86
+#: ../sensors/Ultrasonic-Motion-Sensor/motion-srf-two-sensors.py:54
+#: ../sensors/Humidity-Sensor/humidity-HS1101-GUI.py:87
 msgid "Starting the Measurements"
 msgstr "Démarrage de la mesure"
 
@@ -50,6 +101,32 @@ msgstr "Démarrage de la mesure"
 #: ../Tempreature-Sensor/Temp-PT100-GUI.py:75
 #: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:66
 #: ../Weather-Station/Weather-Data-Logger.py:54
+#: ../sensors/Piezoelectrie-Transducer/piezoelectric-transducer.py:68
+#: ../sensors/Infra-red-Object-Sensor/IR-object-sensor.py:69
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:74
+#: ../sensors/Temperatur-Sensor/Temp-PT100-GUI.py:75
+#: ../sensors/Gas-Sensors/MQ-6.py:71 ../sensors/Gas-Sensors/gas-sensors.py:80
+#: ../sensors/Gas-Sensors/MQ-7.py:73 ../sensors/Gas-Sensors/MQ-4.py:71
+#: ../sensors/DC-motor-as-pickup-device/dc-motor-pickup.py:59
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:70
+#: ../sensors/Magnetic-Field-Sensors/hall-effect-sensor.py:61
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:79
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:86
+#: ../sensors/Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:66
+#: ../sensors/Ultrasonic-Motion-Sensor/motion-srf-two-sensors.py:53
+#: ../sensors/Humidity-Sensor/humidity-HS1101-GUI.py:91
+#: ../experiments/Coupled-Pendulum/coupledpendulum.py:54
+#: ../experiments/Weather-Station/Weather-Data-Logger.py:75
+#: ../sensors/Infra-red-Object-Sensor/IR-object-sensor.py:68
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:73
+#: ../sensors/Gas-Sensors/MQ-6.py:70 ../sensors/Gas-Sensors/gas-sensors.py:81
+#: ../sensors/Gas-Sensors/MQ-7.py:72 ../sensors/Gas-Sensors/MQ-4.py:70
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:69
+#: ../sensors/Magnetic-Field-Sensors/hall-effect-sensor.py:62
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:81
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:89
+#: ../sensors/Ultrasonic-Motion-Sensor/motion-srf-two-sensors.py:57
+#: ../sensors/Humidity-Sensor/humidity-HS1101-GUI.py:90
 msgid "Failed to Start"
 msgstr "Échec du démarrage"
 
@@ -61,6 +138,33 @@ msgstr "Échec du démarrage"
 #: ../Tempreature-Sensor/Temp-PT100-GUI.py:81
 #: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:71
 #: ../Weather-Station/Weather-Data-Logger.py:61
+#: ../sensors/Piezoelectrie-Transducer/piezoelectric-transducer.py:74
+#: ../sensors/Infra-red-Object-Sensor/IR-object-sensor.py:75
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:80
+#: ../sensors/Temperatur-Sensor/Temp-PT100-GUI.py:81
+#: ../sensors/Gas-Sensors/MQ-6.py:77 ../sensors/Gas-Sensors/gas-sensors.py:88
+#: ../sensors/Gas-Sensors/MQ-7.py:79 ../sensors/Gas-Sensors/MQ-4.py:77
+#: ../sensors/DC-motor-as-pickup-device/dc-motor-pickup.py:64
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:76
+#: ../sensors/Magnetic-Field-Sensors/hall-effect-sensor.py:66
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:85
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:92
+#: ../sensors/Photo-gate/photo-gate.py:64
+#: ../sensors/Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:71
+#: ../sensors/Ultrasonic-Motion-Sensor/motion-srf-two-sensors.py:58
+#: ../sensors/Humidity-Sensor/humidity-HS1101-GUI.py:97
+#: ../experiments/Coupled-Pendulum/coupledpendulum.py:59
+#: ../experiments/Weather-Station/Weather-Data-Logger.py:82
+#: ../sensors/Infra-red-Object-Sensor/IR-object-sensor.py:74
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:79
+#: ../sensors/Gas-Sensors/MQ-6.py:76 ../sensors/Gas-Sensors/gas-sensors.py:89
+#: ../sensors/Gas-Sensors/MQ-7.py:78 ../sensors/Gas-Sensors/MQ-4.py:76
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:75
+#: ../sensors/Magnetic-Field-Sensors/hall-effect-sensor.py:67
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:87
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:95
+#: ../sensors/Ultrasonic-Motion-Sensor/motion-srf-two-sensors.py:62
+#: ../sensors/Humidity-Sensor/humidity-HS1101-GUI.py:96
 msgid "User Stopped the measurements"
 msgstr "L'utilisateur a arrêté la mesure"
 
@@ -72,6 +176,33 @@ msgstr "L'utilisateur a arrêté la mesure"
 #: ../Tempreature-Sensor/Temp-PT100-GUI.py:105
 #: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:94
 #: ../Weather-Station/Weather-Data-Logger.py:99
+#: ../sensors/Piezoelectrie-Transducer/piezoelectric-transducer.py:97
+#: ../sensors/Infra-red-Object-Sensor/IR-object-sensor.py:98
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:106
+#: ../sensors/Temperatur-Sensor/Temp-PT100-GUI.py:105
+#: ../sensors/Gas-Sensors/MQ-6.py:101 ../sensors/Gas-Sensors/gas-sensors.py:116
+#: ../sensors/Gas-Sensors/MQ-7.py:102 ../sensors/Gas-Sensors/MQ-4.py:101
+#: ../sensors/DC-motor-as-pickup-device/dc-motor-pickup.py:84
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:99
+#: ../sensors/Magnetic-Field-Sensors/hall-effect-sensor.py:88
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:123
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:139
+#: ../sensors/Photo-gate/photo-gate.py:80
+#: ../sensors/Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:94
+#: ../sensors/Ultrasonic-Motion-Sensor/motion-srf-two-sensors.py:82
+#: ../sensors/Humidity-Sensor/humidity-HS1101-GUI.py:133
+#: ../experiments/Coupled-Pendulum/coupledpendulum.py:81
+#: ../experiments/Weather-Station/Weather-Data-Logger.py:137
+#: ../sensors/Infra-red-Object-Sensor/IR-object-sensor.py:97
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:105
+#: ../sensors/Gas-Sensors/MQ-6.py:100 ../sensors/Gas-Sensors/gas-sensors.py:117
+#: ../sensors/Gas-Sensors/MQ-7.py:101 ../sensors/Gas-Sensors/MQ-4.py:100
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:98
+#: ../sensors/Magnetic-Field-Sensors/hall-effect-sensor.py:89
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:125
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:142
+#: ../sensors/Ultrasonic-Motion-Sensor/motion-srf-two-sensors.py:86
+#: ../sensors/Humidity-Sensor/humidity-HS1101-GUI.py:132
 msgid "Completed the Measurements"
 msgstr "Mesures terminées"
 
@@ -82,6 +213,33 @@ msgstr "Mesures terminées"
 #: ../Tempreature-Sensor/Temp-PT100-GUI.py:125
 #: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:104
 #: ../Weather-Station/Weather-Data-Logger.py:110
+#: ../sensors/Piezoelectrie-Transducer/piezoelectric-transducer.py:108
+#: ../sensors/Infra-red-Object-Sensor/IR-object-sensor.py:109
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:117
+#: ../sensors/Temperatur-Sensor/Temp-PT100-GUI.py:125
+#: ../sensors/Gas-Sensors/MQ-6.py:112 ../sensors/Gas-Sensors/gas-sensors.py:127
+#: ../sensors/Gas-Sensors/MQ-7.py:113 ../sensors/Gas-Sensors/MQ-4.py:112
+#: ../sensors/DC-motor-as-pickup-device/dc-motor-pickup.py:94
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:110
+#: ../sensors/Magnetic-Field-Sensors/hall-effect-sensor.py:98
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:134
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:150
+#: ../sensors/Photo-gate/photo-gate.py:95
+#: ../sensors/Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:104
+#: ../sensors/Ultrasonic-Motion-Sensor/motion-srf-two-sensors.py:92
+#: ../sensors/Humidity-Sensor/humidity-HS1101-GUI.py:144
+#: ../experiments/Coupled-Pendulum/coupledpendulum.py:91
+#: ../experiments/Weather-Station/Weather-Data-Logger.py:147
+#: ../sensors/Infra-red-Object-Sensor/IR-object-sensor.py:108
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:116
+#: ../sensors/Gas-Sensors/MQ-6.py:111 ../sensors/Gas-Sensors/gas-sensors.py:128
+#: ../sensors/Gas-Sensors/MQ-7.py:112 ../sensors/Gas-Sensors/MQ-4.py:111
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:109
+#: ../sensors/Magnetic-Field-Sensors/hall-effect-sensor.py:99
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:136
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:153
+#: ../sensors/Ultrasonic-Motion-Sensor/motion-srf-two-sensors.py:96
+#: ../sensors/Humidity-Sensor/humidity-HS1101-GUI.py:143
 #, python-format
 msgid "Data saved to %s"
 msgstr "Données enregistrées dans %s"
@@ -93,12 +251,46 @@ msgstr "Données enregistrées dans %s"
 #: ../Tempreature-Sensor/Temp-PT100-GUI.py:132
 #: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:111
 #: ../Weather-Station/Weather-Data-Logger.py:117
+#: ../sensors/Piezoelectrie-Transducer/piezoelectric-transducer.py:115
+#: ../sensors/Infra-red-Object-Sensor/IR-object-sensor.py:116
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:124
+#: ../sensors/Temperatur-Sensor/Temp-PT100-GUI.py:132
+#: ../sensors/Gas-Sensors/MQ-6.py:119 ../sensors/Gas-Sensors/gas-sensors.py:134
+#: ../sensors/Gas-Sensors/MQ-7.py:120 ../sensors/Gas-Sensors/MQ-4.py:119
+#: ../sensors/DC-motor-as-pickup-device/dc-motor-pickup.py:101
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:117
+#: ../sensors/Magnetic-Field-Sensors/hall-effect-sensor.py:105
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:141
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:157
+#: ../sensors/Photo-gate/photo-gate.py:102
+#: ../sensors/Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:111
+#: ../sensors/Ultrasonic-Motion-Sensor/motion-srf-two-sensors.py:99
+#: ../sensors/Humidity-Sensor/humidity-HS1101-GUI.py:151
+#: ../experiments/Coupled-Pendulum/coupledpendulum.py:98
+#: ../experiments/Weather-Station/Weather-Data-Logger.py:154
+#: ../sensors/Infra-red-Object-Sensor/IR-object-sensor.py:115
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:123
+#: ../sensors/Gas-Sensors/MQ-6.py:118 ../sensors/Gas-Sensors/gas-sensors.py:135
+#: ../sensors/Gas-Sensors/MQ-7.py:119 ../sensors/Gas-Sensors/MQ-4.py:118
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:116
+#: ../sensors/Magnetic-Field-Sensors/hall-effect-sensor.py:106
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:143
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:160
+#: ../sensors/Ultrasonic-Motion-Sensor/motion-srf-two-sensors.py:103
+#: ../sensors/Humidity-Sensor/humidity-HS1101-GUI.py:150
 msgid "Cleared Data and Trace"
 msgstr "Effacé les données et la trace"
 
 #: ../AccelerometerADXL335/acceleration-xy.py:122
 #: ../Magnetic-Field-Sensors/hall-effect-sensor.py:114
 #: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:128
+#: ../sensors/DC-motor-as-pickup-device/dc-motor-pickup.py:117
+#: ../sensors/Magnetic-Field-Sensors/hall-effect-sensor.py:121
+#: ../sensors/Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:128
+#: ../sensors/Ultrasonic-Motion-Sensor/motion-srf-two-sensors.py:115
+#: ../experiments/Coupled-Pendulum/coupledpendulum.py:114
+#: ../sensors/Magnetic-Field-Sensors/hall-effect-sensor.py:122
+#: ../sensors/Ultrasonic-Motion-Sensor/motion-srf-two-sensors.py:119
 msgid "Digitize for"
 msgstr "Numériser pendant"
 
@@ -108,6 +300,32 @@ msgstr "Numériser pendant"
 #: ../Tempreature-Sensor/temp-control.py:175
 #: ../Tempreature-Sensor/Temp-PT100-GUI.py:166
 #: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:134
+#: ../sensors/Piezoelectrie-Transducer/piezoelectric-transducer.py:150
+#: ../sensors/Infra-red-Object-Sensor/IR-object-sensor.py:151
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:159
+#: ../sensors/Temperatur-Sensor/Temp-PT100-GUI.py:166
+#: ../sensors/Gas-Sensors/MQ-6.py:154 ../sensors/Gas-Sensors/gas-sensors.py:169
+#: ../sensors/Gas-Sensors/MQ-7.py:155 ../sensors/Gas-Sensors/MQ-4.py:154
+#: ../sensors/DC-motor-as-pickup-device/dc-motor-pickup.py:123
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:152
+#: ../sensors/Magnetic-Field-Sensors/hall-effect-sensor.py:127
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:173
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:189
+#: ../sensors/Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:134
+#: ../sensors/Ultrasonic-Motion-Sensor/motion-srf-two-sensors.py:121
+#: ../sensors/Humidity-Sensor/humidity-HS1101-GUI.py:186
+#: ../experiments/Coupled-Pendulum/coupledpendulum.py:120
+#: ../experiments/Weather-Station/Weather-Data-Logger.py:189
+#: ../sensors/Infra-red-Object-Sensor/IR-object-sensor.py:150
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:158
+#: ../sensors/Gas-Sensors/MQ-6.py:153 ../sensors/Gas-Sensors/gas-sensors.py:170
+#: ../sensors/Gas-Sensors/MQ-7.py:154 ../sensors/Gas-Sensors/MQ-4.py:153
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:151
+#: ../sensors/Magnetic-Field-Sensors/hall-effect-sensor.py:128
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:175
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:192
+#: ../sensors/Ultrasonic-Motion-Sensor/motion-srf-two-sensors.py:125
+#: ../sensors/Humidity-Sensor/humidity-HS1101-GUI.py:185
 msgid "Seconds."
 msgstr "s."
 
@@ -122,6 +340,34 @@ msgstr "Ligne noire axe-X, ligne rouge axe-Y, ligne bleue axe-Z"
 #: ../Tempreature-Sensor/Temp-PT100-GUI.py:183
 #: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:147
 #: ../Weather-Station/Weather-Data-Logger.py:158
+#: ../sensors/Piezoelectrie-Transducer/piezoelectric-transducer.py:194
+#: ../sensors/Infra-red-Object-Sensor/IR-object-sensor.py:195
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:206
+#: ../sensors/Temperatur-Sensor/Temp-PT100-GUI.py:183
+#: ../sensors/Gas-Sensors/MQ-6.py:198 ../sensors/Gas-Sensors/gas-sensors.py:219
+#: ../sensors/Gas-Sensors/MQ-7.py:199 ../sensors/Gas-Sensors/MQ-4.py:198
+#: ../sensors/DC-motor-as-pickup-device/dc-motor-pickup.py:128
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:199
+#: ../sensors/Magnetic-Field-Sensors/hall-effect-sensor.py:134
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:222
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:238
+#: ../sensors/Photo-gate/photo-gate.py:122
+#: ../sensors/Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:147
+#: ../sensors/Ultrasonic-Motion-Sensor/motion-srf-two-sensors.py:134
+#: ../sensors/Humidity-Sensor/humidity-HS1101-GUI.py:218
+#: ../experiments/Coupled-Pendulum/coupledpendulum.py:125
+#: ../experiments/Weather-Station/Weather-Data-Logger.py:232
+#: ../experiments/4channeldatalog/4channeldatalog.py:163
+#: ../sensors/Infra-red-Object-Sensor/IR-object-sensor.py:194
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:205
+#: ../sensors/Gas-Sensors/MQ-6.py:197 ../sensors/Gas-Sensors/gas-sensors.py:220
+#: ../sensors/Gas-Sensors/MQ-7.py:198 ../sensors/Gas-Sensors/MQ-4.py:197
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:198
+#: ../sensors/Magnetic-Field-Sensors/hall-effect-sensor.py:135
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:224
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:241
+#: ../sensors/Ultrasonic-Motion-Sensor/motion-srf-two-sensors.py:138
+#: ../sensors/Humidity-Sensor/humidity-HS1101-GUI.py:217
 msgid "START"
 msgstr "DÉMARRAGE"
 
@@ -132,6 +378,34 @@ msgstr "DÉMARRAGE"
 #: ../Tempreature-Sensor/Temp-PT100-GUI.py:185
 #: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:149
 #: ../Weather-Station/Weather-Data-Logger.py:160
+#: ../sensors/Piezoelectrie-Transducer/piezoelectric-transducer.py:192
+#: ../sensors/Infra-red-Object-Sensor/IR-object-sensor.py:193
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:204
+#: ../sensors/Temperatur-Sensor/Temp-PT100-GUI.py:185
+#: ../sensors/Gas-Sensors/MQ-6.py:196 ../sensors/Gas-Sensors/gas-sensors.py:217
+#: ../sensors/Gas-Sensors/MQ-7.py:197 ../sensors/Gas-Sensors/MQ-4.py:196
+#: ../sensors/DC-motor-as-pickup-device/dc-motor-pickup.py:130
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:197
+#: ../sensors/Magnetic-Field-Sensors/hall-effect-sensor.py:136
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:220
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:236
+#: ../sensors/Photo-gate/photo-gate.py:124
+#: ../sensors/Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:149
+#: ../sensors/Ultrasonic-Motion-Sensor/motion-srf-two-sensors.py:136
+#: ../sensors/Humidity-Sensor/humidity-HS1101-GUI.py:216
+#: ../experiments/Coupled-Pendulum/coupledpendulum.py:127
+#: ../experiments/Weather-Station/Weather-Data-Logger.py:230
+#: ../experiments/4channeldatalog/4channeldatalog.py:165
+#: ../sensors/Infra-red-Object-Sensor/IR-object-sensor.py:192
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:203
+#: ../sensors/Gas-Sensors/MQ-6.py:195 ../sensors/Gas-Sensors/gas-sensors.py:218
+#: ../sensors/Gas-Sensors/MQ-7.py:196 ../sensors/Gas-Sensors/MQ-4.py:195
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:196
+#: ../sensors/Magnetic-Field-Sensors/hall-effect-sensor.py:137
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:222
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:239
+#: ../sensors/Ultrasonic-Motion-Sensor/motion-srf-two-sensors.py:140
+#: ../sensors/Humidity-Sensor/humidity-HS1101-GUI.py:215
 msgid "STOP"
 msgstr "STOP"
 
@@ -143,6 +417,36 @@ msgstr "STOP"
 #: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:151
 #: ../Voltammetry/voltammogram.py:143
 #: ../Weather-Station/Weather-Data-Logger.py:162
+#: ../sensors/Piezoelectrie-Transducer/piezoelectric-transducer.py:190
+#: ../sensors/Infra-red-Object-Sensor/IR-object-sensor.py:191
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:202
+#: ../sensors/Temperatur-Sensor/Temp-PT100-GUI.py:187
+#: ../sensors/Gas-Sensors/MQ-6.py:194 ../sensors/Gas-Sensors/gas-sensors.py:215
+#: ../sensors/Gas-Sensors/MQ-7.py:195 ../sensors/Gas-Sensors/MQ-4.py:194
+#: ../sensors/DC-motor-as-pickup-device/dc-motor-pickup.py:132
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:195
+#: ../sensors/Magnetic-Field-Sensors/hall-effect-sensor.py:138
+#: ../sensors/Battery-Characteristics/charging-discharging.py:156
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:218
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:234
+#: ../sensors/Photo-gate/photo-gate.py:126
+#: ../sensors/Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:151
+#: ../sensors/Ultrasonic-Motion-Sensor/motion-srf-two-sensors.py:138
+#: ../sensors/Humidity-Sensor/humidity-HS1101-GUI.py:214
+#: ../experiments/Voltammetry/voltammogram.py:160
+#: ../experiments/Coupled-Pendulum/coupledpendulum.py:129
+#: ../experiments/Weather-Station/Weather-Data-Logger.py:228
+#: ../experiments/4channeldatalog/4channeldatalog.py:167
+#: ../sensors/Infra-red-Object-Sensor/IR-object-sensor.py:190
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:201
+#: ../sensors/Gas-Sensors/MQ-6.py:193 ../sensors/Gas-Sensors/gas-sensors.py:216
+#: ../sensors/Gas-Sensors/MQ-7.py:194 ../sensors/Gas-Sensors/MQ-4.py:193
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:194
+#: ../sensors/Magnetic-Field-Sensors/hall-effect-sensor.py:139
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:220
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:237
+#: ../sensors/Ultrasonic-Motion-Sensor/motion-srf-two-sensors.py:142
+#: ../sensors/Humidity-Sensor/humidity-HS1101-GUI.py:213
 msgid "CLEAR"
 msgstr "EFFACER"
 
@@ -152,6 +456,33 @@ msgstr "EFFACER"
 #: ../Tempreature-Sensor/temp-control.py:196
 #: ../Tempreature-Sensor/Temp-PT100-GUI.py:201
 #: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:153
+#: ../sensors/Piezoelectrie-Transducer/piezoelectric-transducer.py:178
+#: ../sensors/Infra-red-Object-Sensor/IR-object-sensor.py:179
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:187
+#: ../sensors/Temperatur-Sensor/Temp-PT100-GUI.py:201
+#: ../sensors/Gas-Sensors/MQ-6.py:182 ../sensors/Gas-Sensors/gas-sensors.py:197
+#: ../sensors/Gas-Sensors/MQ-7.py:183 ../sensors/Gas-Sensors/MQ-4.py:182
+#: ../sensors/DC-motor-as-pickup-device/dc-motor-pickup.py:134
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:180
+#: ../sensors/Magnetic-Field-Sensors/hall-effect-sensor.py:140
+#: ../sensors/Battery-Characteristics/charging-discharging.py:154
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:201
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:217
+#: ../sensors/Photo-gate/photo-gate.py:134
+#: ../sensors/Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:153
+#: ../sensors/Ultrasonic-Motion-Sensor/motion-srf-two-sensors.py:140
+#: ../sensors/Ultrasonic-Motion-Sensor/velocityofsound.py:119
+#: ../experiments/Coupled-Pendulum/coupledpendulum.py:131
+#: ../sensors/Infra-red-Object-Sensor/IR-object-sensor.py:178
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:186
+#: ../sensors/Gas-Sensors/MQ-6.py:181 ../sensors/Gas-Sensors/gas-sensors.py:198
+#: ../sensors/Gas-Sensors/MQ-7.py:182 ../sensors/Gas-Sensors/MQ-4.py:181
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:179
+#: ../sensors/Magnetic-Field-Sensors/hall-effect-sensor.py:141
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:203
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:220
+#: ../sensors/Ultrasonic-Motion-Sensor/motion-srf-two-sensors.py:144
+#: ../sensors/Ultrasonic-Motion-Sensor/velocityofsound.py:124
 msgid "Xmgrace"
 msgstr "XmGrace"
 
@@ -162,6 +493,34 @@ msgstr "XmGrace"
 #: ../Tempreature-Sensor/Temp-PT100-GUI.py:203
 #: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:155
 #: ../Weather-Station/Weather-Data-Logger.py:165
+#: ../sensors/Piezoelectrie-Transducer/piezoelectric-transducer.py:167
+#: ../sensors/Infra-red-Object-Sensor/IR-object-sensor.py:168
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:176
+#: ../sensors/Temperatur-Sensor/Temp-PT100-GUI.py:203
+#: ../sensors/Gas-Sensors/MQ-6.py:171 ../sensors/Gas-Sensors/gas-sensors.py:186
+#: ../sensors/Gas-Sensors/MQ-7.py:172 ../sensors/Gas-Sensors/MQ-4.py:171
+#: ../sensors/DC-motor-as-pickup-device/dc-motor-pickup.py:136
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:169
+#: ../sensors/Magnetic-Field-Sensors/hall-effect-sensor.py:142
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:190
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:206
+#: ../sensors/Photo-gate/photo-gate.py:128
+#: ../sensors/Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:155
+#: ../sensors/Ultrasonic-Motion-Sensor/motion-srf-two-sensors.py:142
+#: ../sensors/Humidity-Sensor/humidity-HS1101-GUI.py:190
+#: ../experiments/Coupled-Pendulum/coupledpendulum.py:133
+#: ../experiments/Weather-Station/Weather-Data-Logger.py:206
+#: ../experiments/4channeldatalog/4channeldatalog.py:172
+#: ../sensors/Infra-red-Object-Sensor/IR-object-sensor.py:167
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:175
+#: ../sensors/Gas-Sensors/MQ-6.py:170 ../sensors/Gas-Sensors/gas-sensors.py:187
+#: ../sensors/Gas-Sensors/MQ-7.py:171 ../sensors/Gas-Sensors/MQ-4.py:170
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:168
+#: ../sensors/Magnetic-Field-Sensors/hall-effect-sensor.py:143
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:192
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:209
+#: ../sensors/Ultrasonic-Motion-Sensor/motion-srf-two-sensors.py:146
+#: ../sensors/Humidity-Sensor/humidity-HS1101-GUI.py:189
 msgid "SAVE to"
 msgstr "ENREGISTRER sous"
 
@@ -174,6 +533,44 @@ msgstr "ENREGISTRER sous"
 #: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:161
 #: ../Voltammetry/voltammogram.py:139
 #: ../Weather-Station/Weather-Data-Logger.py:171
+#: ../sensors/Piezoelectrie-Transducer/piezoelectric-transducer.py:188
+#: ../sensors/Infra-red-Object-Sensor/IR-object-sensor.py:189
+#: ../sensors/ATTINY85-MCU/Lissajous.py:119
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:200
+#: ../sensors/Temperatur-Sensor/Temp-PT100-GUI.py:213
+#: ../sensors/Gas-Sensors/MQ-6.py:192 ../sensors/Gas-Sensors/gas-sensors.py:213
+#: ../sensors/Gas-Sensors/MQ-7.py:193 ../sensors/Gas-Sensors/MQ-4.py:192
+#: ../sensors/DC-motor-as-pickup-device/dc-motor-pickup.py:142
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:193
+#: ../sensors/Magnetic-Field-Sensors/hall-effect-sensor.py:148
+#: ../sensors/Battery-Characteristics/charging-discharging.py:147
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:216
+#: ../sensors/AccelerometerADXL335/lissajous-accelerometer.py:105
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:232
+#: ../sensors/Photo-gate/photo-gate.py:136
+#: ../sensors/Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:161
+#: ../sensors/Ultrasonic-Motion-Sensor/motion-srf-two-sensors.py:148
+#: ../sensors/Ultrasonic-Motion-Sensor/velocityofsound.py:130
+#: ../sensors/Humidity-Sensor/humidity-HS1101-GUI.py:212
+#: ../experiments/GravityByTimeOfFlight/GravityByTimeOfFlight.py:130
+#: ../experiments/Voltammetry/voltammogram.py:156
+#: ../experiments/Coupled-Pendulum/coupledpendulum.py:139
+#: ../experiments/velocityofsoundUsingPiezo/velocityofsoundUsingPiezo.py:45
+#: ../experiments/Weather-Station/Weather-Data-Logger.py:226
+#: ../experiments/4channeldatalog/4channeldatalog.py:179
+#: ../experiments/control-PVS/control-PVS.py:38
+#: ../sensors/Infra-red-Object-Sensor/IR-object-sensor.py:188
+#: ../sensors/ATTINY85-MCU/Lissajous.py:122
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:199
+#: ../sensors/Gas-Sensors/MQ-6.py:191 ../sensors/Gas-Sensors/gas-sensors.py:214
+#: ../sensors/Gas-Sensors/MQ-7.py:192 ../sensors/Gas-Sensors/MQ-4.py:191
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:192
+#: ../sensors/Magnetic-Field-Sensors/hall-effect-sensor.py:149
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:218
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:235
+#: ../sensors/Ultrasonic-Motion-Sensor/motion-srf-two-sensors.py:152
+#: ../sensors/Ultrasonic-Motion-Sensor/velocityofsound.py:135
+#: ../sensors/Humidity-Sensor/humidity-HS1101-GUI.py:211
 msgid "QUIT"
 msgstr "QUITTER"
 
@@ -184,6 +581,34 @@ msgstr "QUITTER"
 #: ../Tempreature-Sensor/Temp-PT100-GUI.py:218
 #: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:166
 #: ../Weather-Station/Weather-Data-Logger.py:176
+#: ../sensors/Piezoelectrie-Transducer/piezoelectric-transducer.py:199
+#: ../sensors/Infra-red-Object-Sensor/IR-object-sensor.py:200
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:211
+#: ../sensors/Temperatur-Sensor/Temp-PT100-GUI.py:218
+#: ../sensors/Gas-Sensors/MQ-6.py:203 ../sensors/Gas-Sensors/gas-sensors.py:224
+#: ../sensors/Gas-Sensors/MQ-7.py:204 ../sensors/Gas-Sensors/MQ-4.py:203
+#: ../sensors/DC-motor-as-pickup-device/dc-motor-pickup.py:147
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:204
+#: ../sensors/Magnetic-Field-Sensors/hall-effect-sensor.py:153
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:228
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:244
+#: ../sensors/Photo-gate/photo-gate.py:144
+#: ../sensors/Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:166
+#: ../sensors/Ultrasonic-Motion-Sensor/motion-srf-two-sensors.py:153
+#: ../sensors/Humidity-Sensor/humidity-HS1101-GUI.py:223
+#: ../experiments/Coupled-Pendulum/coupledpendulum.py:144
+#: ../experiments/Weather-Station/Weather-Data-Logger.py:237
+#: ../experiments/4channeldatalog/4channeldatalog.py:184
+#: ../sensors/Infra-red-Object-Sensor/IR-object-sensor.py:199
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:210
+#: ../sensors/Gas-Sensors/MQ-6.py:202 ../sensors/Gas-Sensors/gas-sensors.py:225
+#: ../sensors/Gas-Sensors/MQ-7.py:203 ../sensors/Gas-Sensors/MQ-4.py:202
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:203
+#: ../sensors/Magnetic-Field-Sensors/hall-effect-sensor.py:154
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:230
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:247
+#: ../sensors/Ultrasonic-Motion-Sensor/motion-srf-two-sensors.py:157
+#: ../sensors/Humidity-Sensor/humidity-HS1101-GUI.py:222
 msgid "Message"
 msgstr "Message"
 
@@ -192,108 +617,279 @@ msgid "EYESJUN: Accelerometer"
 msgstr "EYES Junior :accéléromètre"
 
 #: ../AccelerometerADXL335/lissajous-accelerometer.py:41
-#: ../ATTINY85-MCU/Lissajous.py:51
+#: ../ATTINY85-MCU/Lissajous.py:51 ../sensors/ATTINY85-MCU/Lissajous.py:51
+#: ../sensors/Battery-Characteristics/charging-discharging.py:101
+#: ../sensors/AccelerometerADXL335/lissajous-accelerometer.py:41
+#: ../sensors/Ultrasonic-Motion-Sensor/velocityofsound.py:84
+#: ../sensors/ATTINY85-MCU/Lissajous.py:54
+#: ../sensors/Ultrasonic-Motion-Sensor/velocityofsound.py:89
 msgid "Volts"
 msgstr "V"
 
 #: ../AccelerometerADXL335/lissajous-accelerometer.py:55
 #: ../ATTINY85-MCU/Lissajous.py:69 ../Voltammetry/voltammogram.py:113
+#: ../sensors/ATTINY85-MCU/Lissajous.py:69
+#: ../sensors/Battery-Characteristics/charging-discharging.py:97
+#: ../sensors/AccelerometerADXL335/lissajous-accelerometer.py:55
+#: ../sensors/Ultrasonic-Motion-Sensor/velocityofsound.py:80
+#: ../experiments/Voltammetry/voltammogram.py:130
+#: ../sensors/ATTINY85-MCU/Lissajous.py:72
+#: ../sensors/Ultrasonic-Motion-Sensor/velocityofsound.py:85
 msgid "Data saved to file "
 msgstr "Les données sont enregistrées dans le fichier"
 
 #: ../AccelerometerADXL335/lissajous-accelerometer.py:66
 #: ../ATTINY85-MCU/Lissajous.py:80 ../Voltammetry/voltammogram.py:127
+#: ../sensors/ATTINY85-MCU/Lissajous.py:80
+#: ../sensors/Battery-Characteristics/charging-discharging.py:118
+#: ../sensors/AccelerometerADXL335/lissajous-accelerometer.py:66
+#: ../sensors/Ultrasonic-Motion-Sensor/velocityofsound.py:97
+#: ../experiments/Voltammetry/voltammogram.py:144
+#: ../sensors/ATTINY85-MCU/Lissajous.py:83
+#: ../sensors/Ultrasonic-Motion-Sensor/velocityofsound.py:102
 msgid "mS"
 msgstr "ms"
 
 #: ../AccelerometerADXL335/lissajous-accelerometer.py:66
 #: ../ATTINY85-MCU/Lissajous.py:80 ../Voltammetry/voltammogram.py:127
+#: ../sensors/ATTINY85-MCU/Lissajous.py:80
+#: ../sensors/Battery-Characteristics/charging-discharging.py:118
+#: ../sensors/Battery-Characteristics/charging-discharging.py:124
+#: ../sensors/AccelerometerADXL335/lissajous-accelerometer.py:66
+#: ../sensors/Ultrasonic-Motion-Sensor/velocityofsound.py:97
+#: ../experiments/Voltammetry/voltammogram.py:144
+#: ../sensors/ATTINY85-MCU/Lissajous.py:83
+#: ../sensors/Ultrasonic-Motion-Sensor/velocityofsound.py:102
 msgid "V"
 msgstr "V"
 
 #: ../AccelerometerADXL335/lissajous-accelerometer.py:69
-#: ../ATTINY85-MCU/Lissajous.py:83
+#: ../ATTINY85-MCU/Lissajous.py:83 ../sensors/ATTINY85-MCU/Lissajous.py:83
+#: ../sensors/Battery-Characteristics/charging-discharging.py:126
+#: ../sensors/AccelerometerADXL335/lissajous-accelerometer.py:69
+#: ../sensors/Ultrasonic-Motion-Sensor/velocityofsound.py:100
+#: ../sensors/ATTINY85-MCU/Lissajous.py:86
+#: ../sensors/Ultrasonic-Motion-Sensor/velocityofsound.py:105
 msgid "EYES Hardware Not Found. Check Connections and restart the program"
 msgstr ""
 "Le boîtier EYES n'a pas été trouvé. Vérifier les connexions et redémarrer le "
 "programme."
 
 #: ../AccelerometerADXL335/lissajous-accelerometer.py:96
-#: ../ATTINY85-MCU/Lissajous.py:110
+#: ../ATTINY85-MCU/Lissajous.py:110 ../sensors/ATTINY85-MCU/Lissajous.py:110
+#: ../sensors/AccelerometerADXL335/lissajous-accelerometer.py:96
+#: ../sensors/ATTINY85-MCU/Lissajous.py:113
 msgid "DRAW"
 msgstr "TRACER"
 
 #: ../AccelerometerADXL335/lissajous-accelerometer.py:100
 #: ../ATTINY85-MCU/Lissajous.py:114 ../Voltammetry/voltammogram.py:134
+#: ../sensors/ATTINY85-MCU/Lissajous.py:114
+#: ../sensors/Battery-Characteristics/charging-discharging.py:158
+#: ../sensors/AccelerometerADXL335/lissajous-accelerometer.py:100
+#: ../sensors/Ultrasonic-Motion-Sensor/velocityofsound.py:125
+#: ../experiments/GravityByTimeOfFlight/GravityByTimeOfFlight.py:125
+#: ../experiments/Voltammetry/voltammogram.py:151
+#: ../sensors/ATTINY85-MCU/Lissajous.py:117
+#: ../sensors/Ultrasonic-Motion-Sensor/velocityofsound.py:130
 msgid "Save to"
 msgstr "Enregistrer sous"
 
 #: ../AccelerometerADXL335/lissajous-accelerometer.py:111
 #: ../ATTINY85-MCU/Lissajous.py:125 ../Voltammetry/voltammogram.py:148
+#: ../sensors/ATTINY85-MCU/Lissajous.py:125
+#: ../sensors/AccelerometerADXL335/lissajous-accelerometer.py:111
+#: ../sensors/Ultrasonic-Motion-Sensor/velocityofsound.py:136
+#: ../experiments/Voltammetry/voltammogram.py:165
+#: ../sensors/ATTINY85-MCU/Lissajous.py:128
+#: ../sensors/Ultrasonic-Motion-Sensor/velocityofsound.py:141
 msgid "Messages"
 msgstr "Messages"
 
 #: ../AccelerometerADXL335/lissajous-accelerometer.py:115
-#: ../ATTINY85-MCU/Lissajous.py:128
+#: ../ATTINY85-MCU/Lissajous.py:128 ../sensors/ATTINY85-MCU/Lissajous.py:128
+#: ../sensors/AccelerometerADXL335/lissajous-accelerometer.py:115
+#: ../sensors/ATTINY85-MCU/Lissajous.py:131
 msgid "Lissajous Figures"
 msgstr "Figures de Lissajous"
 
 #: ../AccelerometerADXL335/lissajous-accelerometer.py:116
+#: ../sensors/AccelerometerADXL335/lissajous-accelerometer.py:116
 msgid "EYES: Lissajous Figuresusing accelerometer"
 msgstr "EYES : figures de Lissajous à l'aide d'un accéléromètre"
 
-#: ../ATTINY85-MCU/Lissajous.py:129
+#: ../ATTINY85-MCU/Lissajous.py:129 ../sensors/ATTINY85-MCU/Lissajous.py:129
+#: ../sensors/ATTINY85-MCU/Lissajous.py:132
 msgid "EYES: Lissajous Figures"
 msgstr "EYES : figures de Lissajous"
 
 #: ../Humidity-Sensor/humidity.py:54 ../Tempreature-Sensor/temp-control.py:62
 #: ../Tempreature-Sensor/Temp-PT100-GUI.py:68
+#: ../sensors/Infra-red-Object-Sensor/IR-object-sensor.py:62
+#: ../sensors/Temperatur-Sensor/Temp-PT100-GUI.py:68
+#: ../sensors/Gas-Sensors/gas-sensors.py:73
+#: ../sensors/DC-motor-as-pickup-device/dc-motor-pickup.py:54
+#: ../experiments/Coupled-Pendulum/coupledpendulum.py:49
+#: ../experiments/4channeldatalog/4channeldatalog.py:54
+#: ../sensors/Infra-red-Object-Sensor/IR-object-sensor.py:61
+#: ../sensors/Gas-Sensors/gas-sensors.py:74
 msgid "Volt"
 msgstr "V"
 
-#: ../Humidity-Sensor/humidity.py:129
-#: ../Tempreature-Sensor/temp-control.py:161
+#: ../Humidity-Sensor/humidity.py:129 ../Tempreature-Sensor/temp-control.py:161
 #: ../Tempreature-Sensor/Temp-PT100-GUI.py:152
 #: ../Weather-Station/Weather-Data-Logger.py:135
+#: ../sensors/Piezoelectrie-Transducer/piezoelectric-transducer.py:136
+#: ../sensors/Infra-red-Object-Sensor/IR-object-sensor.py:137
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:145
+#: ../sensors/Temperatur-Sensor/Temp-PT100-GUI.py:152
+#: ../sensors/Gas-Sensors/MQ-6.py:140 ../sensors/Gas-Sensors/gas-sensors.py:155
+#: ../sensors/Gas-Sensors/MQ-7.py:141 ../sensors/Gas-Sensors/MQ-4.py:140
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:138
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:159
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:175
+#: ../sensors/Humidity-Sensor/humidity-HS1101-GUI.py:172
+#: ../experiments/Weather-Station/Weather-Data-Logger.py:175
+#: ../experiments/4channeldatalog/4channeldatalog.py:147
+#: ../sensors/Infra-red-Object-Sensor/IR-object-sensor.py:136
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:144
+#: ../sensors/Gas-Sensors/MQ-6.py:139 ../sensors/Gas-Sensors/gas-sensors.py:156
+#: ../sensors/Gas-Sensors/MQ-7.py:140 ../sensors/Gas-Sensors/MQ-4.py:139
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:137
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:161
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:178
+#: ../sensors/Humidity-Sensor/humidity-HS1101-GUI.py:171
 msgid "Read Every"
 msgstr "Lire toutes les"
 
-#: ../Humidity-Sensor/humidity.py:135
-#: ../Tempreature-Sensor/temp-control.py:167
+#: ../Humidity-Sensor/humidity.py:135 ../Tempreature-Sensor/temp-control.py:167
 #: ../Tempreature-Sensor/Temp-PT100-GUI.py:158
 #: ../Weather-Station/Weather-Data-Logger.py:141
+#: ../sensors/Piezoelectrie-Transducer/piezoelectric-transducer.py:142
+#: ../sensors/Infra-red-Object-Sensor/IR-object-sensor.py:143
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:151
+#: ../sensors/Temperatur-Sensor/Temp-PT100-GUI.py:158
+#: ../sensors/Gas-Sensors/MQ-6.py:146 ../sensors/Gas-Sensors/gas-sensors.py:161
+#: ../sensors/Gas-Sensors/MQ-7.py:147 ../sensors/Gas-Sensors/MQ-4.py:146
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:144
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:165
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:181
+#: ../sensors/Humidity-Sensor/humidity-HS1101-GUI.py:178
+#: ../experiments/Weather-Station/Weather-Data-Logger.py:181
+#: ../experiments/4channeldatalog/4channeldatalog.py:153
+#: ../sensors/Infra-red-Object-Sensor/IR-object-sensor.py:142
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:150
+#: ../sensors/Gas-Sensors/MQ-6.py:145 ../sensors/Gas-Sensors/gas-sensors.py:162
+#: ../sensors/Gas-Sensors/MQ-7.py:146 ../sensors/Gas-Sensors/MQ-4.py:145
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:143
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:167
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:184
+#: ../sensors/Humidity-Sensor/humidity-HS1101-GUI.py:177
 msgid "mS,"
 msgstr "ms,"
 
-#: ../Humidity-Sensor/humidity.py:137
-#: ../Tempreature-Sensor/temp-control.py:169
+#: ../Humidity-Sensor/humidity.py:137 ../Tempreature-Sensor/temp-control.py:169
 #: ../Tempreature-Sensor/Temp-PT100-GUI.py:160
 #: ../Weather-Station/Weather-Data-Logger.py:145
+#: ../sensors/Piezoelectrie-Transducer/piezoelectric-transducer.py:144
+#: ../sensors/Infra-red-Object-Sensor/IR-object-sensor.py:145
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:153
+#: ../sensors/Temperatur-Sensor/Temp-PT100-GUI.py:160
+#: ../sensors/Gas-Sensors/MQ-6.py:148 ../sensors/Gas-Sensors/gas-sensors.py:163
+#: ../sensors/Gas-Sensors/MQ-7.py:149 ../sensors/Gas-Sensors/MQ-4.py:148
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:146
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:167
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:183
+#: ../sensors/Humidity-Sensor/humidity-HS1101-GUI.py:180
+#: ../experiments/Weather-Station/Weather-Data-Logger.py:183
+#: ../experiments/4channeldatalog/4channeldatalog.py:155
+#: ../sensors/Infra-red-Object-Sensor/IR-object-sensor.py:144
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:152
+#: ../sensors/Gas-Sensors/MQ-6.py:147 ../sensors/Gas-Sensors/gas-sensors.py:164
+#: ../sensors/Gas-Sensors/MQ-7.py:148 ../sensors/Gas-Sensors/MQ-4.py:147
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:145
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:169
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:186
+#: ../sensors/Humidity-Sensor/humidity-HS1101-GUI.py:179
 msgid "for total"
 msgstr "pour un total de"
 
 #: ../Humidity-Sensor/humidity.py:146
 #: ../Tempreature-Sensor/Temp-PT100-GUI.py:169
+#: ../sensors/Piezoelectrie-Transducer/piezoelectric-transducer.py:153
+#: ../sensors/Infra-red-Object-Sensor/IR-object-sensor.py:154
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:162
+#: ../sensors/Temperatur-Sensor/Temp-PT100-GUI.py:169
+#: ../sensors/Gas-Sensors/MQ-6.py:157 ../sensors/Gas-Sensors/gas-sensors.py:172
+#: ../sensors/Gas-Sensors/MQ-7.py:158 ../sensors/Gas-Sensors/MQ-4.py:157
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:155
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:176
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:192
+#: ../experiments/Weather-Station/Weather-Data-Logger.py:192
+#: ../sensors/Infra-red-Object-Sensor/IR-object-sensor.py:153
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:161
+#: ../sensors/Gas-Sensors/MQ-6.py:156 ../sensors/Gas-Sensors/gas-sensors.py:173
+#: ../sensors/Gas-Sensors/MQ-7.py:157 ../sensors/Gas-Sensors/MQ-4.py:156
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:154
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:178
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:195
 msgid "Range"
 msgstr "Intervalle"
 
 #: ../Humidity-Sensor/humidity.py:152
 #: ../Tempreature-Sensor/Temp-PT100-GUI.py:175
+#: ../sensors/Piezoelectrie-Transducer/piezoelectric-transducer.py:159
+#: ../sensors/Infra-red-Object-Sensor/IR-object-sensor.py:160
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:168
+#: ../sensors/Temperatur-Sensor/Temp-PT100-GUI.py:175
+#: ../sensors/Gas-Sensors/MQ-6.py:163 ../sensors/Gas-Sensors/gas-sensors.py:178
+#: ../sensors/Gas-Sensors/MQ-7.py:164 ../sensors/Gas-Sensors/MQ-4.py:163
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:161
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:182
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:198
+#: ../experiments/Weather-Station/Weather-Data-Logger.py:198
+#: ../sensors/Infra-red-Object-Sensor/IR-object-sensor.py:159
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:167
+#: ../sensors/Gas-Sensors/MQ-6.py:162 ../sensors/Gas-Sensors/gas-sensors.py:179
+#: ../sensors/Gas-Sensors/MQ-7.py:163 ../sensors/Gas-Sensors/MQ-4.py:162
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:160
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:184
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:201
 msgid "to,"
 msgstr "à,"
 
 #: ../Humidity-Sensor/humidity.py:158
 #: ../Tempreature-Sensor/Temp-PT100-GUI.py:181
+#: ../sensors/Piezoelectrie-Transducer/piezoelectric-transducer.py:165
+#: ../sensors/Infra-red-Object-Sensor/IR-object-sensor.py:166
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:174
+#: ../sensors/Temperatur-Sensor/Temp-PT100-GUI.py:181
+#: ../sensors/Gas-Sensors/MQ-6.py:169 ../sensors/Gas-Sensors/gas-sensors.py:184
+#: ../sensors/Gas-Sensors/MQ-7.py:170 ../sensors/Gas-Sensors/MQ-4.py:169
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:167
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:188
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:204
+#: ../experiments/Weather-Station/Weather-Data-Logger.py:204
+#: ../sensors/Infra-red-Object-Sensor/IR-object-sensor.py:165
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:173
+#: ../sensors/Gas-Sensors/MQ-6.py:168 ../sensors/Gas-Sensors/gas-sensors.py:185
+#: ../sensors/Gas-Sensors/MQ-7.py:169 ../sensors/Gas-Sensors/MQ-4.py:168
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:166
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:190
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:207
 msgid "C. "
 msgstr "C. "
 
 #: ../Humidity-Sensor/humidity.py:171
 #: ../Tempreature-Sensor/Temp-PT100-GUI.py:194
+#: ../sensors/Temperatur-Sensor/Temp-PT100-GUI.py:194
 msgid "Current ="
 msgstr "Courant ="
 
 #: ../Humidity-Sensor/humidity.py:177
 #: ../Tempreature-Sensor/Temp-PT100-GUI.py:200
+#: ../sensors/Temperatur-Sensor/Temp-PT100-GUI.py:200
+#: ../sensors/Battery-Characteristics/charging-discharging.py:124
 msgid "mA"
 msgstr "mA"
 
@@ -302,10 +898,14 @@ msgid "Relative Humidity Measuements using HS1101"
 msgstr "Mesures d'humidité relative avec HS1101"
 
 #: ../Magnetic-Field-Sensors/hall-effect-sensor.py:122
+#: ../sensors/Magnetic-Field-Sensors/hall-effect-sensor.py:129
+#: ../sensors/Magnetic-Field-Sensors/hall-effect-sensor.py:130
 msgid "........"
 msgstr "........"
 
 #: ../Magnetic-Field-Sensors/hall-effect-sensor.py:151
+#: ../sensors/Magnetic-Field-Sensors/hall-effect-sensor.py:158
+#: ../sensors/Magnetic-Field-Sensors/hall-effect-sensor.py:159
 msgid "Magnetic field using Hall Sensor "
 msgstr "Champ magnétique à l'aide d'un capteur à effet Hall"
 
@@ -354,71 +954,538 @@ msgid "Temperature controller using LM35"
 msgstr "Contôleur de température à l'aide d'un LM35"
 
 #: ../Tempreature-Sensor/Temp-LM35-GUI.py:57
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:67
+#: ../sensors/Humidity-Sensor/humidity-HS1101-GUI.py:84
+#: ../experiments/Weather-Station/Weather-Data-Logger.py:68
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:66
+#: ../sensors/Humidity-Sensor/humidity-HS1101-GUI.py:83
 msgid "Time in second"
 msgstr "Temps en seconde"
 
 #: ../Tempreature-Sensor/Temp-LM35-GUI.py:57
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:67
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:66
 msgid "Temp in celsius"
 msgstr "Température en °C"
 
 #: ../Tempreature-Sensor/Temp-PT100-GUI.py:116
+#: ../sensors/Temperatur-Sensor/Temp-PT100-GUI.py:116
 msgid "Wrong connections or value of Rg"
 msgstr "Connexions ou valeur de Rg incorrectes"
 
 #: ../Tempreature-Sensor/Temp-PT100-GUI.py:221
+#: ../sensors/Temperatur-Sensor/Temp-PT100-GUI.py:221
 msgid "Temperature Measuements using PT100"
 msgstr "Mesures de température avec la sonde PT100"
 
 #: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:61
 #: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:142
+#: ../sensors/Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:61
+#: ../sensors/Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:142
+#: ../sensors/Ultrasonic-Motion-Sensor/motion-srf-two-sensors.py:48
+#: ../sensors/Ultrasonic-Motion-Sensor/motion-srf-two-sensors.py:129
+#: ../experiments/GravityByTimeOfFlight/GravityByTimeOfFlight.py:109
+#: ../sensors/Ultrasonic-Motion-Sensor/motion-srf-two-sensors.py:52
+#: ../sensors/Ultrasonic-Motion-Sensor/motion-srf-two-sensors.py:133
 msgid "cm"
 msgstr "cm"
 
 #: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:136
+#: ../sensors/Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:136
+#: ../sensors/Ultrasonic-Motion-Sensor/motion-srf-two-sensors.py:123
+#: ../sensors/Ultrasonic-Motion-Sensor/motion-srf-two-sensors.py:127
 msgid "Max Dist="
 msgstr "Dist max ="
 
 #: ../Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:171
+#: ../sensors/Ultrasonic-Motion-Sensor/Motion-Sensor-GUI.py:171
 msgid "Motion Graph using Position Sensor SRF-05"
 msgstr "Graphique de déplacement à l'aide du capteur de position SRF-05"
 
 #: ../Voltammetry/voltammogram.py:70
+#: ../experiments/Voltammetry/voltammogram.py:86
 #, python-format
 msgid "Voltage Scan on Coil Done. Noise Voltage = %5.3f V"
 msgstr "Scan de tension réalisé sur la bobine. Tension de bruit = %5.3f V"
 
 #: ../Voltammetry/voltammogram.py:93
+#: ../experiments/Voltammetry/voltammogram.py:110
 #, python-format
 msgid "Peak voltages %5.2f and %5.3f separated by %5.3f msec"
 msgstr "Tensions crêtes %5.2f et %5.2f séparées par %5.3f ms"
 
 #: ../Voltammetry/voltammogram.py:131
+#: ../experiments/Voltammetry/voltammogram.py:148
 msgid "Start Scanning"
 msgstr "Début du scan"
 
 #: ../Voltammetry/voltammogram.py:141
+#: ../experiments/Voltammetry/voltammogram.py:158
 msgid "VIEW"
 msgstr "VOIR"
 
 #: ../Voltammetry/voltammogram.py:152
+#: ../experiments/Voltammetry/voltammogram.py:169
 msgid "EYESJUN: Voltamogram"
 msgstr "EYES Junior : voltamogramme"
 
 #: ../Weather-Station/Weather-Data-Logger.py:47
+#: ../experiments/Weather-Station/Weather-Data-Logger.py:68
 msgid "Data"
 msgstr "Données"
 
 #: ../Weather-Station/Weather-Data-Logger.py:151
+#: ../experiments/4channeldatalog/4channeldatalog.py:161
 msgid "Seconds"
 msgstr "s"
 
 #: ../Weather-Station/Weather-Data-Logger.py:180
+#: ../experiments/Weather-Station/Weather-Data-Logger.py:241
 msgid "---"
 msgstr "---"
 
 #: ../Weather-Station/Weather-Data-Logger.py:181
 msgid "Weather Station Data Logger"
 msgstr "Enregistreur de station météo"
+
+#: ../sensors/Piezoelectrie-Transducer/piezoelectric-transducer.py:202
+msgid "Piezo-electric Transducer"
+msgstr "Transducteur Piézo-électrique"
+
+#: ../sensors/Infra-red-Object-Sensor/IR-object-sensor.py:203
+msgid "))"
+msgstr "))"
+
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:195
+#: ../experiments/Weather-Station/Weather-Data-Logger.py:221
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:194
+msgid " RED Line - Temperature in Celsius"
+msgstr "Ligne ROUGE - Température (°C)"
+
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:197
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:196
+msgid "    BLUE Line - Temperature in Fahrenheit"
+msgstr "    Ligne BLEUE - Température (°F)"
+
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:214
+#: ../sensors/Temperatur-Sensor/temp-LM35-GUI.py:213
+msgid "Temperature Measuements using LM35"
+msgstr "Mesures de température avec un LM35"
+
+#: ../sensors/Gas-Sensors/MQ-6.py:206 ../sensors/Gas-Sensors/MQ-6.py:205
+msgid "MQ-6 LPG Gas Sensor"
+msgstr "Détecteur de gaz MQ-6 LPG"
+
+#: ../sensors/Gas-Sensors/gas-sensors.py:205
+#: ../sensors/Gas-Sensors/gas-sensors.py:206
+msgid " Black Line - Methane"
+msgstr " Ligne NOIRE - Méthane"
+
+#: ../sensors/Gas-Sensors/gas-sensors.py:207
+#: ../sensors/Gas-Sensors/gas-sensors.py:208
+msgid " Red Line - Liquified Petroium Gas"
+msgstr " Ligne ROUGE - Gaz de pétrole liquéfié"
+
+#: ../sensors/Gas-Sensors/gas-sensors.py:209
+#: ../sensors/Gas-Sensors/gas-sensors.py:210
+msgid " Blue Line - Carbon Monoxide Gas"
+msgstr " Ligne BLEUE - dioxyde de carbone"
+
+#: ../sensors/Gas-Sensors/gas-sensors.py:227
+#: ../sensors/Gas-Sensors/gas-sensors.py:228
+msgid "ExpEYES: Gas Sensors GUI"
+msgstr "ExpEYES: Détecteurs de Gaz"
+
+#: ../sensors/Gas-Sensors/MQ-7.py:207 ../sensors/Gas-Sensors/MQ-7.py:206
+msgid "MQ-7 Carbon Monoxide Gas Sensor"
+msgstr "Détecteur de gaz MQ-7 monoxyde de carbone"
+
+#: ../sensors/Gas-Sensors/MQ-4.py:206 ../sensors/Gas-Sensors/MQ-4.py:205
+msgid "MQ-4 Methane/Natural Gas Sensor"
+msgstr "Détecteur de gaz MQ-4 Méthane/Gaz naturel"
+
+#: ../sensors/DC-motor-as-pickup-device/dc-motor-pickup.py:152
+msgid "DC Motor as Pick-up Device"
+msgstr "Moteur à courant continu comme tachymètre"
+
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:63
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:62
+msgid "volt"
+msgstr "volt"
+
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:188
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:187
+msgid " Output HIGH - Magnetic Field is NOT Present"
+msgstr "Sortie HAUTE - Champ magnétique ABSENT"
+
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:190
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:189
+msgid "    Output LOW - Magnetic Field is  Present"
+msgstr "    Sortie BASSE - Champ magnétique PRÉSENT"
+
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:207
+#: ../sensors/Magnetic-Field-Sensors/KY-003-switching.py:206
+msgid "Hall Magnetic Sensor KY-003"
+msgstr "Capteur magnétique à effet Hall KY-003"
+
+#: ../sensors/Battery-Characteristics/charging-discharging.py:61
+msgid "Done"
+msgstr "Fait"
+
+#: ../sensors/Battery-Characteristics/charging-discharging.py:78
+#, python-format
+msgid "RC = %5.2f mSec"
+msgstr "RC = %5.2f ms"
+
+#: ../sensors/Battery-Characteristics/charging-discharging.py:80
+msgid "Failed to fit the curve with V=Vo*exp(-t/RC)"
+msgstr "Échec de modélisation de la courbe avec U=Uo*exp(-t/RC)"
+
+#: ../sensors/Battery-Characteristics/charging-discharging.py:101
+#: ../sensors/Ultrasonic-Motion-Sensor/velocityofsound.py:84
+#: ../sensors/Ultrasonic-Motion-Sensor/velocityofsound.py:89
+msgid "milliSeconds"
+msgstr "ms"
+
+#: ../sensors/Battery-Characteristics/charging-discharging.py:133
+msgid "mS/div"
+msgstr "ms/div"
+
+#: ../sensors/Battery-Characteristics/charging-discharging.py:139
+msgid "0 to 5V STEP"
+msgstr "Échelon de 0 à 5V"
+
+#: ../sensors/Battery-Characteristics/charging-discharging.py:141
+msgid "5 to 0V STEP"
+msgstr "Échelon de 5 à 0V"
+
+#: ../sensors/Battery-Characteristics/charging-discharging.py:143
+msgid "CC Charge"
+msgstr "Charge CC"
+
+#: ../sensors/Battery-Characteristics/charging-discharging.py:145
+msgid "Calculate RC"
+msgstr "Calculer RC"
+
+#: ../sensors/Battery-Characteristics/charging-discharging.py:152
+msgid "ViewAll"
+msgstr "Voir tout"
+
+#: ../sensors/Battery-Characteristics/charging-discharging.py:170
+msgid "Battery Characteristics"
+msgstr "Courbe I-U d'une batterie"
+
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:72
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:79
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:74
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:82
+msgid "Acceleration g"
+msgstr "Accélération g"
+
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:204
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:220
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:206
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:223
+msgid " Black Line : X-axis"
+msgstr " Ligne NOIRE : axe X"
+
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:206
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:222
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:208
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:225
+msgid " RED Line : Y-axis"
+msgstr "Ligne ROUGE : axe Y"
+
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:208
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:224
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:210
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:227
+msgid "    BLUE Line - Z-axis"
+msgstr "    Ligne BLEUE - axe Z"
+
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:231
+#: ../sensors/AccelerometerADXL335/acceleration-xyz.py:233
+msgid "EYESJUN: Accelerometer ADXL 335"
+msgstr "EYES Junior :accéléromètre ADXL 335"
+
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:247
+#: ../sensors/AccelerometerADXL335/Tilt-angle-GUI.py:250
+msgid "Accelerometer ADXL 335  Tilt angle Measurement "
+msgstr "Accéléromètre ADXL 335, inclinomètre "
+
+#: ../sensors/Photo-gate/photo-gate.py:71
+#, python-format
+msgid "%5.1f mS\n"
+msgstr "%5.1f ms\n"
+
+#: ../sensors/Photo-gate/photo-gate.py:85
+msgid "Timeout Error. Check Connections"
+msgstr "Erreur de timeout. Vérifier lesconnexions"
+
+#: ../sensors/Photo-gate/photo-gate.py:116
+msgid "Trials"
+msgstr "Essais"
+
+#: ../sensors/Photo-gate/photo-gate.py:147
+msgid "xyz"
+msgstr "xyz"
+
+#: ../sensors/Photo-gate/photo-gate.py:148
+msgid "EYES Junior: Photogate"
+msgstr "EYES Junior : barrière photo-électrique"
+
+#: ../sensors/Ultrasonic-Motion-Sensor/motion-srf-two-sensors.py:158
+#: ../sensors/Ultrasonic-Motion-Sensor/motion-srf-two-sensors.py:162
+msgid "Motion Graphs Using Two Position Sensors"
+msgstr "Graphique de déplacement à l'aide de deux capteurs de position"
+
+#: ../sensors/Ultrasonic-Motion-Sensor/velocityofsound.py:44
+#: ../sensors/Ultrasonic-Motion-Sensor/velocityofsound.py:49
+#, python-format
+msgid "Phase = %5.0f deg"
+msgstr "Phase = %5.0f °"
+
+#: ../sensors/Ultrasonic-Motion-Sensor/velocityofsound.py:46
+#: ../sensors/Ultrasonic-Motion-Sensor/velocityofsound.py:51
+msgid "No Signal"
+msgstr "Pas de signal"
+
+#: ../sensors/Ultrasonic-Motion-Sensor/velocityofsound.py:71
+#: ../sensors/Ultrasonic-Motion-Sensor/velocityofsound.py:76
+msgid "freq"
+msgstr "fréq"
+
+#: ../sensors/Ultrasonic-Motion-Sensor/velocityofsound.py:71
+#: ../sensors/Ultrasonic-Motion-Sensor/velocityofsound.py:76
+msgid "power"
+msgstr "puissance"
+
+#: ../sensors/Ultrasonic-Motion-Sensor/velocityofsound.py:72
+#: ../sensors/Ultrasonic-Motion-Sensor/velocityofsound.py:77
+msgid "Fourier transform Saved to FFT.dat."
+msgstr "Transformée de Fourier enregistrée dans FFT.dat"
+
+#: ../sensors/Ultrasonic-Motion-Sensor/velocityofsound.py:109
+#: ../sensors/Ultrasonic-Motion-Sensor/velocityofsound.py:114
+msgid "ON/OFF"
+msgstr "ON/OFF"
+
+#: ../sensors/Ultrasonic-Motion-Sensor/velocityofsound.py:113
+#: ../sensors/Ultrasonic-Motion-Sensor/velocityofsound.py:118
+msgid "Freq="
+msgstr "Fréq ="
+
+#: ../sensors/Ultrasonic-Motion-Sensor/velocityofsound.py:122
+#: ../sensors/Ultrasonic-Motion-Sensor/velocityofsound.py:127
+msgid "FFT"
+msgstr "FFT"
+
+#: ../sensors/Ultrasonic-Motion-Sensor/velocityofsound.py:139
+#: ../experiments/velocityofsoundUsingPiezo/velocityofsoundUsingPiezo.py:49
+#: ../sensors/Ultrasonic-Motion-Sensor/velocityofsound.py:144
+msgid "Velocity of Sound"
+msgstr "Vitesse du son"
+
+#: ../sensors/Ultrasonic-Motion-Sensor/velocityofsound.py:140
+#: ../sensors/Ultrasonic-Motion-Sensor/velocityofsound.py:145
+msgid "EYES: Velocity of Sound"
+msgstr "EYES : vitesse du son"
+
+#: ../sensors/Humidity-Sensor/humidity-HS1101-GUI.py:84
+#: ../sensors/Humidity-Sensor/humidity-HS1101-GUI.py:83
+msgid "C & RH "
+msgstr "C & RH "
+
+#: ../sensors/Humidity-Sensor/humidity-HS1101-GUI.py:207
+#: ../sensors/Humidity-Sensor/humidity-HS1101-GUI.py:206
+msgid "   RED Line - Capacity in pF"
+msgstr "    Ligne ROUGE - Capacité en pF"
+
+#: ../sensors/Humidity-Sensor/humidity-HS1101-GUI.py:209
+#: ../sensors/Humidity-Sensor/humidity-HS1101-GUI.py:208
+msgid "    BLUE Line - Relative Humidity in %."
+msgstr "    Ligne BLEUE - Humidité relative en %."
+
+#: ../sensors/Humidity-Sensor/humidity-HS1101-GUI.py:226
+#: ../sensors/Humidity-Sensor/humidity-HS1101-GUI.py:225
+msgid "Relative Humidity using HS-1101 sensor"
+msgstr "Mesures d'humidité relative avec HS-1101"
+
+#: ../experiments/Measurements-using-expeyes/Measurements-using-expeyes.py:11
+msgid "Starting Capacitance Measurement.."
+msgstr "Démarrage de la mesure de capacité ..."
+
+#: ../experiments/Measurements-using-expeyes/Measurements-using-expeyes.py:14
+msgid "Error: Capacitance too high or short to ground"
+msgstr "Erreur :capacité trop grande ou court-circuit à la masse"
+
+#: ../experiments/Measurements-using-expeyes/Measurements-using-expeyes.py:16
+#: ../experiments/Measurements-using-expeyes/Measurements-using-expeyes.py:20
+#, python-format
+msgid "IN1: %6.1f pF"
+msgstr "IN1 : %6.1f pF"
+
+#: ../experiments/Measurements-using-expeyes/Measurements-using-expeyes.py:18
+msgid "IN1 Not Calibrated."
+msgstr "IN1 n'est pas calibré."
+
+#: ../experiments/Measurements-using-expeyes/Measurements-using-expeyes.py:46
+msgid "Current to be set only on IN1(3) or IN2(4)"
+msgstr "Courant à régler seulement pour IN1(3) ou IN2(4)"
+
+#: ../experiments/Measurements-using-expeyes/Measurements-using-expeyes.py:47
+msgid "Current to be set only on IN1 or IN2"
+msgstr "Le courant ne doit être réglé que pour IN1 ou IN2"
+
+#: ../experiments/Measurements-using-expeyes/Measurements-using-expeyes.py:55
+#: ../experiments/Measurements-using-expeyes/Measurements-using-expeyes.py:56
+msgid "MEASURECV ERROR "
+msgstr "ERREUR MEASURECV"
+
+#: ../experiments/Measurements-using-expeyes/Measurements-using-expeyes.py:78
+#, python-format
+msgid "Error measuring capacitance %5.3f"
+msgstr "Erreur de mesure de capacité %5.3f"
+
+#: ../experiments/Measurements-using-expeyes/Measurements-using-expeyes.py:79
+msgid "Error measuring capacitance"
+msgstr "Erreur de mesure de capacité"
+
+#: ../experiments/GravityByTimeOfFlight/GravityByTimeOfFlight.py:51
+#, python-format
+msgid "Value of \"g\" by fitting the data points = %5.2f"
+msgstr "Valeur de « g » par modélisation des points de données = %5.2f"
+
+#: ../experiments/GravityByTimeOfFlight/GravityByTimeOfFlight.py:81
+msgid "Invalid H"
+msgstr "H non valide"
+
+#: ../experiments/GravityByTimeOfFlight/GravityByTimeOfFlight.py:92
+#, python-format
+msgid "t=%6.4f g=%5.1f"
+msgstr "t=%6.4f g=%5.1f"
+
+#: ../experiments/GravityByTimeOfFlight/GravityByTimeOfFlight.py:94
+msgid "Timeout Err"
+msgstr "Erreur de timeout"
+
+#: ../experiments/GravityByTimeOfFlight/GravityByTimeOfFlight.py:103
+msgid "Attach Ball at H="
+msgstr "Fixer la bille à H ="
+
+#: ../experiments/GravityByTimeOfFlight/GravityByTimeOfFlight.py:111
+msgid "Measure TOF"
+msgstr "Mesurer le temps de vol"
+
+#: ../experiments/GravityByTimeOfFlight/GravityByTimeOfFlight.py:118
+msgid "Acceleration due to gravity by Time of Flight"
+msgstr "Accélération due à la gravité, par le temps de vol"
+
+#: ../experiments/GravityByTimeOfFlight/GravityByTimeOfFlight.py:123
+msgid "FIT"
+msgstr "MODÉLISER"
+
+#: ../experiments/GravityByTimeOfFlight/GravityByTimeOfFlight.py:133
+msgid "Gravity by TOF"
+msgstr "Gravité par temps de vol"
+
+#: ../experiments/GravityByTimeOfFlight/GravityByTimeOfFlight.py:134
+msgid "Gravity by Time of Flight"
+msgstr "Gravité par temps de vol"
+
+#: ../experiments/Coupled-Pendulum/coupledpendulum.py:148
+msgid "Coupled Pendulum Oscillations"
+msgstr "Oscillations de pendules couplés"
+
+#: ../experiments/Coupled-Pendulum/coupledpendulum.py:149
+msgid "Oscillations of Coupled Pendulums"
+msgstr "Oscillations de pendules couplés"
+
+#: ../experiments/velocityofsoundUsingPiezo/velocityofsoundUsingPiezo.py:26
+#, python-format
+msgid "%8.6f sec"
+msgstr "%8.6f s"
+
+#: ../experiments/velocityofsoundUsingPiezo/velocityofsoundUsingPiezo.py:28
+msgid "Error.."
+msgstr "Erreur ..."
+
+#: ../experiments/velocityofsoundUsingPiezo/velocityofsoundUsingPiezo.py:37
+msgid "Connect Transmitter from OD1 to Ground"
+msgstr "Connecter l'émetteur entre OD1 et la masse"
+
+#: ../experiments/velocityofsoundUsingPiezo/velocityofsoundUsingPiezo.py:38
+msgid "Connect Receiver from T15 to Ground"
+msgstr "Connecter le récepteur entre (15) et la masse"
+
+#: ../experiments/velocityofsoundUsingPiezo/velocityofsoundUsingPiezo.py:39
+msgid "Keep them facing each other, at a known distance"
+msgstr "Les placer face à face, à une distance connue"
+
+#: ../experiments/velocityofsoundUsingPiezo/velocityofsoundUsingPiezo.py:41
+msgid "Measure Time of Travel"
+msgstr "Mesure de temps de propagation"
+
+#: ../experiments/velocityofsoundUsingPiezo/velocityofsoundUsingPiezo.py:48
+msgid "Velocity of Sound, 40kHz"
+msgstr "Vitesse du son,40 kHz"
+
+#: ../experiments/Weather-Station/Weather-Data-Logger.py:223
+msgid "    BLUE Line - Relative Humidity in %"
+msgstr "    Ligne BLEUE - Humidité relative en %"
+
+#: ../experiments/Weather-Station/Weather-Data-Logger.py:242
+msgid "ExpEYES- Weather Station Data Logger"
+msgstr "ExpEYES - Enregistreur de station météo"
+
+#: ../experiments/4channeldatalog/4channeldatalog.py:59
+msgid "Starting the Measurement"
+msgstr "Démarrage de la mesure"
+
+#: ../experiments/4channeldatalog/4channeldatalog.py:62
+msgid "Failed to Start Measurement"
+msgstr "Échec du démarrage de la mesure"
+
+#: ../experiments/4channeldatalog/4channeldatalog.py:113
+msgid "Data Saved"
+msgstr "Données enregistrées"
+
+#: ../experiments/4channeldatalog/4channeldatalog.py:142
+msgid "IN1"
+msgstr "IN1"
+
+#: ../experiments/4channeldatalog/4channeldatalog.py:143
+msgid "IN2"
+msgstr "IN2"
+
+#: ../experiments/4channeldatalog/4channeldatalog.py:144
+msgid "SEN"
+msgstr "SEN"
+
+#: ../experiments/4channeldatalog/4channeldatalog.py:187
+msgid "EYES-Junior: Four Channel Data Logger"
+msgstr "EYES Junior : enregistreur de signaux à 4 canaux"
+
+#: ../experiments/control-PVS/control-PVS.py:31
+#, python-format
+msgid "PVS = %5.3f volts"
+msgstr "PVS = %5.3f V"
+
+#: ../experiments/control-PVS/control-PVS.py:33
+msgid ""
+"To change PVS drag the slider. For fine adjustment, click on its left or "
+"right"
+msgstr ""
+"Pour modifier PVS bouger le curseur. Pour un ajustement fin, cliquer à sa "
+"gauche ou à sa droite"
+
+#: ../experiments/control-PVS/control-PVS.py:39
+msgid "EYES Junior: Adjust PVS"
+msgstr "EYES Junior : ajuster PVS"
+
+#: ../sensors/Infra-red-Object-Sensor/IR-object-sensor.py:202
+msgid "IR Object Sensor"
+msgstr "Capteur d'objet à IR"
 
 #~ msgid "mSec"
 #~ msgstr "ms"
@@ -486,21 +1553,6 @@ msgstr "Enregistreur de station météo"
 
 #~ msgid "IRSEND4 ERROR "
 #~ msgstr "ERREUR IRSEND4"
-
-#~ msgid "Current to be set only on IN1(3) or IN2(4)"
-#~ msgstr "Courant à régler seulement pour IN1(3) ou IN2(4)"
-
-#~ msgid "Current to be set only on IN1 or IN2"
-#~ msgstr "Le courant ne doit être réglé que pour IN1 ou IN2"
-
-#~ msgid "MEASURECV ERROR "
-#~ msgstr "ERREUR MEASURECV"
-
-#~ msgid "Error measuring capacitance %5.3f"
-#~ msgstr "Erreur de mesure de capacité %5.3f"
-
-#~ msgid "Error measuring capacitance"
-#~ msgstr "Erreur de mesure de capacité"
 
 #~ msgid "Resistance NOT in 100 Ohm to 100 kOhm range"
 #~ msgstr "La résistance n'est pas dans l'intervalle de 100 Ohm à 100 kOhm"
@@ -811,9 +1863,6 @@ msgstr "Enregistreur de station météo"
 #~ msgid "UPDATE"
 #~ msgstr "MISE À JOUR"
 
-#~ msgid "FIT"
-#~ msgstr "MODÉLISER"
-
 #~ msgid "xmGrace"
 #~ msgstr "XmGrace"
 
@@ -831,12 +1880,6 @@ msgstr "Enregistreur de station météo"
 
 #~ msgid "PHOENIX Alpha Spectrometer"
 #~ msgstr "Spectromètre Alpha PHOENIX"
-
-#~ msgid "freq"
-#~ msgstr "fréq"
-
-#~ msgid "power"
-#~ msgstr "puissance"
 
 #~ msgid "Capture"
 #~ msgstr "Capture"
@@ -939,14 +1982,8 @@ msgstr "Enregistreur de station météo"
 #~ msgid "CH1 Vp = %5.2f V | Freq = %5.2f Hz"
 #~ msgstr "CH1 Vcrête = %5.2f V | Fréq = %5.2f Hz "
 
-#~ msgid "mS/div"
-#~ msgstr "ms/div"
-
 #~ msgid "Volt/div"
 #~ msgstr "V/div"
-
-#~ msgid "SEN"
-#~ msgstr "SEN"
 
 #~ msgid "EYES CRO Program"
 #~ msgstr "Programme d'oscillo EYES"
@@ -967,9 +2004,6 @@ msgstr "Enregistreur de station météo"
 
 #~ msgid "Grace"
 #~ msgstr "Grace"
-
-#~ msgid "Diode IV Characteristic"
-#~ msgstr "Courbe I-U de la diode"
 
 #~ msgid "EYES: Diode IV characteristics"
 #~ msgstr "EYES : courbe I-U de la diode"
@@ -1281,9 +2315,6 @@ msgstr "Enregistreur de station météo"
 #~ msgid "Frequency Response"
 #~ msgstr "Réponse en fréquence"
 
-#~ msgid "Velocity of Sound"
-#~ msgstr "Vitesse du son"
-
 #~ msgid "Interference of Sound"
 #~ msgstr "Interférence sonore"
 
@@ -1373,41 +2404,8 @@ msgstr "Enregistreur de station météo"
 #~ msgid "Audio Frequency response Curve"
 #~ msgstr "Courbe de la réponse en fréquence audio"
 
-#~ msgid "Value of \"g\" by fitting the data points = %5.2f"
-#~ msgstr "Valeur de « g » par modélisation des points de données = %5.2f"
-
-#~ msgid "Invalid H"
-#~ msgstr "H non valide"
-
-#~ msgid "t=%6.4f g=%5.1f"
-#~ msgstr "t=%6.4f g=%5.1f"
-
-#~ msgid "Timeout Err"
-#~ msgstr "Erreur de timeout"
-
-#~ msgid "Attach Ball at H="
-#~ msgstr "Fixer la bille à H ="
-
-#~ msgid "Measure TOF"
-#~ msgstr "Mesurer le temps de vol"
-
-#~ msgid "Acceleration due to gravity by Time of Flight"
-#~ msgstr "Accélération due à la gravité, par le temps de vol"
-
-#~ msgid "Gravity by TOF"
-#~ msgstr "Gravité par temps de vol"
-
-#~ msgid "Gravity by Time of Flight"
-#~ msgstr "Gravité par temps de vol"
-
-#~ msgid "%8.6f sec"
-#~ msgstr "%8.6f s"
-
 #~ msgid "Timeout Error.."
 #~ msgstr "Erreur de timeout ..."
-
-#~ msgid "Error.."
-#~ msgstr "Erreur ..."
 
 #~ msgid " Error"
 #~ msgstr "Erreur"
@@ -1427,15 +2425,6 @@ msgstr "Enregistreur de station météo"
 #~ msgid "Freq = %5.0f Hz"
 #~ msgstr "Fréq = %5.0f Hz"
 
-#~ msgid "No Signal"
-#~ msgstr "Pas de signal"
-
-#~ msgid "Fourier transform Saved to FFT.dat."
-#~ msgstr "Transformée de Fourier enregistrée dans FFT.dat"
-
-#~ msgid "milliSeconds"
-#~ msgstr "ms"
-
 #~ msgid "NS ="
 #~ msgstr "NS ="
 
@@ -1444,9 +2433,6 @@ msgstr "Enregistreur de station météo"
 
 #~ msgid "SQR1="
 #~ msgstr "SQR1 ="
-
-#~ msgid "FFT"
-#~ msgstr "FFT"
 
 #~ msgid "Sound Interference"
 #~ msgstr "Interférence sonore"
@@ -1530,9 +2516,6 @@ msgstr "Enregistreur de station météo"
 
 #~ msgid "Calculator"
 #~ msgstr "Calculatrice"
-
-#~ msgid "Freq="
-#~ msgstr "Fréq ="
 
 #~ msgid "Hz R="
 #~ msgstr "Hz R ="
@@ -1652,9 +2635,6 @@ msgstr "Enregistreur de station météo"
 #~ msgid "and Click Here to Calibrate IN1"
 #~ msgstr "et cliquer ici pour calibrer IN1"
 
-#~ msgid "calibration program"
-#~ msgstr "programme de calibration"
-
 #~ msgid "Exit"
 #~ msgstr "Sortir"
 
@@ -1663,19 +2643,6 @@ msgstr "Enregistreur de station météo"
 
 #~ msgid "EYES Junior Calibration"
 #~ msgstr "Calibration de EYES Junior"
-
-#~ msgid "PVS = %5.3f volts"
-#~ msgstr "PVS = %5.3f V"
-
-#~ msgid ""
-#~ "To change PVS drag the slider. For fine adjustment, click on its left or "
-#~ "right"
-#~ msgstr ""
-#~ "Pour modifier PVS bouger le curseur. Pour un ajustement fin, cliquer à sa "
-#~ "gauche ou à sa droite"
-
-#~ msgid "EYES Junior: Adjust PVS"
-#~ msgstr "EYES Junior : ajuster PVS"
 
 #~ msgid "Analog Trigger"
 #~ msgstr "Seuil (trigger) analogique"
@@ -1871,18 +2838,6 @@ msgstr "Enregistreur de station météo"
 #~ msgid "SQR1 set to %5.1f"
 #~ msgstr "SQR1 mis à %5.1f"
 
-#~ msgid "Starting Capacitance Measurement.."
-#~ msgstr "Démarrage de la mesure de capacité ..."
-
-#~ msgid "Error: Capacitance too high or short to ground"
-#~ msgstr "Erreur :capacité trop grande ou court-circuit à la masse"
-
-#~ msgid "IN1: %6.1f pF"
-#~ msgstr "IN1 : %6.1f pF"
-
-#~ msgid "IN1 Not Calibrated."
-#~ msgstr "IN1 n'est pas calibré."
-
 #~ msgid "Resistance from SEN to GND = %6.0f Ohm"
 #~ msgstr "Résistance branchée entre SEN et la masse = %6.0f Ohm"
 
@@ -1972,35 +2927,11 @@ msgstr "Enregistreur de station météo"
 #~ msgid "SQR2="
 #~ msgstr "SQR2 ="
 
-#~ msgid "Starting the Measurement"
-#~ msgstr "Démarrage de la mesure"
-
-#~ msgid "Failed to Start Measurement"
-#~ msgstr "Échec du démarrage de la mesure"
-
-#~ msgid "Data Saved"
-#~ msgstr "Données enregistrées"
-
-#~ msgid "IN1"
-#~ msgstr "IN1"
-
-#~ msgid "IN2"
-#~ msgstr "IN2"
-
-#~ msgid "EYES-Junior: Four Channel Data Logger"
-#~ msgstr "EYES Junior : enregistreur de signaux à 4 canaux"
-
 #~ msgid "Angular velocity = %5.2f rad/sec. Damping Factor = %5.3f"
 #~ msgstr "Vitesse angulaire = %5.2f rad/s. Facteur d'amortissement = %5.3f"
 
 #~ msgid "Failed to fit data"
 #~ msgstr "Échec de la modélisation"
-
-#~ msgid "Pendulum Oscillations"
-#~ msgstr "Oscillations du pendule"
-
-#~ msgid "Oscillations of Pendulum"
-#~ msgstr "Oscillations du pendule"
 
 #~ msgid "Voltage at Freezing Point is %5.3f V"
 #~ msgstr "La tension au point de fusion est %5.3f V"
@@ -2028,30 +2959,6 @@ msgstr "Enregistreur de station météo"
 
 #~ msgid "Temperatue by PT100"
 #~ msgstr "Température par sonde  PT100"
-
-#~ msgid "Done"
-#~ msgstr "Fait"
-
-#~ msgid "RC = %5.2f mSec"
-#~ msgstr "RC = %5.2f ms"
-
-#~ msgid "Failed to fit the curve with V=Vo*exp(-t/RC)"
-#~ msgstr "Échec de modélisation de la courbe avec U=Uo*exp(-t/RC)"
-
-#~ msgid "0 to 5V STEP"
-#~ msgstr "Échelon de 0 à 5V"
-
-#~ msgid "5 to 0V STEP"
-#~ msgstr "Échelon de 5 à 0V"
-
-#~ msgid "CC Charge"
-#~ msgstr "Charge CC"
-
-#~ msgid "Calculate RC"
-#~ msgstr "Calculer RC"
-
-#~ msgid "ViewAll"
-#~ msgstr "Voir tout"
 
 #~ msgid "RC Circuit, Transient"
 #~ msgstr "Circuit RC, transitoire"
@@ -2099,20 +3006,8 @@ msgstr "Enregistreur de station météo"
 #~ msgid "Transient response of RL Circuit"
 #~ msgstr "Réponse transitoire d'un circuit RL"
 
-#~ msgid "%5.1f mS\n"
-#~ msgstr "%5.1f ms\n"
-
-#~ msgid "Timeout Error. Check Connections"
-#~ msgstr "Erreur de timeout. Vérifier lesconnexions"
-
-#~ msgid "Trials"
-#~ msgstr "Essais"
-
 #~ msgid "Period of a Pendulum"
 #~ msgstr "Période d'un pendule"
-
-#~ msgid "EYES Junior: Pendulum"
-#~ msgstr "EYES Junior : pendule"
 
 #~ msgid "Volatge Scan Done. Noise Level = %5.3f V"
 #~ msgstr "Scan de tension terminé. Niveau de bruit = %5.3f V"
@@ -2263,30 +3158,6 @@ msgstr "Enregistreur de station météo"
 
 #~ msgid "EYES: Transistor CE characteristics"
 #~ msgstr "EYES : caractéristique CE de transistor"
-
-#~ msgid "Connect Transmitter from OD1 to Ground"
-#~ msgstr "Connecter l'émetteur entre OD1 et la masse"
-
-#~ msgid "Connect Receiver from T15 to Ground"
-#~ msgstr "Connecter le récepteur entre (15) et la masse"
-
-#~ msgid "Keep them facing each other, at a known distance"
-#~ msgstr "Les placer face à face, à une distance connue"
-
-#~ msgid "Measure Time of Travel"
-#~ msgstr "Mesure de temps de propagation"
-
-#~ msgid "Velocity of Sound, 40kHz"
-#~ msgstr "Vitesse du son,40 kHz"
-
-#~ msgid "Phase = %5.0f deg"
-#~ msgstr "Phase = %5.0f °"
-
-#~ msgid "ON/OFF"
-#~ msgstr "ON/OFF"
-
-#~ msgid "EYES: Velocity of Sound"
-#~ msgstr "EYES : vitesse du son"
 
 #~ msgid "Create microHope environment"
 #~ msgstr "Créer l'environnement pour microHpe"

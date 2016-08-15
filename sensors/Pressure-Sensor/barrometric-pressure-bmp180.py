@@ -1,3 +1,4 @@
+from __future__ import print_function
 '''
 Reference Program for reading data from digital pressure sensor BMP180
 Can be used to measure pressure, temperature and altitude.
@@ -43,7 +44,7 @@ class BMP180:
 		self.p1 = 1.0 - 7357.0 * pow(2,-20)
 		self.p2 = 3038.0 * 100.0 * pow(2,-36)
 		self.T=25
-		print 'calib:',self.c3,self.c4,self.b1,self.c5,self.c6,self.mc,self.md,self.x0,self.x1,self.x2,self.y0,self.y1,self.p0,self.p1,self.p2
+		print ('calib:',self.c3,self.c4,self.b1,self.c5,self.c6,self.mc,self.md,self.x0,self.x1,self.x2,self.y0,self.y1,self.p0,self.p1,self.p2)
 		self.params={'setOversampling':[0,1,2,3]}
 		self.name='BMP180 Altimeter'
 		self.initTemperature()

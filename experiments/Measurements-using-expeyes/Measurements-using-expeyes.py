@@ -24,7 +24,7 @@ def measurecap():
 from eyesj.py
 '''
 
- def measure_cv(self, ch, ctime, i = 5.5):  
+def measure_cv(self, ch, ctime, i = 5.5):  
         '''
         Using the CTMU of PIC, charges a capacitor connected to IN1, IN2 or SEN,
         for 'ctime' microseconds and then mesures the voltage across it.
@@ -63,7 +63,7 @@ from eyesj.py
         v = self.m12[ch] * iv + self.c[ch]
         return v
 
-    def measure_cap_raw(self, ctmin = 10):
+def measure_cap_raw(self, ctmin = 10):
         '''
         Measures the capacitance connected between IN1 and GND. Stray
         capacitance should be subtracted from the measured
@@ -80,7 +80,7 @@ from eyesj.py
                 return None
         return 5.5 * ctime / v    # returns value in pF 
 
-    def measure_cap(self, ctmin = 10):
+def measure_cap(self, ctmin = 10):
         '''
         Measures the capacitance connected between IN1 and GND.
         Returns the value after applying corrections.

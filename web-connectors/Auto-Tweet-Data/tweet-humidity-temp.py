@@ -27,13 +27,13 @@ elif 186<cap<195:
 else:
 	RH= (cap -136.5)/0.65
 
-print ('Relative Humidity = %0.2f')%RH,'%'
+print ('Relative Humidity = %0.2f' %RH,'%')
 
 #To measure temperature
 
 v= p.get_voltage(4)
 temp = v * 100
-print ('Temperature = %0.2f')%temp
+print ('Temperature = %0.2f'%temp)
 
 API_KEY = 'API KEY'
 API_SECRET = 'API SECRET KEY'

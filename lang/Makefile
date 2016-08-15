@@ -1,5 +1,5 @@
 DESTDIR =
-SOURCES = $(shell ls ../*/*.py)
+SOURCES = $(shell find .. -name "*.py")
 POFILES = $(shell ls *.po)
 MOFILES = $(patsubst %.po, %.mo, $(POFILES))
 LANG = $(patsubst %.po, %, $(POFILES))

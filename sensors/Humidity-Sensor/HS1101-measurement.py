@@ -42,6 +42,8 @@ m = 0.65
 import expeyes.eyesj
 p= expeyes.eyesj.open()
 
+RH=-1 # default value for an error
+
 cap = p.measure_cap()
 if cap< 180: 
          RH= (cap -163)/0.3
@@ -53,5 +55,5 @@ else:
 	RH= (cap -136.5)/0.65
 
 #print RH, '%'
-print ('Relative Humidity = %0.2f')%RH,'%'
+print ('Relative Humidity = %0.2f' %RH,'%')
 
