@@ -24,6 +24,9 @@ The rotation(for x axis) is calculated using atan2 function. It calculates angle
 
  
 '''
+
+from __future__ import print_function
+
 import gettext					#Internationalization
 gettext.bindtextdomain("expeyes")
 gettext.textdomain('expeyes')
@@ -66,7 +69,7 @@ class tilt:
 
 	def start(self):
 		
-		print p.set_voltage(3.6)   # set voltage at PVS  3.6v is operating voltage for ADXL335
+		print (p.set_voltage(3.6))   # set voltage at PVS  3.6v is operating voltage for ADXL335
 		self.running = True
 		self.index = 0
 		self.tv = [ [], [], [], [] ]
@@ -111,9 +114,9 @@ class tilt:
 		
 		#changes required to measure angle between +180 to -180 degrees
 
-		#print "Tilt angle X-axis = ", angle_x, "degree"
-		#print "Tilt angle Y-axis = ", angle_y, "degree"
-		#print "Tilt Calibration:
+		#print ("Tilt angle X-axis = ", angle_x, "degree")
+		#print ("Tilt angle Y-axis = ", angle_y, "degree")
+		#print ("Tilt Calibration:)
 
 
 		if len(self.tv[0]) == 0:
