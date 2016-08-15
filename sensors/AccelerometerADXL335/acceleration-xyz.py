@@ -18,6 +18,8 @@ For 	0g  	v = 1.61 volt
 Sensitivity 	0.3v/g
  
 '''
+from __future__ import print_function
+
 import gettext					#Internationalization
 gettext.bindtextdomain("expeyes")
 gettext.textdomain('expeyes')
@@ -59,7 +61,7 @@ class Accl:
 
 	def start(self):
 		
-		print p.set_voltage(3.6)   # set voltage at PVS  3.6v is operating voltage for ADXL335
+		print (p.set_voltage(3.6))   # set voltage at PVS  3.6v is operating voltage for ADXL335
 		self.running = True
 		self.index = 0
 		self.tv = [ [], [], [], [] ]
