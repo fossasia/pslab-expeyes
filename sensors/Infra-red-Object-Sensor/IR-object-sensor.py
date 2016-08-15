@@ -19,7 +19,6 @@ gettext.bindtextdomain("expeyes")
 gettext.textdomain('expeyes')
 _ = gettext.gettext
 
-from Tkinter import *
 import time, math, sys
 if sys.version_info.major==3:
         from tkinter import *
@@ -200,5 +199,5 @@ mf.pack(side=TOP)
 msgwin = Label(mf,text=_('Message'), fg = 'blue')
 msgwin.pack(side=LEFT, anchor = S, fill=BOTH, expand=1)
 
-root.title(_(IR Object Sensor'))
+root.title(_('IR Object Sensor'))
 root.mainloop()
