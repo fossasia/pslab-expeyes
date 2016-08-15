@@ -21,8 +21,10 @@ For tilt angle calculation:
 atan2(y, x)-------- Returns atan(y / x), in radians. The result is between -pi and pi. The vector in the plane from the origin to point (x, y) makes this angle with the positive X axis. The point of atan2() is that the signs of both inputs are known to it, so it can compute the correct quadrant for the angle. For example, atan(1) and atan2(1, 1) are both pi/4, but atan2(-1, -1) is -3*pi/4.
 
 The rotation(for x axis) is calculated using atan2 function. It calculates angle from length of y, z vectors.	57.2957795 is conversation of radian to degree. +180 is for offset.	
-
 '''
+
+from __future__ import print_function
+
 import gettext					#Internationalization
 gettext.bindtextdomain("expeyes")
 gettext.textdomain('expeyes')
@@ -48,7 +50,7 @@ p=eyes.open()
 
 
 		
-print p.set_voltage(3.6)   # set voltage at PVS  3.6v is operating voltage for ADXL335
+print (p.set_voltage(3.6))   # set voltage at PVS  3.6v is operating voltage for ADXL335
 		
 t,v = p.get_voltage_time(1)  	# Read A1
 v2 = p.get_voltage(2)		# Read A2
@@ -64,7 +66,7 @@ angle_y =atan2(-Zaccl,-Xaccl)*57.2957795+180;
 
 angle_z =atan2(-Xaccl,-Yaccl)*57.2957795+180;
 
-print "Tilt angle X-axis = ", angle_x, "degree"
-print "Tilt angle Y-axis = ", angle_y, "degree"
-print "Tilt angle z-axis = ", angle_z, "degree"
+print ("Tilt angle X-axis = ", angle_x, "degree")
+print ("Tilt angle Y-axis = ", angle_y, "degree")
+print ("Tilt angle z-axis = ", angle_z, "degree")
 	
