@@ -1,3 +1,4 @@
+from __future__ import print_function
 ''' ExpEYES program to get echo from SRF-05/SRF-04 ultrasonic senso, measure echo time and calculate distance
 '''
 import gettext
@@ -7,21 +8,19 @@ _ = gettext.gettext
 
 
 
-from Tkinter import *
 import time, sys, math
 if sys.version_info.major==3:
-from tkinter import *
+    from tkinter import *
 else:
-from Tkinter import *
+    from Tkinter import *
 sys.path=[".."] + sys.path
 import expeyes.eyesj as eyes
 import expeyes.eyeplot as eyeplot
 import expeyes.eyemath as eyemath
 
-#from Tkinter import *
-#import expeyes.eyesj, time, sys
+import expeyes.eyesj as ej
 
-p=expeyes.eyesj.open()
+p=ej.open()
 if p == None: sys.exit()
 p.set_state(10,1)
 
@@ -40,7 +39,7 @@ def action():
 		return
 	s = (t-400) *vs/2
 	ss = 'Reflector at %5.1f cm'%s
-	print time.time()-strt, s
+	print (time.time()-strt, s)
 	y = HEIGHT - s*10
 	c.delete(pos)
 	c.delete(txt)
