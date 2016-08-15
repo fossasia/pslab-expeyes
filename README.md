@@ -1,6 +1,8 @@
 # Pocket-Science-Lab
 This repository hosts the programs for additional experiments for ExpEYES. 
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/18fad6e7f96a49fe8ec531ad40149664)](https://www.codacy.com/app/mb/Pocket-Science-Lab?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=fossasia/Pocket-Science-Lab&amp;utm_campaign=Badge_Grade)
+
 ##Installation
 
 #### 1. Install ExpEYES
