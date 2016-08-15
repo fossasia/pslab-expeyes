@@ -60,7 +60,7 @@ class MQ4:
 			self.MINY = int(TMIN.get())
 			self.MAXY = int(TMAX.get())
 			
-			g.setWorld(0, self.MINY, self.MAXTIME, self.MAXY,_(''),_(''))
+			g.setWorld(0, self.MINY, self.MAXTIME, self.MAXY,'','')
 			self.TIMER = int(TGAP.get())
 			Total.config(state=DISABLED)
 			Dur.config(state=DISABLED)
