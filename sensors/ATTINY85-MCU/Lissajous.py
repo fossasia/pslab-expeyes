@@ -11,15 +11,18 @@ Module can be powered using USB or external USB adapter.
 the second module can be powered fron first from (P2VUSB pin)
 pin P1 can be touched to groung to RESET
 '''
+
+from __future__ import print_function
+
 import gettext
 gettext.bindtextdomain("expeyes")
 gettext.textdomain('expeyes')
 _ = gettext.gettext
 import time, math, sys
 if sys.version_info.major==3:
-from tkinter import * #support for python 3
+    from tkinter import * #support for python 3
 else:
-from Tkinter import *
+    from Tkinter import *
 sys.path=[".."] + sys.path
 import expeyes.eyesj as eyes
 import expeyes.eyeplot as eyeplot
@@ -47,7 +50,7 @@ def start():
 		delay = msec * 1000/ NP	
 	else:
 		delay = 50 * 1000/NP
-	print NP, delay, NP*delay
+	print (NP, delay, NP*delay)
 	g.setWorld(-5,-5, 5, 5,_('Volts'),_('Volts'))
 	
 	f = float(Freq0.get())
