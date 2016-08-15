@@ -1,3 +1,4 @@
+from __future__ import print_function
 '''
 A simple code to test pressure sensor SPD015AAsil by SMARTEC
 
@@ -17,11 +18,11 @@ Pin 4  GND  Between pin 2 and 4 connect a 100nF capacitor
 Result needs to be calibrated.
 '''
 
-import pylab
+from pylab import plot, show
 import expeyes.eyesj
 p=expeyes.eyesj.open()
-print p.set_voltage(5.0) 
-print p.get_voltage(1)   
+print (p.set_voltage(5.0) )
+print (p.get_voltage(1))
 t,v = p.capture(1,300,100)
 plot(t,v)
 show()
