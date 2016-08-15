@@ -7,7 +7,12 @@ gettext.bindtextdomain("expeyes")
 gettext.textdomain('expeyes')
 _ = gettext.gettext
 
-from Tkinter import *
+import sys
+if sys.version_info.major==3:
+    from tkinter import *
+else:
+    from Tkinter import *
+    
 import expeyes.eyes as eyes, expeyes.eyeplot as eyeplot, expeyes.eyemath as eyemath, time, sys, math
 
 TIMER = 100
