@@ -5,7 +5,8 @@ This repository hosts the programs for additional experiments and sensor plugins
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/18fad6e7f96a49fe8ec531ad40149664)](https://www.codacy.com/app/mb/Pocket-Science-Lab?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=fossasia/Pocket-Science-Lab&amp;utm_campaign=Badge_Grade)
 
 ##Communication
-Chat: [Pocket Science Slack Channel](http://fossasia.slack.com/messages/pocketscience/) | [Get an Invite](http://fossasia-slack.herokuapp.com/)
+Chat: 
+[![Gitter](https://badges.gitter.im/fossasia/pslab.svg)](https://gitter.im/fossasia/pslab?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 ##Installation
 
