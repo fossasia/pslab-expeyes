@@ -3,12 +3,9 @@ This repository hosts the programs for additional experiments and sensor plugins
 
 [![Build Status](https://travis-ci.org/fossasia/Pocket-Science-Lab.svg?branch=master)](https://travis-ci.org/fossasia/Pocket-Science-Lab)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/18fad6e7f96a49fe8ec531ad40149664)](https://www.codacy.com/app/mb/Pocket-Science-Lab?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=fossasia/Pocket-Science-Lab&amp;utm_campaign=Badge_Grade)
-
-##Communication
-Chat: 
 [![Gitter](https://badges.gitter.im/fossasia/pslab.svg)](https://gitter.im/fossasia/pslab?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-##Installation
+## Installation
 
 #### 1. Install ExpEYES
 You can install ExpEYES easily on any Linux machine. There are deb files available that we included in the repository. Please find details how to [install ExpEYES in the Readme.md](/ExpEYES/Readme.md).
@@ -32,7 +29,7 @@ For Experiments various sensors and experimental setups are required. Typical st
  `~ $ python coupledpendulum.py`
 
 
-###4. How to collect and save data
+### 4. How to collect and save data
 
 In order to make the experiments useful you need to collect and save data.
 * Please describe here how to collect data and to save and use it (TO DO)
