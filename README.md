@@ -2,8 +2,8 @@
 
 Repository for additional applications and sensor plugins to perform experiments with ExpEYES using Pocket Science Lab. 
 
-[![Build Status](https://travis-ci.org/fossasia/Pocket-Science-Lab.svg?branch=master)](https://travis-ci.org/fossasia/Pocket-Science-Lab)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/18fad6e7f96a49fe8ec531ad40149664)](https://www.codacy.com/app/mb/Pocket-Science-Lab?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=fossasia/Pocket-Science-Lab&amp;utm_campaign=Badge_Grade)
+[![Build Status](https://travis-ci.org/fossasia/Pocket-Science-Lab.svg?branch=master)](https://travis-ci.org/fossasia/pslab-expeyes)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/18fad6e7f96a49fe8ec531ad40149664)](https://www.codacy.com/app/mb/pslab-expeyes?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=fossasia/pslab-expeyes&amp;utm_campaign=Badge_Grade)
 [![Mailing List](https://img.shields.io/badge/Mailing%20List-FOSSASIA-blue.svg)](https://groups.google.com/forum/#!forum/pslab-fossasia)
 [![Gitter](https://badges.gitter.im/fossasia/pslab.svg)](https://gitter.im/fossasia/pslab?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![Twitter Follow](https://img.shields.io/twitter/follow/pslabio.svg?style=social&label=Follow&maxAge=2592000?style=flat-square)](https://twitter.com/pslabio)
