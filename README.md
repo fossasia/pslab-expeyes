@@ -73,8 +73,10 @@ Below is a list of supported devices:
    * MicroHope
 
 ## Web Connectors
-
 It is possible to collect data and publish it automatically on the web on your own web application or on social networks like Twitter and Facebook. Find more info [web connectors here](/web-connectors/Readme.md).
 
-### Blog posts related to ExpEYES on FOSSASIA blog 
+## Blog Posts about PSLab and ExpEYES on FOSSASIA blog 
 * [Sensor Plugins for ExpEYES](http://blog.fossasia.org/low-cost-laboratory-everyone-sensor-plug-ins-expeyes-measure-temperature-pressure-humidity-wind/)
+
+## License
+This project is Free and Open Source software. The project us licensed under the [GPL v3](LICENSE). Copyright is owned by FOSSASIA. More details in the license files.
