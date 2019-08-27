@@ -8,7 +8,9 @@ Repository for additional applications and sensor plugins to perform experiments
 [![Gitter](https://badges.gitter.im/fossasia/pslab.svg)](https://gitter.im/fossasia/pslab?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![Twitter Follow](https://img.shields.io/twitter/follow/pslabio.svg?style=social&label=Follow&maxAge=2592000?style=flat-square)](https://twitter.com/pslabio)
 
-This repository holds additional applications and sensor plugins to perform experiments with ExpEYES using [Pocket Science Lab (PSLab)](https://pslab.io/). PSLab is a tiny pocket science lab that provides an array of equipment for doing science and engineering experiments. It can function like an oscilloscope, waveform generator, frequency counter, programmable voltage and current source and also as a data logger. Our website is at https://pslab.io
+This repository holds additional applications and sensor plugins to perform experiments with [ExpEYES](http://expeyes.in) using [Pocket Science Lab (PSLab)](https://pslab.io/). PSLab is a tiny pocket science lab that provides an array of equipment for doing science and engineering experiments. It can function like an oscilloscope, waveform generator, frequency counter, programmable voltage and current source and also as a data logger. ExpEYES is an Open Source Science experiments and data acquisition system for physics education and research. The website of PSLab is at https://pslab.io.
+
+Our website is at https://pslab.io
 
 ## Buy
 
