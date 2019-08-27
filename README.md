@@ -22,18 +22,15 @@ This repository holds additional applications and sensor plugins to perform expe
 
 ## Installation
 
-1. Install ExpEYES
+### 1. Install ExpEYES
+* You can install ExpEYES easily on any Linux machine. There are deb files available that we included in the repository. Please find details how to [install ExpEYES in the Readme.md](/ExpEYES/Readme.md).
 
-You can install ExpEYES easily on any Linux machine. There are deb files available that we included in the repository. Please find details how to [install ExpEYES in the Readme.md](/ExpEYES/Readme.md).
-
-2. Steps to install experiments
-
-The software extension that are available in this repository in the folder /experiments can be installed as follows:
+### 2. Steps to install experiments
+* The software extension that are available in this repository in the folder /experiments can be installed as follows:
 * Copy the programs in home folder
-ToDo: Create makefile for installing programs in ExpEYEs directory and make these experiments available in a dropdown menu of main GUI.
+* ToDo: Create makefile for installing programs in ExpEYEs directory and make these experiments available in a dropdown menu of main GUI.
 
-3. How to run experiments
-
+### 3. How to run experiments
 For Experiments various sensors and experimental setups are required. Typical steps are:
 * Connect ExpEYES to your PC/Laptop
 * Run Expeyes from Education Menue. The main ExpEYES GUI will popup. Check whether the device is detected.
@@ -42,14 +39,13 @@ For Experiments various sensors and experimental setups are required. Typical st
 
  `~ $ python coupledpendulum.py`
 
-4. How to collect and save data
-
-In order to make the experiments useful you need to collect and save data.
+### 4. How to collect and save data
+* In order to make the experiments useful you need to collect and save data.
 * To Do: Describe here how to collect data and to save and use it.
 
-## Sensors and Devices
+## Compatible Sensors and Devices
 
-Please check out our list of supported devices:
+Below is a list of supported devices:
 
 1. Accelerometer: Sensor Used: ADXL 335 - Three axis
 2. Magnetic Field Sensor: KY 003, 3144 Hall Effect Sensor
